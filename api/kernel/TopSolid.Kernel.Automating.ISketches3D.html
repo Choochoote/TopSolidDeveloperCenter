@@ -1,0 +1,2572 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ISketches3D
+   | TopSolid Automation website </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ISketches3D
+   | TopSolid Automation website ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TopSolid.Kernel.Automating.ISketches3D">
+  
+  
+  <h1 id="TopSolid_Kernel_Automating_ISketches3D" data-uid="TopSolid.Kernel.Automating.ISketches3D" class="text-break">Interface ISketches3D
+  </h1>
+  <div class="markdown level0 summary"><p>Gives access to 3D sketch entities.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TopSolid.Kernel.Automating.html">TopSolid.Kernel.Automating</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+public interface ISketches3D</code></pre>
+  </div>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This interface is available since v7.6.</p>
+</div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch_" data-uid="TopSolid.Kernel.Automating.ISketches3D.ModifiedSketch*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch" data-uid="TopSolid.Kernel.Automating.ISketches3D.ModifiedSketch">ModifiedSketch</h4>
+  <div class="markdown level1 summary"><p>Gets the sketch being modified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+ElementId ModifiedSketch { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If there is no sketch being modified, <a class="xref" href="TopSolid.Kernel.Automating.ElementId.html#TopSolid_Kernel_Automating_ElementId_Empty">Empty</a> is returned.</p>
+<p>This property is available since v7.7.201.80.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_CreateArcSegment_" data-uid="TopSolid.Kernel.Automating.ISketches3D.CreateArcSegment*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_CreateArcSegment_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_Point3D_TopSolid_Kernel_Automating_Direction3D_" data-uid="TopSolid.Kernel.Automating.ISketches3D.CreateArcSegment(TopSolid.Kernel.Automating.ElementItemId,TopSolid.Kernel.Automating.ElementItemId,TopSolid.Kernel.Automating.Point3D,TopSolid.Kernel.Automating.Direction3D)">CreateArcSegment(ElementItemId, ElementItemId, Point3D, Direction3D)</h4>
+  <div class="markdown level1 summary"><p>Creates a new circular arc segment into the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch">ModifiedSketch</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+ElementItemId CreateArcSegment(ElementItemId inStartVertexId, ElementItemId inEndVertexId, Point3D inCenter, Direction3D inNormal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inStartVertexId</span></td>
+        <td><p>Identifier of the start vertex.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inEndVertexId</span></td>
+        <td><p>Identifier of the end vertex.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Point3D.html">Point3D</a></td>
+        <td><span class="parametername">inCenter</span></td>
+        <td><p>Circle center.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Direction3D.html">Direction3D</a></td>
+        <td><span class="parametername">inNormal</span></td>
+        <td><p>Circle plane normal direction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><p>Identifier of the created segment.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_CreateArcSegment_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_Point3D_TopSolid_Kernel_Automating_Direction3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_CreateBSplineSegment_" data-uid="TopSolid.Kernel.Automating.ISketches3D.CreateBSplineSegment*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_CreateBSplineSegment_List_TopSolid_Kernel_Automating_ElementItemId__System_Boolean_" data-uid="TopSolid.Kernel.Automating.ISketches3D.CreateBSplineSegment(List{TopSolid.Kernel.Automating.ElementItemId},System.Boolean)">CreateBSplineSegment(List&lt;ElementItemId&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates a new uniform cubic B-spline segment into the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch">ModifiedSketch</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+ElementItemId CreateBSplineSegment(List&lt;ElementItemId&gt; inVertexIds, bool inIsPeriodic)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a>&gt;</td>
+        <td><span class="parametername">inVertexIds</span></td>
+        <td><p>Identifiers of the vertices defining the B-spline control points.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inIsPeriodic</span></td>
+        <td><p>Whether the B-spline is periodic.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><p>Identifier of the created segment.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_CreateBSplineSegment_List_TopSolid_Kernel_Automating_ElementItemId__System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_CreateBuildingOperation_" data-uid="TopSolid.Kernel.Automating.ISketches3D.CreateBuildingOperation*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_CreateBuildingOperation_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.CreateBuildingOperation(TopSolid.Kernel.Automating.ElementId)">CreateBuildingOperation(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Creates the building operation of a sketch entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 11, 0, 0)]
+ElementId CreateBuildingOperation(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the sketch entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created building operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_CreateBuildingOperation_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If the sketch entity has already got a building operation, this method does nothing and returns the identifier of the existing building operation.</p>
+<p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.11.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_CreateCircleSegment_" data-uid="TopSolid.Kernel.Automating.ISketches3D.CreateCircleSegment*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_CreateCircleSegment_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_Direction3D_System_Double_" data-uid="TopSolid.Kernel.Automating.ISketches3D.CreateCircleSegment(TopSolid.Kernel.Automating.ElementItemId,TopSolid.Kernel.Automating.Direction3D,System.Double)">CreateCircleSegment(ElementItemId, Direction3D, Double)</h4>
+  <div class="markdown level1 summary"><p>Creates a new circle segment into the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch">ModifiedSketch</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+ElementItemId CreateCircleSegment(ElementItemId inCenterVertexId, Direction3D inNormal, double inRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inCenterVertexId</span></td>
+        <td><p>Identifier of the center vertex.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Direction3D.html">Direction3D</a></td>
+        <td><span class="parametername">inNormal</span></td>
+        <td><p>Circle plane normal direction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inRadius</span></td>
+        <td><p>Circle radius.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><p>Identifier of the created segment.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_CreateCircleSegment_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_Direction3D_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_CreateLineSegment_" data-uid="TopSolid.Kernel.Automating.ISketches3D.CreateLineSegment*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_CreateLineSegment_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.CreateLineSegment(TopSolid.Kernel.Automating.ElementItemId,TopSolid.Kernel.Automating.ElementItemId)">CreateLineSegment(ElementItemId, ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Creates a new line segment into the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch">ModifiedSketch</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+ElementItemId CreateLineSegment(ElementItemId inStartVertexId, ElementItemId inEndVertexId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inStartVertexId</span></td>
+        <td><p>Identifier of the start vertex.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inEndVertexId</span></td>
+        <td><p>Identifier of the end vertex.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><p>Identifier of the created segment.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_CreateLineSegment_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_CreateProfile_" data-uid="TopSolid.Kernel.Automating.ISketches3D.CreateProfile*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_CreateProfile_List_TopSolid_Kernel_Automating_ElementItemId__" data-uid="TopSolid.Kernel.Automating.ISketches3D.CreateProfile(List{TopSolid.Kernel.Automating.ElementItemId})">CreateProfile(List&lt;ElementItemId&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new profile into the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch">ModifiedSketch</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+ElementItemId CreateProfile(List&lt;ElementItemId&gt; inSegmentIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a>&gt;</td>
+        <td><span class="parametername">inSegmentIds</span></td>
+        <td><p>Identifiers of the segments of the profile.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><p>Identifier of the created profile.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_CreateProfile_List_TopSolid_Kernel_Automating_ElementItemId___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The end vertex of each segment must be the same than the start vertex of the following one.</p>
+<p><a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_CreateSketch_" data-uid="TopSolid.Kernel.Automating.ISketches3D.CreateSketch*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_CreateSketch_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_SmartPlane3D_TopSolid_Kernel_Automating_SmartPoint3D_System_Boolean_TopSolid_Kernel_Automating_SmartDirection3D_" data-uid="TopSolid.Kernel.Automating.ISketches3D.CreateSketch(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.SmartPlane3D,TopSolid.Kernel.Automating.SmartPoint3D,System.Boolean,TopSolid.Kernel.Automating.SmartDirection3D)">CreateSketch(DocumentId, SmartPlane3D, SmartPoint3D, Boolean, SmartDirection3D)</h4>
+  <div class="markdown level1 summary"><p>Creates a sketch.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+ElementId CreateSketch(DocumentId inDocumentId, SmartPlane3D inPlane, SmartPoint3D inOrigin, bool inDefinesXDirection, SmartDirection3D inDirection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartPlane3D.html">SmartPlane3D</a></td>
+        <td><span class="parametername">inPlane</span></td>
+        <td><p>Support plane.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartPoint3D.html">SmartPoint3D</a></td>
+        <td><span class="parametername">inOrigin</span></td>
+        <td><p>Origin point.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inDefinesXDirection</span></td>
+        <td><p>Defines the X direction if <code>true</code>, otherwise defines the Y direction if <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartDirection3D.html">SmartDirection3D</a></td>
+        <td><span class="parametername">inDirection</span></td>
+        <td><p>Reference X or Y direction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created sketch entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_CreateSketch_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_SmartPlane3D_TopSolid_Kernel_Automating_SmartPoint3D_System_Boolean_TopSolid_Kernel_Automating_SmartDirection3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+<p>This method does not create a building operation anymore since v7.11.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_CreateVertex_" data-uid="TopSolid.Kernel.Automating.ISketches3D.CreateVertex*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_CreateVertex_TopSolid_Kernel_Automating_Point3D_" data-uid="TopSolid.Kernel.Automating.ISketches3D.CreateVertex(TopSolid.Kernel.Automating.Point3D)">CreateVertex(Point3D)</h4>
+  <div class="markdown level1 summary"><p>Creates a new vertex into the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch">ModifiedSketch</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+ElementItemId CreateVertex(Point3D inPoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Point3D.html">Point3D</a></td>
+        <td><span class="parametername">inPoint</span></td>
+        <td><p>Vertex point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><p>Identifier of the created vertex.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_CreateVertex_TopSolid_Kernel_Automating_Point3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_DeleteItem_" data-uid="TopSolid.Kernel.Automating.ISketches3D.DeleteItem*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_DeleteItem_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.DeleteItem(TopSolid.Kernel.Automating.ElementItemId)">DeleteItem(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Deletes an item of the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch">ModifiedSketch</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+void DeleteItem(ElementItemId inItemId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inItemId</span></td>
+        <td><p>Identifier of the item to delete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_DeleteItem_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_DeleteItems_" data-uid="TopSolid.Kernel.Automating.ISketches3D.DeleteItems*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_DeleteItems_List_TopSolid_Kernel_Automating_ElementItemId__" data-uid="TopSolid.Kernel.Automating.ISketches3D.DeleteItems(List{TopSolid.Kernel.Automating.ElementItemId})">DeleteItems(List&lt;ElementItemId&gt;)</h4>
+  <div class="markdown level1 summary"><p>Deletes items of the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch">ModifiedSketch</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+void DeleteItems(List&lt;ElementItemId&gt; inItemIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a>&gt;</td>
+        <td><span class="parametername">inItemIds</span></td>
+        <td><p>Identifiers of the items to delete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_DeleteItems_List_TopSolid_Kernel_Automating_ElementItemId___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_EndModification_" data-uid="TopSolid.Kernel.Automating.ISketches3D.EndModification*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_EndModification" data-uid="TopSolid.Kernel.Automating.ISketches3D.EndModification">EndModification()</h4>
+  <div class="markdown level1 summary"><p>Ends performing modifications on a sketch.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+void EndModification()</code></pre>
+  </div>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_EndModification_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method must be called after the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> method has been called.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_FixItem_" data-uid="TopSolid.Kernel.Automating.ISketches3D.FixItem*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_FixItem_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.FixItem(TopSolid.Kernel.Automating.ElementItemId)">FixItem(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Fix a segment or a vertex in the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch">ModifiedSketch</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+void FixItem(ElementItemId inItemId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inItemId</span></td>
+        <td><p>Identifier of the segment or the vertex to fix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_FixItem_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetBuildingOperation_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetBuildingOperation*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetBuildingOperation_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetBuildingOperation(TopSolid.Kernel.Automating.ElementId)">GetBuildingOperation(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the building operation of a sketch entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+ElementId GetBuildingOperation(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the sketch entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the building operation, or <a class="xref" href="TopSolid.Kernel.Automating.ElementId.html#TopSolid_Kernel_Automating_ElementId_Empty">Empty</a> if the sketch does not have a building operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetBuildingOperation_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetFrame_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetFrame*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetFrame_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetFrame(TopSolid.Kernel.Automating.ElementId)">GetFrame(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the definition frame of a sketch.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+Frame3D GetFrame(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the sketch entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Frame3D.html">Frame3D</a></td>
+        <td><p>Definition frame of the sketch.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetFrame_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetProfileCount_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetProfileCount*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetProfileCount_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetProfileCount(TopSolid.Kernel.Automating.ElementId)">GetProfileCount(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the number of profiles of a sketch.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+int GetProfileCount(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the sketch entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of profiles of the sketch.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetProfileCount_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetProfiles_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetProfiles*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetProfiles_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetProfiles(TopSolid.Kernel.Automating.ElementId)">GetProfiles(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the profiles of a sketch.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+List&lt;ElementItemId&gt; GetProfiles(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the sketch entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a>&gt;</td>
+        <td><p>Identifiers of the profiles of the sketch.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetProfiles_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetProfileSegments_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetProfileSegments*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetProfileSegments_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetProfileSegments(TopSolid.Kernel.Automating.ElementItemId)">GetProfileSegments(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Gets the segments of a profile.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+List&lt;ElementItemId&gt; GetProfileSegments(ElementItemId inProfileId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inProfileId</span></td>
+        <td><p>Identifier of the profile to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a>&gt;</td>
+        <td><p>Identifiers of the segments of the profile.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetProfileSegments_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentCenter_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentCenter*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentCenter_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentCenter(TopSolid.Kernel.Automating.ElementItemId)">GetSegmentCenter(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Gets the center of a segment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+ElementItemId GetSegmentCenter(ElementItemId inSegmentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSegmentId</span></td>
+        <td><p>Identifier of the segment to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><p>Identifier of the vertex defined as being the center of the segment, or <a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html#TopSolid_Kernel_Automating_ElementItemId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentCenter_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A center may only be defined when the segment curve is a circle or an ellipse.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentCircleCurve_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentCircleCurve*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentCircleCurve_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_Plane3D__System_Double__" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentCircleCurve(TopSolid.Kernel.Automating.ElementItemId,TopSolid.Kernel.Automating.Plane3D@,System.Double@)">GetSegmentCircleCurve(ElementItemId, out Plane3D, out Double)</h4>
+  <div class="markdown level1 summary"><p>Gets the circle curve attached to a segment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+void GetSegmentCircleCurve(ElementItemId inSegmentId, out Plane3D outPlane, out double outRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSegmentId</span></td>
+        <td><p>Identifier of the segment to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Plane3D.html">Plane3D</a></td>
+        <td><span class="parametername">outPlane</span></td>
+        <td><p>Circle plane.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outRadius</span></td>
+        <td><p>Circle radius.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentCircleCurve_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_Plane3D__System_Double___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentCount_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentCount*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentCount_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentCount(TopSolid.Kernel.Automating.ElementId)">GetSegmentCount(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the number of segments of a sketch.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+int GetSegmentCount(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the sketch entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of segments of the sketch.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentCount_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentCurveRange_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentCurveRange*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentCurveRange_TopSolid_Kernel_Automating_ElementItemId_System_Double__System_Double__" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentCurveRange(TopSolid.Kernel.Automating.ElementItemId,System.Double@,System.Double@)">GetSegmentCurveRange(ElementItemId, out Double, out Double)</h4>
+  <div class="markdown level1 summary"><p>Gets the parametric range of the curve attached to a segment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+void GetSegmentCurveRange(ElementItemId inSegmentId, out double outTs, out double outTe)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSegmentId</span></td>
+        <td><p>Identifier of the segment to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outTs</span></td>
+        <td><p>Start parameter value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outTe</span></td>
+        <td><p>End parameter value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentCurveRange_TopSolid_Kernel_Automating_ElementItemId_System_Double__System_Double___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentCurveType_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentCurveType*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentCurveType_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentCurveType(TopSolid.Kernel.Automating.ElementItemId)">GetSegmentCurveType(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Gets the type of the curve attached to a segment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+CurveType GetSegmentCurveType(ElementItemId inSegmentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSegmentId</span></td>
+        <td><p>Identifier of the segment to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.CurveType.html">CurveType</a></td>
+        <td><p>Type of the curve attached to the segment.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentCurveType_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentEllipseCurve_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentEllipseCurve*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentEllipseCurve_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_Plane3D__System_Double__System_Double__" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentEllipseCurve(TopSolid.Kernel.Automating.ElementItemId,TopSolid.Kernel.Automating.Plane3D@,System.Double@,System.Double@)">GetSegmentEllipseCurve(ElementItemId, out Plane3D, out Double, out Double)</h4>
+  <div class="markdown level1 summary"><p>Gets the ellipse curve attached to a segment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+void GetSegmentEllipseCurve(ElementItemId inSegmentId, out Plane3D outPlane, out double outRadiusX, out double outRadiusY)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSegmentId</span></td>
+        <td><p>Identifier of the segment to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Plane3D.html">Plane3D</a></td>
+        <td><span class="parametername">outPlane</span></td>
+        <td><p>Ellipse plane.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outRadiusX</span></td>
+        <td><p>Ellipse radius along plane X axis.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outRadiusY</span></td>
+        <td><p>Ellipse radius along plane Y axis.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentEllipseCurve_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_Plane3D__System_Double__System_Double___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentLineCurve_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentLineCurve*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentLineCurve_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_Axis3D__" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentLineCurve(TopSolid.Kernel.Automating.ElementItemId,TopSolid.Kernel.Automating.Axis3D@)">GetSegmentLineCurve(ElementItemId, out Axis3D)</h4>
+  <div class="markdown level1 summary"><p>Gets the line curve attached to a segment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+void GetSegmentLineCurve(ElementItemId inSegmentId, out Axis3D outAxis)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSegmentId</span></td>
+        <td><p>Identifier of the segment to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Axis3D.html">Axis3D</a></td>
+        <td><span class="parametername">outAxis</span></td>
+        <td><p>Line axis.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentLineCurve_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_Axis3D___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentMiddle_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentMiddle*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentMiddle_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentMiddle(TopSolid.Kernel.Automating.ElementItemId)">GetSegmentMiddle(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Gets the middle of a segment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+ElementItemId GetSegmentMiddle(ElementItemId inSegmentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSegmentId</span></td>
+        <td><p>Identifier of the segment to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><p>Identifier of the vertex defined as being the middle of the segment, or <a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html#TopSolid_Kernel_Automating_ElementItemId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentMiddle_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A middle may only be defined when the segment curve is a line.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentPoint_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentPoint*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentPoint_TopSolid_Kernel_Automating_ElementItemId_System_Double_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentPoint(TopSolid.Kernel.Automating.ElementItemId,System.Double)">GetSegmentPoint(ElementItemId, Double)</h4>
+  <div class="markdown level1 summary"><p>Gets a point on a segment at a specified parametric value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+Point3D GetSegmentPoint(ElementItemId inSegmentId, double inT)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSegmentId</span></td>
+        <td><p>Identifier of the segment to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inT</span></td>
+        <td><p>Parameter within segment parametric range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Point3D.html">Point3D</a></td>
+        <td><p>Point on the segment at the specified parametric value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentPoint_TopSolid_Kernel_Automating_ElementItemId_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentRange_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentRange*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentRange_TopSolid_Kernel_Automating_ElementItemId_System_Double__System_Double__" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentRange(TopSolid.Kernel.Automating.ElementItemId,System.Double@,System.Double@)">GetSegmentRange(ElementItemId, out Double, out Double)</h4>
+  <div class="markdown level1 summary"><p>Gets the parametric range of a segment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+void GetSegmentRange(ElementItemId inSegmentId, out double outTMin, out double outTMax)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSegmentId</span></td>
+        <td><p>Identifier of the segment to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outTMin</span></td>
+        <td><p>Minimum parametric value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outTMax</span></td>
+        <td><p>Maximum parametric value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentRange_TopSolid_Kernel_Automating_ElementItemId_System_Double__System_Double___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetSegments_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegments*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetSegments_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegments(TopSolid.Kernel.Automating.ElementId)">GetSegments(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the segments of a sketch.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+List&lt;ElementItemId&gt; GetSegments(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the sketch entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a>&gt;</td>
+        <td><p>Identifiers of the segments of the sketch.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetSegments_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentTangent_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentTangent*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentTangent_TopSolid_Kernel_Automating_ElementItemId_System_Double_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentTangent(TopSolid.Kernel.Automating.ElementItemId,System.Double)">GetSegmentTangent(ElementItemId, Double)</h4>
+  <div class="markdown level1 summary"><p>Gets the tangent of a segment at a specified parametric value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+Direction3D GetSegmentTangent(ElementItemId inSegmentId, double inT)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSegmentId</span></td>
+        <td><p>Identifier of the segment to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inT</span></td>
+        <td><p>Parameter within segment parametric range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Direction3D.html">Direction3D</a></td>
+        <td><p>Tangent to the segment at the specified parametric value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentTangent_TopSolid_Kernel_Automating_ElementItemId_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If the segment is reversed, the orientation of the tangent is the opposite to the parametric first derivative.</p>
+<p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentVertices_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentVertices*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentVertices_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_ElementItemId__TopSolid_Kernel_Automating_ElementItemId__" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSegmentVertices(TopSolid.Kernel.Automating.ElementItemId,TopSolid.Kernel.Automating.ElementItemId@,TopSolid.Kernel.Automating.ElementItemId@)">GetSegmentVertices(ElementItemId, out ElementItemId, out ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Gets the vertices of a segment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+void GetSegmentVertices(ElementItemId inSegmentId, out ElementItemId outStartVertexId, out ElementItemId outEndVertexId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSegmentId</span></td>
+        <td><p>Identifier of the segment to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">outStartVertexId</span></td>
+        <td><p>Identifier of the start vertex, or <a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html#TopSolid_Kernel_Automating_ElementItemId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">outEndVertexId</span></td>
+        <td><p>Identifier of the end vertex, or <a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html#TopSolid_Kernel_Automating_ElementItemId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetSegmentVertices_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_ElementItemId__TopSolid_Kernel_Automating_ElementItemId___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetSketches_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSketches*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetSketches_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSketches(TopSolid.Kernel.Automating.DocumentId)">GetSketches(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the sketches entities that are in the sketches folder of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+List&lt;ElementId&gt; GetSketches(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><p>Sketch entities found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetSketches_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetSketchesFolder_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSketchesFolder*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetSketchesFolder_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetSketchesFolder(TopSolid.Kernel.Automating.DocumentId)">GetSketchesFolder(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the sketches folder entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 0, 0)]
+ElementId GetSketchesFolder(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the sketches folder entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetSketchesFolder_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetVertexCount_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetVertexCount*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetVertexCount_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetVertexCount(TopSolid.Kernel.Automating.ElementId)">GetVertexCount(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the number of vertices of a sketch.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+int GetVertexCount(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the sketch entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of vertices of the sketch.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetVertexCount_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetVertexPoint_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetVertexPoint*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetVertexPoint_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetVertexPoint(TopSolid.Kernel.Automating.ElementItemId)">GetVertexPoint(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Gets the point attached to a vertex.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+Point3D GetVertexPoint(ElementItemId inVertexId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inVertexId</span></td>
+        <td><p>Identifier of the vertex to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Point3D.html">Point3D</a></td>
+        <td><p>Vertex point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetVertexPoint_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_GetVertices_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetVertices*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_GetVertices_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.GetVertices(TopSolid.Kernel.Automating.ElementId)">GetVertices(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the vertices of a sketch.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+List&lt;ElementItemId&gt; GetVertices(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the sketch entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a>&gt;</td>
+        <td><p>Identifiers of the vertices of the sketch.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_GetVertices_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_IsItemFixed_" data-uid="TopSolid.Kernel.Automating.ISketches3D.IsItemFixed*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_IsItemFixed_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.IsItemFixed(TopSolid.Kernel.Automating.ElementItemId)">IsItemFixed(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether a segment or a vertex is fixed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+bool IsItemFixed(ElementItemId inItemId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inItemId</span></td>
+        <td><p>Identifier of the segment or the vertex to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the segment or the vertex is fixed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_IsItemFixed_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_IsItemInternal_" data-uid="TopSolid.Kernel.Automating.ISketches3D.IsItemInternal*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_IsItemInternal_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.IsItemInternal(TopSolid.Kernel.Automating.ElementItemId)">IsItemInternal(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether a segment or a vertex is internal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+bool IsItemInternal(ElementItemId inItemId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inItemId</span></td>
+        <td><p>Identifier of the segment or the vertex to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the segment or the vertex is internal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_IsItemInternal_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_IsProfileClosed_" data-uid="TopSolid.Kernel.Automating.ISketches3D.IsProfileClosed*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_IsProfileClosed_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.IsProfileClosed(TopSolid.Kernel.Automating.ElementItemId)">IsProfileClosed(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether a profile is closed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+bool IsProfileClosed(ElementItemId inProfileId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inProfileId</span></td>
+        <td><p>Identifier of the profile to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the profile is closed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_IsProfileClosed_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_IsSegmentConstruction_" data-uid="TopSolid.Kernel.Automating.ISketches3D.IsSegmentConstruction*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_IsSegmentConstruction_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.IsSegmentConstruction(TopSolid.Kernel.Automating.ElementItemId)">IsSegmentConstruction(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether a segment is construction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+bool IsSegmentConstruction(ElementItemId inSegmentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSegmentId</span></td>
+        <td><p>Identifier of the segment to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the segment is construction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_IsSegmentConstruction_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_IsSegmentReversed_" data-uid="TopSolid.Kernel.Automating.ISketches3D.IsSegmentReversed*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_IsSegmentReversed_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.IsSegmentReversed(TopSolid.Kernel.Automating.ElementItemId)">IsSegmentReversed(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether a segment is reversed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+bool IsSegmentReversed(ElementItemId inSegmentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSegmentId</span></td>
+        <td><p>Identifier of the segment to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the orientation of the segment is the opposite to the parametric orientation of its attached curve.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_IsSegmentReversed_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_IsSketch_" data-uid="TopSolid.Kernel.Automating.ISketches3D.IsSketch*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_IsSketch_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.IsSketch(TopSolid.Kernel.Automating.ElementId)">IsSketch(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an element is a sketch entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool IsSketch(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The element a sketch entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_IsSketch_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_IsVertexTemporary_" data-uid="TopSolid.Kernel.Automating.ISketches3D.IsVertexTemporary*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_IsVertexTemporary_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.IsVertexTemporary(TopSolid.Kernel.Automating.ElementItemId)">IsVertexTemporary(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether a vertex is temporary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+bool IsVertexTemporary(ElementItemId inVertexId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inVertexId</span></td>
+        <td><p>Identifier of the vertex to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the vertex is temporary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_IsVertexTemporary_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_MakeItemInternal_" data-uid="TopSolid.Kernel.Automating.ISketches3D.MakeItemInternal*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_MakeItemInternal_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.MakeItemInternal(TopSolid.Kernel.Automating.ElementItemId)">MakeItemInternal(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Makes a segment or a vertex internal in the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch">ModifiedSketch</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+void MakeItemInternal(ElementItemId inItemId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inItemId</span></td>
+        <td><p>Identifier of the segment or the vertex to modify.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_MakeItemInternal_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_MakeItemNotInternal_" data-uid="TopSolid.Kernel.Automating.ISketches3D.MakeItemNotInternal*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_MakeItemNotInternal_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.MakeItemNotInternal(TopSolid.Kernel.Automating.ElementItemId)">MakeItemNotInternal(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Makes a segment or a vertex not internal in the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch">ModifiedSketch</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+void MakeItemNotInternal(ElementItemId inItemId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inItemId</span></td>
+        <td><p>Identifier of the segment or the vertex to modify.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_MakeItemNotInternal_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_MakeSegmentConstruction_" data-uid="TopSolid.Kernel.Automating.ISketches3D.MakeSegmentConstruction*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_MakeSegmentConstruction_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.MakeSegmentConstruction(TopSolid.Kernel.Automating.ElementItemId)">MakeSegmentConstruction(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Makes a segment construction in the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch">ModifiedSketch</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+void MakeSegmentConstruction(ElementItemId inSegmentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSegmentId</span></td>
+        <td><p>Identifier of the segment to modify.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_MakeSegmentConstruction_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_MakeSegmentNotConstruction_" data-uid="TopSolid.Kernel.Automating.ISketches3D.MakeSegmentNotConstruction*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_MakeSegmentNotConstruction_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.MakeSegmentNotConstruction(TopSolid.Kernel.Automating.ElementItemId)">MakeSegmentNotConstruction(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Makes a segment not construction in the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch">ModifiedSketch</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+void MakeSegmentNotConstruction(ElementItemId inSegmentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSegmentId</span></td>
+        <td><p>Identifier of the segment to modify.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_MakeSegmentNotConstruction_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_MakeVertexNotTemporary_" data-uid="TopSolid.Kernel.Automating.ISketches3D.MakeVertexNotTemporary*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_MakeVertexNotTemporary_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.MakeVertexNotTemporary(TopSolid.Kernel.Automating.ElementItemId)">MakeVertexNotTemporary(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Makes a vertex not temporary in the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch">ModifiedSketch</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+void MakeVertexNotTemporary(ElementItemId inVertexId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inVertexId</span></td>
+        <td><p>Identifier of the vertex to modify.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_MakeVertexNotTemporary_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_MakeVertexTemporary_" data-uid="TopSolid.Kernel.Automating.ISketches3D.MakeVertexTemporary*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_MakeVertexTemporary_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.MakeVertexTemporary(TopSolid.Kernel.Automating.ElementItemId)">MakeVertexTemporary(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Makes a vertex temporary in the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch">ModifiedSketch</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+void MakeVertexTemporary(ElementItemId inVertexId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inVertexId</span></td>
+        <td><p>Identifier of the vertex to modify.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_MakeVertexTemporary_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_SetSegmentCenter_" data-uid="TopSolid.Kernel.Automating.ISketches3D.SetSegmentCenter*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_SetSegmentCenter_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.SetSegmentCenter(TopSolid.Kernel.Automating.ElementItemId,TopSolid.Kernel.Automating.ElementItemId)">SetSegmentCenter(ElementItemId, ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Sets the center of a segment in the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch">ModifiedSketch</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+void SetSegmentCenter(ElementItemId inSegmentId, ElementItemId inVertexId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSegmentId</span></td>
+        <td><p>Identifier of the segment to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inVertexId</span></td>
+        <td><p>Identifier of the vertex defined as being the center of the segment, or <a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html#TopSolid_Kernel_Automating_ElementItemId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_SetSegmentCenter_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A center may only be defined when the segment curve is a circle or an ellipse.</p>
+<p><a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_SetSegmentMiddle_" data-uid="TopSolid.Kernel.Automating.ISketches3D.SetSegmentMiddle*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_SetSegmentMiddle_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.SetSegmentMiddle(TopSolid.Kernel.Automating.ElementItemId,TopSolid.Kernel.Automating.ElementItemId)">SetSegmentMiddle(ElementItemId, ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Sets the middle of a segment in the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch">ModifiedSketch</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+void SetSegmentMiddle(ElementItemId inSegmentId, ElementItemId inVertexId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSegmentId</span></td>
+        <td><p>Identifier of the segment to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inVertexId</span></td>
+        <td><p>Identifier of the vertex defined as being the middle of the segment, or <a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html#TopSolid_Kernel_Automating_ElementItemId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_SetSegmentMiddle_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A middle may only be defined when the segment curve is a line.</p>
+<p><a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_StartModification_" data-uid="TopSolid.Kernel.Automating.ISketches3D.StartModification*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.StartModification(TopSolid.Kernel.Automating.ElementId)">StartModification(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Starts performing modifications on a sketch.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+void StartModification(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the sketch entity to modify.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_ISketches3D_UnfixItem_" data-uid="TopSolid.Kernel.Automating.ISketches3D.UnfixItem*"></a>
+  <h4 id="TopSolid_Kernel_Automating_ISketches3D_UnfixItem_TopSolid_Kernel_Automating_ElementItemId_" data-uid="TopSolid.Kernel.Automating.ISketches3D.UnfixItem(TopSolid.Kernel.Automating.ElementItemId)">UnfixItem(ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Unfix a segment or a vertex in the <a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_ModifiedSketch">ModifiedSketch</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+void UnfixItem(ElementItemId inItemId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inItemId</span></td>
+        <td><p>Identifier of the segment or the vertex to unfix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_ISketches3D_UnfixItem_TopSolid_Kernel_Automating_ElementItemId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.ISketches3D.html#TopSolid_Kernel_Automating_ISketches3D_StartModification_TopSolid_Kernel_Automating_ElementId_">StartModification(ElementId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

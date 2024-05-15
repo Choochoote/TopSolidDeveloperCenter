@@ -1,0 +1,1293 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IUser
+   | TopSolid Automation website </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IUser
+   | TopSolid Automation website ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TopSolid.Kernel.Automating.IUser">
+  
+  
+  <h1 id="TopSolid_Kernel_Automating_IUser" data-uid="TopSolid.Kernel.Automating.IUser" class="text-break">Interface IUser
+  </h1>
+  <div class="markdown level0 summary"><p>Gives access to the user.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TopSolid.Kernel.Automating.html">TopSolid.Kernel.Automating</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TopSolid_Kernel_Automating_IUser_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+public interface IUser</code></pre>
+  </div>
+  <h5 id="TopSolid_Kernel_Automating_IUser_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This interface is available since v7.7.</p>
+</div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_SelectedEntity_" data-uid="TopSolid.Kernel.Automating.IUser.SelectedEntity*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_SelectedEntity" data-uid="TopSolid.Kernel.Automating.IUser.SelectedEntity">SelectedEntity</h4>
+  <div class="markdown level1 summary"><p>Gets the entity selected by the user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 9, 300, 80)]
+ElementId SelectedEntity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IUser_SelectedEntity_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If one (and only one) entity is selected by the user, this property returns its identifier,
+otherwise <a class="xref" href="TopSolid.Kernel.Automating.ElementId.html#TopSolid_Kernel_Automating_ElementId_Empty">Empty</a> is returned.</p>
+<p>This property is available since v7.9.300.80.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_SelectedOperation_" data-uid="TopSolid.Kernel.Automating.IUser.SelectedOperation*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_SelectedOperation" data-uid="TopSolid.Kernel.Automating.IUser.SelectedOperation">SelectedOperation</h4>
+  <div class="markdown level1 summary"><p>Gets the operation selected by the user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 9, 300, 80)]
+ElementId SelectedOperation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IUser_SelectedOperation_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If one (and only one) operation is selected by the user, this property returns its identifier,
+otherwise <a class="xref" href="TopSolid.Kernel.Automating.ElementId.html#TopSolid_Kernel_Automating_ElementId_Empty">Empty</a> is returned.</p>
+<p>This property is available since v7.9.300.80.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_AskAxis3D_" data-uid="TopSolid.Kernel.Automating.IUser.AskAxis3D*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_AskAxis3D_TopSolid_Kernel_Automating_UserQuestion_System_Boolean_TopSolid_Kernel_Automating_SmartAxis3D_TopSolid_Kernel_Automating_SmartAxis3D__" data-uid="TopSolid.Kernel.Automating.IUser.AskAxis3D(TopSolid.Kernel.Automating.UserQuestion,System.Boolean,TopSolid.Kernel.Automating.SmartAxis3D,TopSolid.Kernel.Automating.SmartAxis3D@)">AskAxis3D(UserQuestion, Boolean, SmartAxis3D, out SmartAxis3D)</h4>
+  <div class="markdown level1 summary"><p>Asks the user for a 3D axis.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+UserAnswerType AskAxis3D(UserQuestion inQuestion, bool inIsOriented, SmartAxis3D inSuggestion, out SmartAxis3D outAnswer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserQuestion.html">UserQuestion</a></td>
+        <td><span class="parametername">inQuestion</span></td>
+        <td><p>Question asked to the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inIsOriented</span></td>
+        <td><p>Whether to ask for orientation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartAxis3D.html">SmartAxis3D</a></td>
+        <td><span class="parametername">inSuggestion</span></td>
+        <td><p>Suggested answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartAxis3D.html">SmartAxis3D</a></td>
+        <td><span class="parametername">outAnswer</span></td>
+        <td><p>User answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserAnswerType.html">UserAnswerType</a></td>
+        <td><p>Type of user answer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IUser_AskAxis3D_TopSolid_Kernel_Automating_UserQuestion_System_Boolean_TopSolid_Kernel_Automating_SmartAxis3D_TopSolid_Kernel_Automating_SmartAxis3D___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> may be called before calling this method
+to allow the user to create or modify entities during the interaction.</p>
+<p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_AskDirection3D_" data-uid="TopSolid.Kernel.Automating.IUser.AskDirection3D*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_AskDirection3D_TopSolid_Kernel_Automating_UserQuestion_System_Boolean_TopSolid_Kernel_Automating_SmartDirection3D_TopSolid_Kernel_Automating_SmartDirection3D__" data-uid="TopSolid.Kernel.Automating.IUser.AskDirection3D(TopSolid.Kernel.Automating.UserQuestion,System.Boolean,TopSolid.Kernel.Automating.SmartDirection3D,TopSolid.Kernel.Automating.SmartDirection3D@)">AskDirection3D(UserQuestion, Boolean, SmartDirection3D, out SmartDirection3D)</h4>
+  <div class="markdown level1 summary"><p>Asks the user for a 3D direction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+UserAnswerType AskDirection3D(UserQuestion inQuestion, bool inIsOriented, SmartDirection3D inSuggestion, out SmartDirection3D outAnswer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserQuestion.html">UserQuestion</a></td>
+        <td><span class="parametername">inQuestion</span></td>
+        <td><p>Question asked to the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inIsOriented</span></td>
+        <td><p>Whether to ask for orientation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartDirection3D.html">SmartDirection3D</a></td>
+        <td><span class="parametername">inSuggestion</span></td>
+        <td><p>Suggested answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartDirection3D.html">SmartDirection3D</a></td>
+        <td><span class="parametername">outAnswer</span></td>
+        <td><p>User answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserAnswerType.html">UserAnswerType</a></td>
+        <td><p>Type of user answer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IUser_AskDirection3D_TopSolid_Kernel_Automating_UserQuestion_System_Boolean_TopSolid_Kernel_Automating_SmartDirection3D_TopSolid_Kernel_Automating_SmartDirection3D___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> may be called before calling this method
+to allow the user to create or modify entities during the interaction.</p>
+<p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_AskEdge_" data-uid="TopSolid.Kernel.Automating.IUser.AskEdge*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_AskEdge_TopSolid_Kernel_Automating_UserQuestion_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_ElementItemId__" data-uid="TopSolid.Kernel.Automating.IUser.AskEdge(TopSolid.Kernel.Automating.UserQuestion,TopSolid.Kernel.Automating.ElementItemId,TopSolid.Kernel.Automating.ElementItemId@)">AskEdge(UserQuestion, ElementItemId, out ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Asks the user for an edge.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+UserAnswerType AskEdge(UserQuestion inQuestion, ElementItemId inSuggestion, out ElementItemId outAnswer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserQuestion.html">UserQuestion</a></td>
+        <td><span class="parametername">inQuestion</span></td>
+        <td><p>Question asked to the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSuggestion</span></td>
+        <td><p>Suggested answer, or <a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html#TopSolid_Kernel_Automating_ElementItemId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">outAnswer</span></td>
+        <td><p>User answer, or <a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html#TopSolid_Kernel_Automating_ElementItemId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserAnswerType.html">UserAnswerType</a></td>
+        <td><p>Type of user answer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IUser_AskEdge_TopSolid_Kernel_Automating_UserQuestion_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_ElementItemId___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_AskEdgeList_" data-uid="TopSolid.Kernel.Automating.IUser.AskEdgeList*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_AskEdgeList_TopSolid_Kernel_Automating_UserQuestion_List_TopSolid_Kernel_Automating_ElementItemId__List_TopSolid_Kernel_Automating_ElementItemId___" data-uid="TopSolid.Kernel.Automating.IUser.AskEdgeList(TopSolid.Kernel.Automating.UserQuestion,List{TopSolid.Kernel.Automating.ElementItemId},List{TopSolid.Kernel.Automating.ElementItemId}@)">AskEdgeList(UserQuestion, List&lt;ElementItemId&gt;, out List&lt;ElementItemId&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asks the user for an edge list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 13, 0, 0)]
+UserAnswerType AskEdgeList(UserQuestion inQuestion, List&lt;ElementItemId&gt; inSuggestions, out List&lt;ElementItemId&gt; outAnswer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserQuestion.html">UserQuestion</a></td>
+        <td><span class="parametername">inQuestion</span></td>
+        <td><p>Question asked to the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a>&gt;</td>
+        <td><span class="parametername">inSuggestions</span></td>
+        <td><p>Suggested answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a>&gt;</td>
+        <td><span class="parametername">outAnswer</span></td>
+        <td><p>User answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserAnswerType.html">UserAnswerType</a></td>
+        <td><p>Type of user answer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IUser_AskEdgeList_TopSolid_Kernel_Automating_UserQuestion_List_TopSolid_Kernel_Automating_ElementItemId__List_TopSolid_Kernel_Automating_ElementItemId____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.13.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_AskEdgeWithPickingAxis_" data-uid="TopSolid.Kernel.Automating.IUser.AskEdgeWithPickingAxis*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_AskEdgeWithPickingAxis_TopSolid_Kernel_Automating_UserQuestion_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_ElementItemId__TopSolid_Kernel_Automating_Axis3D__" data-uid="TopSolid.Kernel.Automating.IUser.AskEdgeWithPickingAxis(TopSolid.Kernel.Automating.UserQuestion,TopSolid.Kernel.Automating.ElementItemId,TopSolid.Kernel.Automating.ElementItemId@,TopSolid.Kernel.Automating.Axis3D@)">AskEdgeWithPickingAxis(UserQuestion, ElementItemId, out ElementItemId, out Axis3D)</h4>
+  <div class="markdown level1 summary"><p>Asks the user for an edge with picking axis.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 300, 60)]
+UserAnswerType AskEdgeWithPickingAxis(UserQuestion inQuestion, ElementItemId inSuggestion, out ElementItemId outAnswer, out Axis3D outPickingAxis)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserQuestion.html">UserQuestion</a></td>
+        <td><span class="parametername">inQuestion</span></td>
+        <td><p>Question asked to the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSuggestion</span></td>
+        <td><p>Suggested answer, or <a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html#TopSolid_Kernel_Automating_ElementItemId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">outAnswer</span></td>
+        <td><p>User answer, or <a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html#TopSolid_Kernel_Automating_ElementItemId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Axis3D.html">Axis3D</a></td>
+        <td><span class="parametername">outPickingAxis</span></td>
+        <td><p>User picking axis when answer is not empty and not equal to suggestion.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserAnswerType.html">UserAnswerType</a></td>
+        <td><p>Type of user answer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IUser_AskEdgeWithPickingAxis_TopSolid_Kernel_Automating_UserQuestion_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_ElementItemId__TopSolid_Kernel_Automating_Axis3D___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.300.60.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_AskFace_" data-uid="TopSolid.Kernel.Automating.IUser.AskFace*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_AskFace_TopSolid_Kernel_Automating_UserQuestion_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_ElementItemId__" data-uid="TopSolid.Kernel.Automating.IUser.AskFace(TopSolid.Kernel.Automating.UserQuestion,TopSolid.Kernel.Automating.ElementItemId,TopSolid.Kernel.Automating.ElementItemId@)">AskFace(UserQuestion, ElementItemId, out ElementItemId)</h4>
+  <div class="markdown level1 summary"><p>Asks the user for a face.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+UserAnswerType AskFace(UserQuestion inQuestion, ElementItemId inSuggestion, out ElementItemId outAnswer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserQuestion.html">UserQuestion</a></td>
+        <td><span class="parametername">inQuestion</span></td>
+        <td><p>Question asked to the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSuggestion</span></td>
+        <td><p>Suggested answer, or <a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html#TopSolid_Kernel_Automating_ElementItemId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">outAnswer</span></td>
+        <td><p>User answer, or <a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html#TopSolid_Kernel_Automating_ElementItemId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserAnswerType.html">UserAnswerType</a></td>
+        <td><p>Type of user answer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IUser_AskFace_TopSolid_Kernel_Automating_UserQuestion_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_ElementItemId___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_AskFaceList_" data-uid="TopSolid.Kernel.Automating.IUser.AskFaceList*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_AskFaceList_TopSolid_Kernel_Automating_UserQuestion_List_TopSolid_Kernel_Automating_ElementItemId__List_TopSolid_Kernel_Automating_ElementItemId___" data-uid="TopSolid.Kernel.Automating.IUser.AskFaceList(TopSolid.Kernel.Automating.UserQuestion,List{TopSolid.Kernel.Automating.ElementItemId},List{TopSolid.Kernel.Automating.ElementItemId}@)">AskFaceList(UserQuestion, List&lt;ElementItemId&gt;, out List&lt;ElementItemId&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asks the user for a face list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 13, 0, 0)]
+UserAnswerType AskFaceList(UserQuestion inQuestion, List&lt;ElementItemId&gt; inSuggestions, out List&lt;ElementItemId&gt; outAnswer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserQuestion.html">UserQuestion</a></td>
+        <td><span class="parametername">inQuestion</span></td>
+        <td><p>Question asked to the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a>&gt;</td>
+        <td><span class="parametername">inSuggestions</span></td>
+        <td><p>Suggested answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a>&gt;</td>
+        <td><span class="parametername">outAnswer</span></td>
+        <td><p>User answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserAnswerType.html">UserAnswerType</a></td>
+        <td><p>Type of user answer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IUser_AskFaceList_TopSolid_Kernel_Automating_UserQuestion_List_TopSolid_Kernel_Automating_ElementItemId__List_TopSolid_Kernel_Automating_ElementItemId____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.13.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_AskFaceWithPickingAxis_" data-uid="TopSolid.Kernel.Automating.IUser.AskFaceWithPickingAxis*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_AskFaceWithPickingAxis_TopSolid_Kernel_Automating_UserQuestion_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_ElementItemId__TopSolid_Kernel_Automating_Axis3D__" data-uid="TopSolid.Kernel.Automating.IUser.AskFaceWithPickingAxis(TopSolid.Kernel.Automating.UserQuestion,TopSolid.Kernel.Automating.ElementItemId,TopSolid.Kernel.Automating.ElementItemId@,TopSolid.Kernel.Automating.Axis3D@)">AskFaceWithPickingAxis(UserQuestion, ElementItemId, out ElementItemId, out Axis3D)</h4>
+  <div class="markdown level1 summary"><p>Asks the user for a face with picking axis.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 300, 60)]
+UserAnswerType AskFaceWithPickingAxis(UserQuestion inQuestion, ElementItemId inSuggestion, out ElementItemId outAnswer, out Axis3D outPickingAxis)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserQuestion.html">UserQuestion</a></td>
+        <td><span class="parametername">inQuestion</span></td>
+        <td><p>Question asked to the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">inSuggestion</span></td>
+        <td><p>Suggested answer, or <a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html#TopSolid_Kernel_Automating_ElementItemId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html">ElementItemId</a></td>
+        <td><span class="parametername">outAnswer</span></td>
+        <td><p>User answer, or <a class="xref" href="TopSolid.Kernel.Automating.ElementItemId.html#TopSolid_Kernel_Automating_ElementItemId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Axis3D.html">Axis3D</a></td>
+        <td><span class="parametername">outPickingAxis</span></td>
+        <td><p>User picking axis when answer is not empty and not equal to suggestion.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserAnswerType.html">UserAnswerType</a></td>
+        <td><p>Type of user answer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IUser_AskFaceWithPickingAxis_TopSolid_Kernel_Automating_UserQuestion_TopSolid_Kernel_Automating_ElementItemId_TopSolid_Kernel_Automating_ElementItemId__TopSolid_Kernel_Automating_Axis3D___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.300.60.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_AskFrame3D_" data-uid="TopSolid.Kernel.Automating.IUser.AskFrame3D*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_AskFrame3D_TopSolid_Kernel_Automating_UserQuestion_System_Boolean_TopSolid_Kernel_Automating_SmartFrame3D_TopSolid_Kernel_Automating_SmartFrame3D__" data-uid="TopSolid.Kernel.Automating.IUser.AskFrame3D(TopSolid.Kernel.Automating.UserQuestion,System.Boolean,TopSolid.Kernel.Automating.SmartFrame3D,TopSolid.Kernel.Automating.SmartFrame3D@)">AskFrame3D(UserQuestion, Boolean, SmartFrame3D, out SmartFrame3D)</h4>
+  <div class="markdown level1 summary"><p>Asks the user for a 3D frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+UserAnswerType AskFrame3D(UserQuestion inQuestion, bool inIsOriented, SmartFrame3D inSuggestion, out SmartFrame3D outAnswer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserQuestion.html">UserQuestion</a></td>
+        <td><span class="parametername">inQuestion</span></td>
+        <td><p>Question asked to the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inIsOriented</span></td>
+        <td><p>Whether to ask for orientation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartFrame3D.html">SmartFrame3D</a></td>
+        <td><span class="parametername">inSuggestion</span></td>
+        <td><p>Suggested answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartFrame3D.html">SmartFrame3D</a></td>
+        <td><span class="parametername">outAnswer</span></td>
+        <td><p>User answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserAnswerType.html">UserAnswerType</a></td>
+        <td><p>Type of user answer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IUser_AskFrame3D_TopSolid_Kernel_Automating_UserQuestion_System_Boolean_TopSolid_Kernel_Automating_SmartFrame3D_TopSolid_Kernel_Automating_SmartFrame3D___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> may be called before calling this method
+to allow the user to create or modify entities during the interaction.</p>
+<p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_AskFrame3DList_" data-uid="TopSolid.Kernel.Automating.IUser.AskFrame3DList*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_AskFrame3DList_TopSolid_Kernel_Automating_UserQuestion_List_TopSolid_Kernel_Automating_SmartFrame3D__List_TopSolid_Kernel_Automating_SmartFrame3D___" data-uid="TopSolid.Kernel.Automating.IUser.AskFrame3DList(TopSolid.Kernel.Automating.UserQuestion,List{TopSolid.Kernel.Automating.SmartFrame3D},List{TopSolid.Kernel.Automating.SmartFrame3D}@)">AskFrame3DList(UserQuestion, List&lt;SmartFrame3D&gt;, out List&lt;SmartFrame3D&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asks the user for a 3D frame list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 13, 0, 0)]
+UserAnswerType AskFrame3DList(UserQuestion inQuestion, List&lt;SmartFrame3D&gt; inSuggestions, out List&lt;SmartFrame3D&gt; outAnswer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserQuestion.html">UserQuestion</a></td>
+        <td><span class="parametername">inQuestion</span></td>
+        <td><p>Question asked to the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.SmartFrame3D.html">SmartFrame3D</a>&gt;</td>
+        <td><span class="parametername">inSuggestions</span></td>
+        <td><p>Suggested answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.SmartFrame3D.html">SmartFrame3D</a>&gt;</td>
+        <td><span class="parametername">outAnswer</span></td>
+        <td><p>User answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserAnswerType.html">UserAnswerType</a></td>
+        <td><p>Type of user answer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IUser_AskFrame3DList_TopSolid_Kernel_Automating_UserQuestion_List_TopSolid_Kernel_Automating_SmartFrame3D__List_TopSolid_Kernel_Automating_SmartFrame3D____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> may be called before calling this method
+to allow the user to create or modify entities during the interaction.</p>
+<p>This method is available since v7.13.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_AskInteger_" data-uid="TopSolid.Kernel.Automating.IUser.AskInteger*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_AskInteger_TopSolid_Kernel_Automating_UserQuestion_System_Int32_System_Int32_TopSolid_Kernel_Automating_SmartInteger_TopSolid_Kernel_Automating_SmartInteger__" data-uid="TopSolid.Kernel.Automating.IUser.AskInteger(TopSolid.Kernel.Automating.UserQuestion,System.Int32,System.Int32,TopSolid.Kernel.Automating.SmartInteger,TopSolid.Kernel.Automating.SmartInteger@)">AskInteger(UserQuestion, Int32, Int32, SmartInteger, out SmartInteger)</h4>
+  <div class="markdown level1 summary"><p>Asks the user for an integer value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+UserAnswerType AskInteger(UserQuestion inQuestion, int inMinValue, int inMaxValue, SmartInteger inSuggestion, out SmartInteger outAnswer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserQuestion.html">UserQuestion</a></td>
+        <td><span class="parametername">inQuestion</span></td>
+        <td><p>Question asked to the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inMinValue</span></td>
+        <td><p>Minimum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inMaxValue</span></td>
+        <td><p>Maximum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartInteger.html">SmartInteger</a></td>
+        <td><span class="parametername">inSuggestion</span></td>
+        <td><p>Suggested answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartInteger.html">SmartInteger</a></td>
+        <td><span class="parametername">outAnswer</span></td>
+        <td><p>User answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserAnswerType.html">UserAnswerType</a></td>
+        <td><p>Type of user answer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IUser_AskInteger_TopSolid_Kernel_Automating_UserQuestion_System_Int32_System_Int32_TopSolid_Kernel_Automating_SmartInteger_TopSolid_Kernel_Automating_SmartInteger___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> may be called before calling this method
+to allow the user to create or modify entities during the interaction.</p>
+<p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_AskPlane3D_" data-uid="TopSolid.Kernel.Automating.IUser.AskPlane3D*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_AskPlane3D_TopSolid_Kernel_Automating_UserQuestion_System_Boolean_TopSolid_Kernel_Automating_SmartPlane3D_TopSolid_Kernel_Automating_SmartPlane3D__" data-uid="TopSolid.Kernel.Automating.IUser.AskPlane3D(TopSolid.Kernel.Automating.UserQuestion,System.Boolean,TopSolid.Kernel.Automating.SmartPlane3D,TopSolid.Kernel.Automating.SmartPlane3D@)">AskPlane3D(UserQuestion, Boolean, SmartPlane3D, out SmartPlane3D)</h4>
+  <div class="markdown level1 summary"><p>Asks the user for a 3D plane.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+UserAnswerType AskPlane3D(UserQuestion inQuestion, bool inIsOriented, SmartPlane3D inSuggestion, out SmartPlane3D outAnswer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserQuestion.html">UserQuestion</a></td>
+        <td><span class="parametername">inQuestion</span></td>
+        <td><p>Question asked to the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inIsOriented</span></td>
+        <td><p>Whether to ask for orientation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartPlane3D.html">SmartPlane3D</a></td>
+        <td><span class="parametername">inSuggestion</span></td>
+        <td><p>Suggested answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartPlane3D.html">SmartPlane3D</a></td>
+        <td><span class="parametername">outAnswer</span></td>
+        <td><p>User answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserAnswerType.html">UserAnswerType</a></td>
+        <td><p>Type of user answer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IUser_AskPlane3D_TopSolid_Kernel_Automating_UserQuestion_System_Boolean_TopSolid_Kernel_Automating_SmartPlane3D_TopSolid_Kernel_Automating_SmartPlane3D___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> may be called before calling this method
+to allow the user to create or modify entities during the interaction.</p>
+<p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_AskPoint3D_" data-uid="TopSolid.Kernel.Automating.IUser.AskPoint3D*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_AskPoint3D_TopSolid_Kernel_Automating_UserQuestion_TopSolid_Kernel_Automating_SmartPoint3D_TopSolid_Kernel_Automating_SmartPoint3D__" data-uid="TopSolid.Kernel.Automating.IUser.AskPoint3D(TopSolid.Kernel.Automating.UserQuestion,TopSolid.Kernel.Automating.SmartPoint3D,TopSolid.Kernel.Automating.SmartPoint3D@)">AskPoint3D(UserQuestion, SmartPoint3D, out SmartPoint3D)</h4>
+  <div class="markdown level1 summary"><p>Asks the user for a 3D point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+UserAnswerType AskPoint3D(UserQuestion inQuestion, SmartPoint3D inSuggestion, out SmartPoint3D outAnswer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserQuestion.html">UserQuestion</a></td>
+        <td><span class="parametername">inQuestion</span></td>
+        <td><p>Question asked to the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartPoint3D.html">SmartPoint3D</a></td>
+        <td><span class="parametername">inSuggestion</span></td>
+        <td><p>Suggested answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartPoint3D.html">SmartPoint3D</a></td>
+        <td><span class="parametername">outAnswer</span></td>
+        <td><p>User answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserAnswerType.html">UserAnswerType</a></td>
+        <td><p>Type of user answer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IUser_AskPoint3D_TopSolid_Kernel_Automating_UserQuestion_TopSolid_Kernel_Automating_SmartPoint3D_TopSolid_Kernel_Automating_SmartPoint3D___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> may be called before calling this method
+to allow the user to create or modify entities during the interaction.</p>
+<p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_AskPoint3DList_" data-uid="TopSolid.Kernel.Automating.IUser.AskPoint3DList*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_AskPoint3DList_TopSolid_Kernel_Automating_UserQuestion_List_TopSolid_Kernel_Automating_SmartPoint3D__List_TopSolid_Kernel_Automating_SmartPoint3D___" data-uid="TopSolid.Kernel.Automating.IUser.AskPoint3DList(TopSolid.Kernel.Automating.UserQuestion,List{TopSolid.Kernel.Automating.SmartPoint3D},List{TopSolid.Kernel.Automating.SmartPoint3D}@)">AskPoint3DList(UserQuestion, List&lt;SmartPoint3D&gt;, out List&lt;SmartPoint3D&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asks the user for a 3D point list.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 13, 0, 0)]
+UserAnswerType AskPoint3DList(UserQuestion inQuestion, List&lt;SmartPoint3D&gt; inSuggestions, out List&lt;SmartPoint3D&gt; outAnswer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserQuestion.html">UserQuestion</a></td>
+        <td><span class="parametername">inQuestion</span></td>
+        <td><p>Question asked to the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.SmartPoint3D.html">SmartPoint3D</a>&gt;</td>
+        <td><span class="parametername">inSuggestions</span></td>
+        <td><p>Suggested answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.SmartPoint3D.html">SmartPoint3D</a>&gt;</td>
+        <td><span class="parametername">outAnswer</span></td>
+        <td><p>User answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserAnswerType.html">UserAnswerType</a></td>
+        <td><p>Type of user answer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IUser_AskPoint3DList_TopSolid_Kernel_Automating_UserQuestion_List_TopSolid_Kernel_Automating_SmartPoint3D__List_TopSolid_Kernel_Automating_SmartPoint3D____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> may be called before calling this method
+to allow the user to create or modify entities during the interaction.</p>
+<p>This method is available since v7.13.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_AskReal_" data-uid="TopSolid.Kernel.Automating.IUser.AskReal*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_AskReal_TopSolid_Kernel_Automating_UserQuestion_TopSolid_Kernel_Automating_UnitType_System_Double_System_Double_TopSolid_Kernel_Automating_SmartReal_TopSolid_Kernel_Automating_SmartReal__" data-uid="TopSolid.Kernel.Automating.IUser.AskReal(TopSolid.Kernel.Automating.UserQuestion,TopSolid.Kernel.Automating.UnitType,System.Double,System.Double,TopSolid.Kernel.Automating.SmartReal,TopSolid.Kernel.Automating.SmartReal@)">AskReal(UserQuestion, UnitType, Double, Double, SmartReal, out SmartReal)</h4>
+  <div class="markdown level1 summary"><p>Asks the user for a real value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+UserAnswerType AskReal(UserQuestion inQuestion, UnitType inUnitType, double inMinValue, double inMaxValue, SmartReal inSuggestion, out SmartReal outAnswer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserQuestion.html">UserQuestion</a></td>
+        <td><span class="parametername">inQuestion</span></td>
+        <td><p>Question asked to the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UnitType.html">UnitType</a></td>
+        <td><span class="parametername">inUnitType</span></td>
+        <td><p>Unit type of the real value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inMinValue</span></td>
+        <td><p>Minimum value, in SI unit.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inMaxValue</span></td>
+        <td><p>Maximum value, in SI unit.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartReal.html">SmartReal</a></td>
+        <td><span class="parametername">inSuggestion</span></td>
+        <td><p>Suggested answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartReal.html">SmartReal</a></td>
+        <td><span class="parametername">outAnswer</span></td>
+        <td><p>User answer, or <code>null</code> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserAnswerType.html">UserAnswerType</a></td>
+        <td><p>Type of user answer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IUser_AskReal_TopSolid_Kernel_Automating_UserQuestion_TopSolid_Kernel_Automating_UnitType_System_Double_System_Double_TopSolid_Kernel_Automating_SmartReal_TopSolid_Kernel_Automating_SmartReal___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> may be called before calling this method
+to allow the user to create or modify entities during the interaction.</p>
+<p>This method is available since v7.7.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_AskShape_" data-uid="TopSolid.Kernel.Automating.IUser.AskShape*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_AskShape_TopSolid_Kernel_Automating_UserQuestion_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId__" data-uid="TopSolid.Kernel.Automating.IUser.AskShape(TopSolid.Kernel.Automating.UserQuestion,TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId@)">AskShape(UserQuestion, ElementId, out ElementId)</h4>
+  <div class="markdown level1 summary"><p>Asks the user for a shape.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 300, 60)]
+UserAnswerType AskShape(UserQuestion inQuestion, ElementId inSuggestion, out ElementId outAnswer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserQuestion.html">UserQuestion</a></td>
+        <td><span class="parametername">inQuestion</span></td>
+        <td><p>Question asked to the user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inSuggestion</span></td>
+        <td><p>Suggested answer, or <a class="xref" href="TopSolid.Kernel.Automating.ElementId.html#TopSolid_Kernel_Automating_ElementId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">outAnswer</span></td>
+        <td><p>User answer, or <a class="xref" href="TopSolid.Kernel.Automating.ElementId.html#TopSolid_Kernel_Automating_ElementId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UserAnswerType.html">UserAnswerType</a></td>
+        <td><p>Type of user answer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IUser_AskShape_TopSolid_Kernel_Automating_UserQuestion_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.300.60.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IUser_SelectSelection_" data-uid="TopSolid.Kernel.Automating.IUser.SelectSelection*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IUser_SelectSelection_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IUser.SelectSelection(TopSolid.Kernel.Automating.ElementId)">SelectSelection(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Selects a selection entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 16, 0, 0)]
+void SelectSelection(ElementId inSelection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inSelection</span></td>
+        <td><p>The selection entity to select.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

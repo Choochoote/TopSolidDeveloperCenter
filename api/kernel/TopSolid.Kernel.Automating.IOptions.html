@@ -1,0 +1,502 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IOptions
+   | TopSolid Automation website </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IOptions
+   | TopSolid Automation website ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TopSolid.Kernel.Automating.IOptions">
+  
+  
+  <h1 id="TopSolid_Kernel_Automating_IOptions" data-uid="TopSolid.Kernel.Automating.IOptions" class="text-break">Interface IOptions
+  </h1>
+  <div class="markdown level0 summary"><p>Gives access to the options of a document.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TopSolid.Kernel.Automating.html">TopSolid.Kernel.Automating</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TopSolid_Kernel_Automating_IOptions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+public interface IOptions</code></pre>
+  </div>
+  <h5 id="TopSolid_Kernel_Automating_IOptions_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This interface is available since v7.8.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IOptions_GetFileCompressionType_" data-uid="TopSolid.Kernel.Automating.IOptions.GetFileCompressionType*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOptions_GetFileCompressionType_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IOptions.GetFileCompressionType(TopSolid.Kernel.Automating.DocumentId)">GetFileCompressionType(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the compression type of a document file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 300, 160)]
+CompressionType GetFileCompressionType(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.CompressionType.html">CompressionType</a></td>
+        <td><p>Compression type of the document file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOptions_GetFileCompressionType_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.12.300.160.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IOptions_GetModelingTolerances_" data-uid="TopSolid.Kernel.Automating.IOptions.GetModelingTolerances*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOptions_GetModelingTolerances_TopSolid_Kernel_Automating_DocumentId_System_Double__System_Double__" data-uid="TopSolid.Kernel.Automating.IOptions.GetModelingTolerances(TopSolid.Kernel.Automating.DocumentId,System.Double@,System.Double@)">GetModelingTolerances(DocumentId, out Double, out Double)</h4>
+  <div class="markdown level1 summary"><p>Gets the modeling tolerances of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+void GetModelingTolerances(DocumentId inDocumentId, out double outLinearTolerance, out double outAngularTolerance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outLinearTolerance</span></td>
+        <td><p>Linear tolerance (in meters).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outAngularTolerance</span></td>
+        <td><p>Angular tolerance (in radians).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOptions_GetModelingTolerances_TopSolid_Kernel_Automating_DocumentId_System_Double__System_Double___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IOptions_GetUpdateModes_" data-uid="TopSolid.Kernel.Automating.IOptions.GetUpdateModes*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOptions_GetUpdateModes_TopSolid_Kernel_Automating_DocumentId_System_Boolean__System_Boolean__" data-uid="TopSolid.Kernel.Automating.IOptions.GetUpdateModes(TopSolid.Kernel.Automating.DocumentId,System.Boolean@,System.Boolean@)">GetUpdateModes(DocumentId, out Boolean, out Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets the update modes of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 300, 160)]
+void GetUpdateModes(DocumentId inDocumentId, out bool outIsHealing, out bool outIsTolerant)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outIsHealing</span></td>
+        <td><p>Whether update automatically heals damaged operations.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outIsTolerant</span></td>
+        <td><p>Whether update ignores modifications that are less than standard precision.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOptions_GetUpdateModes_TopSolid_Kernel_Automating_DocumentId_System_Boolean__System_Boolean___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.12.300.160.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IOptions_GetVisualizationTolerances_" data-uid="TopSolid.Kernel.Automating.IOptions.GetVisualizationTolerances*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOptions_GetVisualizationTolerances_TopSolid_Kernel_Automating_DocumentId_System_Double__System_Double__" data-uid="TopSolid.Kernel.Automating.IOptions.GetVisualizationTolerances(TopSolid.Kernel.Automating.DocumentId,System.Double@,System.Double@)">GetVisualizationTolerances(DocumentId, out Double, out Double)</h4>
+  <div class="markdown level1 summary"><p>Gets the visualization tolerances of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+void GetVisualizationTolerances(DocumentId inDocumentId, out double outLinearTolerance, out double outAngularTolerance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outLinearTolerance</span></td>
+        <td><p>Linear tolerance (in meters).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outAngularTolerance</span></td>
+        <td><p>Angular tolerance (in radians).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOptions_GetVisualizationTolerances_TopSolid_Kernel_Automating_DocumentId_System_Double__System_Double___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IOptions_SetFileCompressionType_" data-uid="TopSolid.Kernel.Automating.IOptions.SetFileCompressionType*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOptions_SetFileCompressionType_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_CompressionType_" data-uid="TopSolid.Kernel.Automating.IOptions.SetFileCompressionType(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.CompressionType)">SetFileCompressionType(DocumentId, CompressionType)</h4>
+  <div class="markdown level1 summary"><p>Sets the compression type of a document file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 300, 160)]
+void SetFileCompressionType(DocumentId inDocumentId, CompressionType inCompressionType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.CompressionType.html">CompressionType</a></td>
+        <td><span class="parametername">inCompressionType</span></td>
+        <td><p>Compression type of the document file.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOptions_SetFileCompressionType_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_CompressionType__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.12.300.160.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IOptions_SetModelingTolerances_" data-uid="TopSolid.Kernel.Automating.IOptions.SetModelingTolerances*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOptions_SetModelingTolerances_TopSolid_Kernel_Automating_DocumentId_System_Double_System_Double_" data-uid="TopSolid.Kernel.Automating.IOptions.SetModelingTolerances(TopSolid.Kernel.Automating.DocumentId,System.Double,System.Double)">SetModelingTolerances(DocumentId, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the modeling tolerances of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+void SetModelingTolerances(DocumentId inDocumentId, double inLinearTolerance, double inAngularTolerance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inLinearTolerance</span></td>
+        <td><p>Linear tolerance (in meters, within [0.0001mm,0.1mm]).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inAngularTolerance</span></td>
+        <td><p>Angular tolerance (in radians, within [0.01°,10°]).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOptions_SetModelingTolerances_TopSolid_Kernel_Automating_DocumentId_System_Double_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The document modeling tolerances are used as default modeling tolerances for new operations, changing them has
+no impact on existing operations.</p>
+<p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IOptions_SetUpdateModes_" data-uid="TopSolid.Kernel.Automating.IOptions.SetUpdateModes*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOptions_SetUpdateModes_TopSolid_Kernel_Automating_DocumentId_System_Boolean_System_Boolean_" data-uid="TopSolid.Kernel.Automating.IOptions.SetUpdateModes(TopSolid.Kernel.Automating.DocumentId,System.Boolean,System.Boolean)">SetUpdateModes(DocumentId, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets the update modes of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 300, 160)]
+void SetUpdateModes(DocumentId inDocumentId, bool inIsHealing, bool inIsTolerant)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inIsHealing</span></td>
+        <td><p>Whether update automatically heals damaged operations.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inIsTolerant</span></td>
+        <td><p>Whether update ignores modifications that are less than standard precision.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOptions_SetUpdateModes_TopSolid_Kernel_Automating_DocumentId_System_Boolean_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.12.300.160.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IOptions_SetVisualizationTolerances_" data-uid="TopSolid.Kernel.Automating.IOptions.SetVisualizationTolerances*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOptions_SetVisualizationTolerances_TopSolid_Kernel_Automating_DocumentId_System_Double_System_Double_" data-uid="TopSolid.Kernel.Automating.IOptions.SetVisualizationTolerances(TopSolid.Kernel.Automating.DocumentId,System.Double,System.Double)">SetVisualizationTolerances(DocumentId, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the visualization tolerances of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+void SetVisualizationTolerances(DocumentId inDocumentId, double inLinearTolerance, double inAngularTolerance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inLinearTolerance</span></td>
+        <td><p>Linear tolerance (in meters, within [0.001mm,10mm]).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inAngularTolerance</span></td>
+        <td><p>Angular tolerance (in radians, within [1°,90°]).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOptions_SetVisualizationTolerances_TopSolid_Kernel_Automating_DocumentId_System_Double_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The document is automatically updated to take into account the new tolerances.</p>
+<p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

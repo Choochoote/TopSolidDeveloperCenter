@@ -1,0 +1,2450 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IElements
+   | TopSolid Automation website </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IElements
+   | TopSolid Automation website ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TopSolid.Kernel.Automating.IElements">
+  
+  
+  <h1 id="TopSolid_Kernel_Automating_IElements" data-uid="TopSolid.Kernel.Automating.IElements" class="text-break">Interface IElements
+  </h1>
+  <div class="markdown level0 summary"><p>Gives access to elements.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TopSolid.Kernel.Automating.html">TopSolid.Kernel.Automating</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TopSolid_Kernel_Automating_IElements_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+public interface IElements</code></pre>
+  </div>
+  <h5 id="TopSolid_Kernel_Automating_IElements_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This interface is available since v7.6.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_Delete_" data-uid="TopSolid.Kernel.Automating.IElements.Delete*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_Delete_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.Delete(TopSolid.Kernel.Automating.ElementId)">Delete(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Deletes an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+void Delete(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to delete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_Delete_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_DeleteSeveral_" data-uid="TopSolid.Kernel.Automating.IElements.DeleteSeveral*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_DeleteSeveral_List_TopSolid_Kernel_Automating_ElementId__" data-uid="TopSolid.Kernel.Automating.IElements.DeleteSeveral(List{TopSolid.Kernel.Automating.ElementId})">DeleteSeveral(List&lt;ElementId&gt;)</h4>
+  <div class="markdown level1 summary"><p>Deletes several elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+void DeleteSeveral(List&lt;ElementId&gt; inElementIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><span class="parametername">inElementIds</span></td>
+        <td><p>Identifiers of the elements to delete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_DeleteSeveral_List_TopSolid_Kernel_Automating_ElementId___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_Exists_" data-uid="TopSolid.Kernel.Automating.IElements.Exists*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_Exists_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.Exists(TopSolid.Kernel.Automating.ElementId)">Exists(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an element still exists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool Exists(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The element still exists.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_Exists_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetColor_" data-uid="TopSolid.Kernel.Automating.IElements.GetColor*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetColor_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.GetColor(TopSolid.Kernel.Automating.ElementId)">GetColor(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the color of an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+Color GetColor(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Color.html">Color</a></td>
+        <td><p>Color of the element, or <a class="xref" href="TopSolid.Kernel.Automating.Color.html#TopSolid_Kernel_Automating_Color_Empty">Empty</a> if the element has no color.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetColor_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetComment_" data-uid="TopSolid.Kernel.Automating.IElements.GetComment*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetComment_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.GetComment(TopSolid.Kernel.Automating.ElementId)">GetComment(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the comment of an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+string GetComment(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Comment of the element, or null if the element has no comment.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetComment_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetConstituents_" data-uid="TopSolid.Kernel.Automating.IElements.GetConstituents*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetConstituents_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.GetConstituents(TopSolid.Kernel.Automating.ElementId)">GetConstituents(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the constituent elements of a composite element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+List&lt;ElementId&gt; GetConstituents(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><p>Contituent elements found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetConstituents_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetDescription_" data-uid="TopSolid.Kernel.Automating.IElements.GetDescription*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetDescription_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.GetDescription(TopSolid.Kernel.Automating.ElementId)">GetDescription(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the description of an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+string GetDescription(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Description of the element, or null if the element has no description.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetDescription_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetElements_" data-uid="TopSolid.Kernel.Automating.IElements.GetElements*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetElements_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IElements.GetElements(TopSolid.Kernel.Automating.DocumentId)">GetElements(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the elements of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+List&lt;ElementId&gt; GetElements(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><p>Elements found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetElements_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetFriendlyName_" data-uid="TopSolid.Kernel.Automating.IElements.GetFriendlyName*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetFriendlyName_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.GetFriendlyName(TopSolid.Kernel.Automating.ElementId)">GetFriendlyName(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the friendly name of an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+string GetFriendlyName(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Friendly name of the element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetFriendlyName_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetName_" data-uid="TopSolid.Kernel.Automating.IElements.GetName*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetName_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.GetName(TopSolid.Kernel.Automating.ElementId)">GetName(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the name of an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+string GetName(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Name of the element, or null if the element has no name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetName_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The name may need translation before exposing it to the user if it is a system name (see <a class="xref" href="TopSolid.Kernel.Automating.IElements.html#TopSolid_Kernel_Automating_IElements_HasSystemName_TopSolid_Kernel_Automating_ElementId_">HasSystemName(ElementId)</a>).</p>
+<p>The name displayed to the user is obtained by the <a class="xref" href="TopSolid.Kernel.Automating.IElements.html#TopSolid_Kernel_Automating_IElements_GetFriendlyName_TopSolid_Kernel_Automating_ElementId_">GetFriendlyName(ElementId)</a> method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetOwner_" data-uid="TopSolid.Kernel.Automating.IElements.GetOwner*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetOwner_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.GetOwner(TopSolid.Kernel.Automating.ElementId)">GetOwner(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the owner element of an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+ElementId GetOwner(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the owner element, or <a class="xref" href="TopSolid.Kernel.Automating.ElementId.html#TopSolid_Kernel_Automating_ElementId_Empty">Empty</a> if the element does not have an owner.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetOwner_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetParent_" data-uid="TopSolid.Kernel.Automating.IElements.GetParent*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetParent_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.GetParent(TopSolid.Kernel.Automating.ElementId)">GetParent(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the parent operation of an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+ElementId GetParent(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the parent operation, or <a class="xref" href="TopSolid.Kernel.Automating.ElementId.html#TopSolid_Kernel_Automating_ElementId_Empty">Empty</a> if the element does not have a parent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetParent_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetProperties_" data-uid="TopSolid.Kernel.Automating.IElements.GetProperties*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetProperties_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.GetProperties(TopSolid.Kernel.Automating.ElementId)">GetProperties(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the full names of the properties of an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 300, 60)]
+List&lt;string&gt; GetProperties(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>Full names of the element properties.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetProperties_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.300.60.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetPropertyBooleanValue_" data-uid="TopSolid.Kernel.Automating.IElements.GetPropertyBooleanValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetPropertyBooleanValue_TopSolid_Kernel_Automating_ElementId_System_String_" data-uid="TopSolid.Kernel.Automating.IElements.GetPropertyBooleanValue(TopSolid.Kernel.Automating.ElementId,System.String)">GetPropertyBooleanValue(ElementId, String)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of an element Boolean property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 300, 60)]
+bool GetPropertyBooleanValue(ElementId inElementId, string inFullName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inFullName</span></td>
+        <td><p>Full name of the element Boolean property to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Value of the property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetPropertyBooleanValue_TopSolid_Kernel_Automating_ElementId_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.300.60.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetPropertyDateTimeValue_" data-uid="TopSolid.Kernel.Automating.IElements.GetPropertyDateTimeValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetPropertyDateTimeValue_TopSolid_Kernel_Automating_ElementId_System_String_" data-uid="TopSolid.Kernel.Automating.IElements.GetPropertyDateTimeValue(TopSolid.Kernel.Automating.ElementId,System.String)">GetPropertyDateTimeValue(ElementId, String)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of an element date and time property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 300, 60)]
+DateTime GetPropertyDateTimeValue(ElementId inElementId, string inFullName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inFullName</span></td>
+        <td><p>Full name of the element date and time property to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><p>Value of the property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetPropertyDateTimeValue_TopSolid_Kernel_Automating_ElementId_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.300.60.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetPropertyIntegerValue_" data-uid="TopSolid.Kernel.Automating.IElements.GetPropertyIntegerValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetPropertyIntegerValue_TopSolid_Kernel_Automating_ElementId_System_String_" data-uid="TopSolid.Kernel.Automating.IElements.GetPropertyIntegerValue(TopSolid.Kernel.Automating.ElementId,System.String)">GetPropertyIntegerValue(ElementId, String)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of an element integer property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 300, 60)]
+int GetPropertyIntegerValue(ElementId inElementId, string inFullName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inFullName</span></td>
+        <td><p>Full name of the element integer property to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Value of the property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetPropertyIntegerValue_TopSolid_Kernel_Automating_ElementId_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.300.60.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetPropertyLocalizedDomainName_" data-uid="TopSolid.Kernel.Automating.IElements.GetPropertyLocalizedDomainName*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetPropertyLocalizedDomainName_TopSolid_Kernel_Automating_ElementId_System_String_" data-uid="TopSolid.Kernel.Automating.IElements.GetPropertyLocalizedDomainName(TopSolid.Kernel.Automating.ElementId,System.String)">GetPropertyLocalizedDomainName(ElementId, String)</h4>
+  <div class="markdown level1 summary"><p>Gets the localized domain name of an element property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 300, 60)]
+string GetPropertyLocalizedDomainName(ElementId inElementId, string inFullName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inFullName</span></td>
+        <td><p>Full name of the element property to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Localized domain name of the property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetPropertyLocalizedDomainName_TopSolid_Kernel_Automating_ElementId_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.300.60.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetPropertyLocalizedName_" data-uid="TopSolid.Kernel.Automating.IElements.GetPropertyLocalizedName*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetPropertyLocalizedName_TopSolid_Kernel_Automating_ElementId_System_String_" data-uid="TopSolid.Kernel.Automating.IElements.GetPropertyLocalizedName(TopSolid.Kernel.Automating.ElementId,System.String)">GetPropertyLocalizedName(ElementId, String)</h4>
+  <div class="markdown level1 summary"><p>Gets the localized name of an element property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 300, 60)]
+string GetPropertyLocalizedName(ElementId inElementId, string inFullName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inFullName</span></td>
+        <td><p>Full name of the element property to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Localized name of the property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetPropertyLocalizedName_TopSolid_Kernel_Automating_ElementId_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.300.60.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetPropertyRealUnit_" data-uid="TopSolid.Kernel.Automating.IElements.GetPropertyRealUnit*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetPropertyRealUnit_TopSolid_Kernel_Automating_ElementId_System_String_TopSolid_Kernel_Automating_UnitType__System_String__" data-uid="TopSolid.Kernel.Automating.IElements.GetPropertyRealUnit(TopSolid.Kernel.Automating.ElementId,System.String,TopSolid.Kernel.Automating.UnitType@,System.String@)">GetPropertyRealUnit(ElementId, String, out UnitType, out String)</h4>
+  <div class="markdown level1 summary"><p>Gets the unit of an element real property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 300, 60)]
+void GetPropertyRealUnit(ElementId inElementId, string inFullName, out UnitType outUnitType, out string outUnitSymbol)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inFullName</span></td>
+        <td><p>Full name of the element real property to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.UnitType.html">UnitType</a></td>
+        <td><span class="parametername">outUnitType</span></td>
+        <td><p>Unit type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">outUnitSymbol</span></td>
+        <td><p>Unit symbol in English.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetPropertyRealUnit_TopSolid_Kernel_Automating_ElementId_System_String_TopSolid_Kernel_Automating_UnitType__System_String___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.300.60.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetPropertyRealValue_" data-uid="TopSolid.Kernel.Automating.IElements.GetPropertyRealValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetPropertyRealValue_TopSolid_Kernel_Automating_ElementId_System_String_" data-uid="TopSolid.Kernel.Automating.IElements.GetPropertyRealValue(TopSolid.Kernel.Automating.ElementId,System.String)">GetPropertyRealValue(ElementId, String)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of an element real property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 300, 60)]
+double GetPropertyRealValue(ElementId inElementId, string inFullName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inFullName</span></td>
+        <td><p>Full name of the element real property to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Value of the property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetPropertyRealValue_TopSolid_Kernel_Automating_ElementId_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.300.60.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetPropertyTextValue_" data-uid="TopSolid.Kernel.Automating.IElements.GetPropertyTextValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetPropertyTextValue_TopSolid_Kernel_Automating_ElementId_System_String_" data-uid="TopSolid.Kernel.Automating.IElements.GetPropertyTextValue(TopSolid.Kernel.Automating.ElementId,System.String)">GetPropertyTextValue(ElementId, String)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of an element text property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 300, 60)]
+string GetPropertyTextValue(ElementId inElementId, string inFullName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inFullName</span></td>
+        <td><p>Full name of the element text property to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Value of the property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetPropertyTextValue_TopSolid_Kernel_Automating_ElementId_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.300.60.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetPropertyType_" data-uid="TopSolid.Kernel.Automating.IElements.GetPropertyType*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetPropertyType_TopSolid_Kernel_Automating_ElementId_System_String_" data-uid="TopSolid.Kernel.Automating.IElements.GetPropertyType(TopSolid.Kernel.Automating.ElementId,System.String)">GetPropertyType(ElementId, String)</h4>
+  <div class="markdown level1 summary"><p>Gets the type of an element property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 300, 60)]
+PropertyType GetPropertyType(ElementId inElementId, string inFullName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inFullName</span></td>
+        <td><p>Full name of the element property to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.PropertyType.html">PropertyType</a></td>
+        <td><p>Type of the property, or <a class="xref" href="TopSolid.Kernel.Automating.PropertyType.html#TopSolid_Kernel_Automating_PropertyType_None">None</a> if the element does not have the property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetPropertyType_TopSolid_Kernel_Automating_ElementId_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.300.60.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetTransparency_" data-uid="TopSolid.Kernel.Automating.IElements.GetTransparency*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetTransparency_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.GetTransparency(TopSolid.Kernel.Automating.ElementId)">GetTransparency(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the transparency of an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+double GetTransparency(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Transparency of the element within <code>[0,1]</code>, or <code>-1</code> if the element has no transparency.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetTransparency_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>When the transparency is equal to <code>0</code>, the element is fully opaque.</p>
+<p>When the transparency is equal to <code>1</code>, the element is fully transparent.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetTypeFullName_" data-uid="TopSolid.Kernel.Automating.IElements.GetTypeFullName*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetTypeFullName_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.GetTypeFullName(TopSolid.Kernel.Automating.ElementId)">GetTypeFullName(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the full name of the type of an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+string GetTypeFullName(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Full name of the type of the element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetTypeFullName_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_GetTypeGuid_" data-uid="TopSolid.Kernel.Automating.IElements.GetTypeGuid*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_GetTypeGuid_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.GetTypeGuid(TopSolid.Kernel.Automating.ElementId)">GetTypeGuid(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the GUID of the type of an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+Guid GetTypeGuid(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><p>GUID of the type of the element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_GetTypeGuid_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_HasColor_" data-uid="TopSolid.Kernel.Automating.IElements.HasColor*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_HasColor_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.HasColor(TopSolid.Kernel.Automating.ElementId)">HasColor(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an element has a color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool HasColor(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the element has a color.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_HasColor_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_HasComment_" data-uid="TopSolid.Kernel.Automating.IElements.HasComment*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_HasComment_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.HasComment(TopSolid.Kernel.Automating.ElementId)">HasComment(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an element has a comment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool HasComment(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the element has a comment.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_HasComment_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_HasDescription_" data-uid="TopSolid.Kernel.Automating.IElements.HasDescription*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_HasDescription_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.HasDescription(TopSolid.Kernel.Automating.ElementId)">HasDescription(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an element has a description.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool HasDescription(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the element has a description.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_HasDescription_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_HasName_" data-uid="TopSolid.Kernel.Automating.IElements.HasName*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_HasName_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.HasName(TopSolid.Kernel.Automating.ElementId)">HasName(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an element has a name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool HasName(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the element has a name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_HasName_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_HasSystemName_" data-uid="TopSolid.Kernel.Automating.IElements.HasSystemName*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_HasSystemName_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.HasSystemName(TopSolid.Kernel.Automating.ElementId)">HasSystemName(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an element has a system name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool HasSystemName(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the element has a system name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_HasSystemName_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>System names start with &apos;$&apos; and are translated before being exposed to the user.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_HasTransparency_" data-uid="TopSolid.Kernel.Automating.IElements.HasTransparency*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_HasTransparency_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.HasTransparency(TopSolid.Kernel.Automating.ElementId)">HasTransparency(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an element has a transparency.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool HasTransparency(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the element has a transparency.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_HasTransparency_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_HasUniqueName_" data-uid="TopSolid.Kernel.Automating.IElements.HasUniqueName*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_HasUniqueName_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.HasUniqueName(TopSolid.Kernel.Automating.ElementId)">HasUniqueName(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an element has a name that is unique in its document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool HasUniqueName(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the element has a name that is unique in its document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_HasUniqueName_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_Hide_" data-uid="TopSolid.Kernel.Automating.IElements.Hide*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_Hide_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.Hide(TopSolid.Kernel.Automating.ElementId)">Hide(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Hides an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+void Hide(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to hide.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_Hide_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_IsAlive_" data-uid="TopSolid.Kernel.Automating.IElements.IsAlive*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_IsAlive_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.IsAlive(TopSolid.Kernel.Automating.ElementId)">IsAlive(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an element is alive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool IsAlive(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the element is alive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_IsAlive_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_IsColorModifiable_" data-uid="TopSolid.Kernel.Automating.IElements.IsColorModifiable*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_IsColorModifiable_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.IsColorModifiable(TopSolid.Kernel.Automating.ElementId)">IsColorModifiable(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether the color of an element is modifiable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool IsColorModifiable(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The color of the element is modifiable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_IsColorModifiable_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_IsDeletable_" data-uid="TopSolid.Kernel.Automating.IElements.IsDeletable*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_IsDeletable_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.IsDeletable(TopSolid.Kernel.Automating.ElementId)">IsDeletable(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an element may be deleted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool IsDeletable(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the element may be deleted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_IsDeletable_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_IsInvalid_" data-uid="TopSolid.Kernel.Automating.IElements.IsInvalid*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_IsInvalid_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.IsInvalid(TopSolid.Kernel.Automating.ElementId)">IsInvalid(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an element is invalid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool IsInvalid(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the element is invalid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_IsInvalid_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_IsModifiable_" data-uid="TopSolid.Kernel.Automating.IElements.IsModifiable*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_IsModifiable_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.IsModifiable(TopSolid.Kernel.Automating.ElementId)">IsModifiable(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an element is modifiable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool IsModifiable(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The element is modifiable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_IsModifiable_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_IsRenamable_" data-uid="TopSolid.Kernel.Automating.IElements.IsRenamable*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_IsRenamable_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.IsRenamable(TopSolid.Kernel.Automating.ElementId)">IsRenamable(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether the name of an element may be modified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool IsRenamable(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the name of the element may be modified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_IsRenamable_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_IsTransparencyModifiable_" data-uid="TopSolid.Kernel.Automating.IElements.IsTransparencyModifiable*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_IsTransparencyModifiable_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.IsTransparencyModifiable(TopSolid.Kernel.Automating.ElementId)">IsTransparencyModifiable(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether the transparency of an element is modifiable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool IsTransparencyModifiable(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The transparency of the element is modifiable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_IsTransparencyModifiable_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_IsVisible_" data-uid="TopSolid.Kernel.Automating.IElements.IsVisible*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_IsVisible_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.IsVisible(TopSolid.Kernel.Automating.ElementId)">IsVisible(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an element is visible.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool IsVisible(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the element is visible.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_IsVisible_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_SearchByName_" data-uid="TopSolid.Kernel.Automating.IElements.SearchByName*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_SearchByName_TopSolid_Kernel_Automating_DocumentId_System_String_" data-uid="TopSolid.Kernel.Automating.IElements.SearchByName(TopSolid.Kernel.Automating.DocumentId,System.String)">SearchByName(DocumentId, String)</h4>
+  <div class="markdown level1 summary"><p>Searches for an element with a specified name in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+ElementId SearchByName(DocumentId inDocument, string inName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocument</span></td>
+        <td><p>Document to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inName</span></td>
+        <td><p>Name of the element to search.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Element found, or empty if not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_SearchByName_TopSolid_Kernel_Automating_DocumentId_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Only elements with unique name (i.e. <a class="xref" href="TopSolid.Kernel.Automating.IElements.html#TopSolid_Kernel_Automating_IElements_HasUniqueName_TopSolid_Kernel_Automating_ElementId_">HasUniqueName(ElementId)</a> returns <code>true</code> on that element) are found.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_SetColor_" data-uid="TopSolid.Kernel.Automating.IElements.SetColor*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_SetColor_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_Color_" data-uid="TopSolid.Kernel.Automating.IElements.SetColor(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.Color)">SetColor(ElementId, Color)</h4>
+  <div class="markdown level1 summary"><p>Sets the color of an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+void SetColor(ElementId inElementId, Color inColor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Color.html">Color</a></td>
+        <td><span class="parametername">inColor</span></td>
+        <td><p>New color of the element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_SetColor_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_Color__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_SetComment_" data-uid="TopSolid.Kernel.Automating.IElements.SetComment*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_SetComment_TopSolid_Kernel_Automating_ElementId_System_String_" data-uid="TopSolid.Kernel.Automating.IElements.SetComment(TopSolid.Kernel.Automating.ElementId,System.String)">SetComment(ElementId, String)</h4>
+  <div class="markdown level1 summary"><p>Sets the comment of an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+void SetComment(ElementId inElementId, string inComment)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inComment</span></td>
+        <td><p>New comment of the element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_SetComment_TopSolid_Kernel_Automating_ElementId_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_SetDescription_" data-uid="TopSolid.Kernel.Automating.IElements.SetDescription*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_SetDescription_TopSolid_Kernel_Automating_ElementId_System_String_" data-uid="TopSolid.Kernel.Automating.IElements.SetDescription(TopSolid.Kernel.Automating.ElementId,System.String)">SetDescription(ElementId, String)</h4>
+  <div class="markdown level1 summary"><p>Sets the description of an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+void SetDescription(ElementId inElementId, string inDescription)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inDescription</span></td>
+        <td><p>New description of the element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_SetDescription_TopSolid_Kernel_Automating_ElementId_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_SetName_" data-uid="TopSolid.Kernel.Automating.IElements.SetName*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_SetName_TopSolid_Kernel_Automating_ElementId_System_String_" data-uid="TopSolid.Kernel.Automating.IElements.SetName(TopSolid.Kernel.Automating.ElementId,System.String)">SetName(ElementId, String)</h4>
+  <div class="markdown level1 summary"><p>Sets the name of an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+void SetName(ElementId inElementId, string inName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inName</span></td>
+        <td><p>New name of the element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_SetName_TopSolid_Kernel_Automating_ElementId_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_SetTransparency_" data-uid="TopSolid.Kernel.Automating.IElements.SetTransparency*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_SetTransparency_TopSolid_Kernel_Automating_ElementId_System_Double_" data-uid="TopSolid.Kernel.Automating.IElements.SetTransparency(TopSolid.Kernel.Automating.ElementId,System.Double)">SetTransparency(ElementId, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the transparency of an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+void SetTransparency(ElementId inElementId, double inTransparency)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inTransparency</span></td>
+        <td><p>New transparency of the element within <code>[0,1]</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_SetTransparency_TopSolid_Kernel_Automating_ElementId_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>When the transparency is equal to <code>0</code>, the element is fully opaque.</p>
+<p>When the transparency is equal to <code>1</code>, the element is fully transparent.</p>
+<p>The transparency is internally rounded to discrete values, so getting the transparency afterwards will
+not necessarily return the same value than the one provided when setting it.</p>
+<p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  
+  
+  <a id="TopSolid_Kernel_Automating_IElements_Show_" data-uid="TopSolid.Kernel.Automating.IElements.Show*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IElements_Show_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IElements.Show(TopSolid.Kernel.Automating.ElementId)">Show(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Shows an element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+void Show(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to show.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IElements_Show_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
