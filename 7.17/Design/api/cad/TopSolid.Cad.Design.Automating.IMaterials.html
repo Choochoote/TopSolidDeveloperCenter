@@ -1,0 +1,2193 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IMaterials
+   | TopSolid Automation website </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IMaterials
+   | TopSolid Automation website ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../img/TopSolid_footer.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TopSolid.Cad.Design.Automating.IMaterials">
+  
+  
+  <h1 id="TopSolid_Cad_Design_Automating_IMaterials" data-uid="TopSolid.Cad.Design.Automating.IMaterials" class="text-break">Interface IMaterials
+  </h1>
+  <div class="markdown level0 summary"><p>Gives access to methods to read or write in a material document.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TopSolid.Cad.Design.Automating.html">TopSolid.Cad.Design.Automating</a></h6>
+  <h6><strong>Assembly</strong>: TopSolid.Cad.Design.Automating.dll</h6>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ServiceContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+public interface IMaterials</code></pre>
+  </div>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This interface is available since v7.16.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetAlbedoColor_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetAlbedoColor*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetAlbedoColor_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetAlbedoColor(TopSolid.Kernel.Automating.DocumentId)">GetAlbedoColor(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the Albado color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+Color GetAlbedoColor(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.Color.html">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetAlbedoColor_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetAlbedoTextureDocument_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetAlbedoTextureDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetAlbedoTextureDocument_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetAlbedoTextureDocument(TopSolid.Kernel.Automating.DocumentId)">GetAlbedoTextureDocument(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the Albado texture document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+DocumentId GetAlbedoTextureDocument(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetAlbedoTextureDocument_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetAmbientOcclusionFactor_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetAmbientOcclusionFactor*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetAmbientOcclusionFactor_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetAmbientOcclusionFactor(TopSolid.Kernel.Automating.DocumentId)">GetAmbientOcclusionFactor(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the Ambient Occlusion factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+double GetAmbientOcclusionFactor(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetAmbientOcclusionFactor_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetAmbientOcclusionTextureDocument_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetAmbientOcclusionTextureDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetAmbientOcclusionTextureDocument_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetAmbientOcclusionTextureDocument(TopSolid.Kernel.Automating.DocumentId)">GetAmbientOcclusionTextureDocument(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the Ambient Occlusion texture document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+DocumentId GetAmbientOcclusionTextureDocument(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetAmbientOcclusionTextureDocument_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetCategory_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetCategory*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetCategory_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetCategory(TopSolid.Kernel.Automating.DocumentId)">GetCategory(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the material category of a material document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+MaterialCategoryType GetCategory(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Cad.Design.Automating.MaterialCategoryType.html">MaterialCategoryType</a></td>
+        <td><p>The material category.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetCategory_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetDensity_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetDensity*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetDensity_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetDensity(TopSolid.Kernel.Automating.DocumentId)">GetDensity(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the material density.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+double GetDensity(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetDensity_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetHatchingDocument_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetHatchingDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetHatchingDocument_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetHatchingDocument(TopSolid.Kernel.Automating.DocumentId)">GetHatchingDocument(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the hatching document to a material document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+DocumentId GetHatchingDocument(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetHatchingDocument_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetMaterialApperanceInfo_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetMaterialApperanceInfo*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetMaterialApperanceInfo_TopSolid_Kernel_Automating_DocumentId_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetMaterialApperanceInfo(TopSolid.Kernel.Automating.DocumentId,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">GetMaterialApperanceInfo(DocumentId, Boolean, Boolean, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets the material apperance information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+void GetMaterialApperanceInfo(DocumentId inDocumentId, bool outReceiveShadows, bool outCastShadows, bool outFresnelReflection, bool outTransparentReflection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outReceiveShadows</span></td>
+        <td><p>Tells wether the material receive shadows.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outCastShadows</span></td>
+        <td><p>Tells wether the material cast shadows.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outFresnelReflection</span></td>
+        <td><p>Tells wether the material has a frenesl reflection.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outTransparentReflection</span></td>
+        <td><p>Tells wether the material has transparent reflection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetMaterialApperanceInfo_TopSolid_Kernel_Automating_DocumentId_System_Boolean_System_Boolean_System_Boolean_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetMaterialModel_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetMaterialModel*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetMaterialModel_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetMaterialModel(TopSolid.Kernel.Automating.DocumentId)">GetMaterialModel(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the material model of a material document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+MaterialModelType GetMaterialModel(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Cad.Design.Automating.MaterialModelType.html">MaterialModelType</a></td>
+        <td><p>The material model.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetMaterialModel_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetMetalnessFactor_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetMetalnessFactor*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetMetalnessFactor_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetMetalnessFactor(TopSolid.Kernel.Automating.DocumentId)">GetMetalnessFactor(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the Metalness factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+double GetMetalnessFactor(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetMetalnessFactor_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetMetalnessTextureDocument_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetMetalnessTextureDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetMetalnessTextureDocument_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetMetalnessTextureDocument(TopSolid.Kernel.Automating.DocumentId)">GetMetalnessTextureDocument(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the Metalness texture document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+DocumentId GetMetalnessTextureDocument(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetMetalnessTextureDocument_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetNormalFactor_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetNormalFactor*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetNormalFactor_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetNormalFactor(TopSolid.Kernel.Automating.DocumentId)">GetNormalFactor(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the Normal factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+double GetNormalFactor(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetNormalFactor_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetNormalTextureDocument_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetNormalTextureDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetNormalTextureDocument_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetNormalTextureDocument(TopSolid.Kernel.Automating.DocumentId)">GetNormalTextureDocument(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the Normal texture document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+DocumentId GetNormalTextureDocument(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetNormalTextureDocument_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetOpacityColor_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetOpacityColor*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetOpacityColor_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetOpacityColor(TopSolid.Kernel.Automating.DocumentId)">GetOpacityColor(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the Opacity color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+Color GetOpacityColor(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.Color.html">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetOpacityColor_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetOpacityTextureDocument_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetOpacityTextureDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetOpacityTextureDocument_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetOpacityTextureDocument(TopSolid.Kernel.Automating.DocumentId)">GetOpacityTextureDocument(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the Opacity texture document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+DocumentId GetOpacityTextureDocument(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetOpacityTextureDocument_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetRefractiveIndex_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetRefractiveIndex*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetRefractiveIndex_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetRefractiveIndex(TopSolid.Kernel.Automating.DocumentId)">GetRefractiveIndex(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the refractive index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+double GetRefractiveIndex(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetRefractiveIndex_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetRotation_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetRotation*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetRotation_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetRotation(TopSolid.Kernel.Automating.DocumentId)">GetRotation(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the rotation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+double GetRotation(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetRotation_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetRoughnessFactor_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetRoughnessFactor*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetRoughnessFactor_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetRoughnessFactor(TopSolid.Kernel.Automating.DocumentId)">GetRoughnessFactor(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the Roughness factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+double GetRoughnessFactor(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetRoughnessFactor_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetRoughnessTextureDocument_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetRoughnessTextureDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetRoughnessTextureDocument_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetRoughnessTextureDocument(TopSolid.Kernel.Automating.DocumentId)">GetRoughnessTextureDocument(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the Roughness texture document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+DocumentId GetRoughnessTextureDocument(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetRoughnessTextureDocument_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetScale_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetScale*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetScale_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetScale(TopSolid.Kernel.Automating.DocumentId)">GetScale(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the scale.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+double GetScale(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetScale_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetTransmissionGlossinessFactor_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetTransmissionGlossinessFactor*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetTransmissionGlossinessFactor_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetTransmissionGlossinessFactor(TopSolid.Kernel.Automating.DocumentId)">GetTransmissionGlossinessFactor(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the Transmission Glossiness factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+double GetTransmissionGlossinessFactor(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetTransmissionGlossinessFactor_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetTransmissionGlossinessTextureDocument_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetTransmissionGlossinessTextureDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetTransmissionGlossinessTextureDocument_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetTransmissionGlossinessTextureDocument(TopSolid.Kernel.Automating.DocumentId)">GetTransmissionGlossinessTextureDocument(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the Transmission Glossiness texture document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+DocumentId GetTransmissionGlossinessTextureDocument(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetTransmissionGlossinessTextureDocument_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetTransmissionScatteringColor_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetTransmissionScatteringColor*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetTransmissionScatteringColor_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetTransmissionScatteringColor(TopSolid.Kernel.Automating.DocumentId)">GetTransmissionScatteringColor(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the Transmission Scattering color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+Color GetTransmissionScatteringColor(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.Color.html">Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetTransmissionScatteringColor_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_GetTransmissionScatteringLength_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetTransmissionScatteringLength*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_GetTransmissionScatteringLength_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.GetTransmissionScatteringLength(TopSolid.Kernel.Automating.DocumentId)">GetTransmissionScatteringLength(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the Transmission Scattering length.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 400, 100)]
+double GetTransmissionScatteringLength(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_GetTransmissionScatteringLength_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetAlbedoColor_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetAlbedoColor*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetAlbedoColor_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Color_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetAlbedoColor(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.Color)">SetAlbedoColor(DocumentId, Color)</h4>
+  <div class="markdown level1 summary"><p>Sets the Albado color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetAlbedoColor(DocumentId inDocumentId, Color inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.Color.html">Color</a></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Wanted value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetAlbedoColor_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Color__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetAlbedoTextureDocument_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetAlbedoTextureDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetAlbedoTextureDocument_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetAlbedoTextureDocument(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.DocumentId)">SetAlbedoTextureDocument(DocumentId, DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Sets the Albado texture document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetAlbedoTextureDocument(DocumentId inDocumentId, DocumentId inTextureDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inTextureDocumentId</span></td>
+        <td><p>Texture document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetAlbedoTextureDocument_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetAmbientOcclusionFactor_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetAmbientOcclusionFactor*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetAmbientOcclusionFactor_TopSolid_Kernel_Automating_DocumentId_System_Double_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetAmbientOcclusionFactor(TopSolid.Kernel.Automating.DocumentId,System.Double)">SetAmbientOcclusionFactor(DocumentId, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the Ambient Occlusion factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetAmbientOcclusionFactor(DocumentId inDocumentId, double inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Wanted value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetAmbientOcclusionFactor_TopSolid_Kernel_Automating_DocumentId_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetAmbientOcclusionTextureDocument_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetAmbientOcclusionTextureDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetAmbientOcclusionTextureDocument_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetAmbientOcclusionTextureDocument(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.DocumentId)">SetAmbientOcclusionTextureDocument(DocumentId, DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Sets the Ambient Occlusion texture document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetAmbientOcclusionTextureDocument(DocumentId inDocumentId, DocumentId inTextureDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inTextureDocumentId</span></td>
+        <td><p>Texture document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetAmbientOcclusionTextureDocument_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetCategory_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetCategory*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetCategory_TopSolid_Kernel_Automating_DocumentId_TopSolid_Cad_Design_Automating_MaterialCategoryType_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetCategory(TopSolid.Kernel.Automating.DocumentId,TopSolid.Cad.Design.Automating.MaterialCategoryType)">SetCategory(DocumentId, MaterialCategoryType)</h4>
+  <div class="markdown level1 summary"><p>Sets the material category of a material document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetCategory(DocumentId inDocumentId, MaterialCategoryType inMaterialCategoryType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Cad.Design.Automating.MaterialCategoryType.html">MaterialCategoryType</a></td>
+        <td><span class="parametername">inMaterialCategoryType</span></td>
+        <td><p>The material category.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetCategory_TopSolid_Kernel_Automating_DocumentId_TopSolid_Cad_Design_Automating_MaterialCategoryType__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetDensity_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetDensity*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetDensity_TopSolid_Kernel_Automating_DocumentId_System_Double_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetDensity(TopSolid.Kernel.Automating.DocumentId,System.Double)">SetDensity(DocumentId, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the material density.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetDensity(DocumentId inDocumentId, double inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Wanted value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetDensity_TopSolid_Kernel_Automating_DocumentId_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetHatchingDocument_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetHatchingDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetHatchingDocument_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetHatchingDocument(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.DocumentId)">SetHatchingDocument(DocumentId, DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Sets the hatching document to a material document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetHatchingDocument(DocumentId inDocumentId, DocumentId inHatchingDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inHatchingDocumentId</span></td>
+        <td><p>The hatching document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetHatchingDocument_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetMaterialApperanceInfo_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetMaterialApperanceInfo*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetMaterialApperanceInfo_TopSolid_Kernel_Automating_DocumentId_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetMaterialApperanceInfo(TopSolid.Kernel.Automating.DocumentId,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">SetMaterialApperanceInfo(DocumentId, Boolean, Boolean, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets the material apperance information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetMaterialApperanceInfo(DocumentId inDocumentId, bool inReceiveShadows, bool inCastShadows, bool inFresnelReflection, bool inTransparentReflection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inReceiveShadows</span></td>
+        <td><p>Tells wether the material receive shadows.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inCastShadows</span></td>
+        <td><p>Tells wether the material cast shadows.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inFresnelReflection</span></td>
+        <td><p>Tells wether the material has a frenesl reflection.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inTransparentReflection</span></td>
+        <td><p>Tells wether the material has transparent reflection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetMaterialApperanceInfo_TopSolid_Kernel_Automating_DocumentId_System_Boolean_System_Boolean_System_Boolean_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetMetalnessFactor_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetMetalnessFactor*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetMetalnessFactor_TopSolid_Kernel_Automating_DocumentId_System_Double_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetMetalnessFactor(TopSolid.Kernel.Automating.DocumentId,System.Double)">SetMetalnessFactor(DocumentId, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the Metalness factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetMetalnessFactor(DocumentId inDocumentId, double inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Wanted value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetMetalnessFactor_TopSolid_Kernel_Automating_DocumentId_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetMetalnessTextureDocument_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetMetalnessTextureDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetMetalnessTextureDocument_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetMetalnessTextureDocument(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.DocumentId)">SetMetalnessTextureDocument(DocumentId, DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Sets the Metalness texture document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetMetalnessTextureDocument(DocumentId inDocumentId, DocumentId inTextureDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inTextureDocumentId</span></td>
+        <td><p>Texture document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetMetalnessTextureDocument_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetNormalFactor_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetNormalFactor*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetNormalFactor_TopSolid_Kernel_Automating_DocumentId_System_Double_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetNormalFactor(TopSolid.Kernel.Automating.DocumentId,System.Double)">SetNormalFactor(DocumentId, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the Normal factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetNormalFactor(DocumentId inDocumentId, double inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Wanted value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetNormalFactor_TopSolid_Kernel_Automating_DocumentId_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetNormalTextureDocument_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetNormalTextureDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetNormalTextureDocument_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetNormalTextureDocument(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.DocumentId)">SetNormalTextureDocument(DocumentId, DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Sets the Normal texture document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetNormalTextureDocument(DocumentId inDocumentId, DocumentId inTextureDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inTextureDocumentId</span></td>
+        <td><p>Texture document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetNormalTextureDocument_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetOpacityColor_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetOpacityColor*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetOpacityColor_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Color_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetOpacityColor(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.Color)">SetOpacityColor(DocumentId, Color)</h4>
+  <div class="markdown level1 summary"><p>Sets the Opacity color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetOpacityColor(DocumentId inDocumentId, Color inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.Color.html">Color</a></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Wanted value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetOpacityColor_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Color__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetOpacityTextureDocument_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetOpacityTextureDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetOpacityTextureDocument_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetOpacityTextureDocument(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.DocumentId)">SetOpacityTextureDocument(DocumentId, DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Sets the Opacity texture document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetOpacityTextureDocument(DocumentId inDocumentId, DocumentId inTextureDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inTextureDocumentId</span></td>
+        <td><p>Texture document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetOpacityTextureDocument_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetRefractiveIndex_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetRefractiveIndex*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetRefractiveIndex_TopSolid_Kernel_Automating_DocumentId_System_Double_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetRefractiveIndex(TopSolid.Kernel.Automating.DocumentId,System.Double)">SetRefractiveIndex(DocumentId, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the refractive index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetRefractiveIndex(DocumentId inDocumentId, double inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Wanted value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetRefractiveIndex_TopSolid_Kernel_Automating_DocumentId_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetRotation_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetRotation*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetRotation_TopSolid_Kernel_Automating_DocumentId_System_Double_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetRotation(TopSolid.Kernel.Automating.DocumentId,System.Double)">SetRotation(DocumentId, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the rotation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetRotation(DocumentId inDocumentId, double inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Wanted value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetRotation_TopSolid_Kernel_Automating_DocumentId_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetRoughnessFactor_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetRoughnessFactor*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetRoughnessFactor_TopSolid_Kernel_Automating_DocumentId_System_Double_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetRoughnessFactor(TopSolid.Kernel.Automating.DocumentId,System.Double)">SetRoughnessFactor(DocumentId, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the Roughness factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetRoughnessFactor(DocumentId inDocumentId, double inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Wanted value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetRoughnessFactor_TopSolid_Kernel_Automating_DocumentId_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetRoughnessTextureDocument_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetRoughnessTextureDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetRoughnessTextureDocument_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetRoughnessTextureDocument(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.DocumentId)">SetRoughnessTextureDocument(DocumentId, DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Sets the Roughness texture document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetRoughnessTextureDocument(DocumentId inDocumentId, DocumentId inTextureDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inTextureDocumentId</span></td>
+        <td><p>Texture document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetRoughnessTextureDocument_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetScale_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetScale*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetScale_TopSolid_Kernel_Automating_DocumentId_System_Double_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetScale(TopSolid.Kernel.Automating.DocumentId,System.Double)">SetScale(DocumentId, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the scale.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetScale(DocumentId inDocumentId, double inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Wanted value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetScale_TopSolid_Kernel_Automating_DocumentId_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetTransmissionGlossinessFactor_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetTransmissionGlossinessFactor*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetTransmissionGlossinessFactor_TopSolid_Kernel_Automating_DocumentId_System_Double_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetTransmissionGlossinessFactor(TopSolid.Kernel.Automating.DocumentId,System.Double)">SetTransmissionGlossinessFactor(DocumentId, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the Transmission Glossiness factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetTransmissionGlossinessFactor(DocumentId inDocumentId, double inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Wanted value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetTransmissionGlossinessFactor_TopSolid_Kernel_Automating_DocumentId_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetTransmissionGlossinessTextureDocument_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetTransmissionGlossinessTextureDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetTransmissionGlossinessTextureDocument_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetTransmissionGlossinessTextureDocument(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.DocumentId)">SetTransmissionGlossinessTextureDocument(DocumentId, DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Sets the Transmission Glossiness texture document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetTransmissionGlossinessTextureDocument(DocumentId inDocumentId, DocumentId inTextureDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inTextureDocumentId</span></td>
+        <td><p>Texture document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetTransmissionGlossinessTextureDocument_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetTransmissionScatteringColor_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetTransmissionScatteringColor*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetTransmissionScatteringColor_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Color_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetTransmissionScatteringColor(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.Color)">SetTransmissionScatteringColor(DocumentId, Color)</h4>
+  <div class="markdown level1 summary"><p>Sets the Transmission Scattering color.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetTransmissionScatteringColor(DocumentId inDocumentId, Color inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.Color.html">Color</a></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Wanted color.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetTransmissionScatteringColor_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Color__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_IMaterials_SetTransmissionScatteringLength_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetTransmissionScatteringLength*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_IMaterials_SetTransmissionScatteringLength_TopSolid_Kernel_Automating_DocumentId_System_Double_" data-uid="TopSolid.Cad.Design.Automating.IMaterials.SetTransmissionScatteringLength(TopSolid.Kernel.Automating.DocumentId,System.Double)">SetTransmissionScatteringLength(DocumentId, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the Transmission Scattering length.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+void SetTransmissionScatteringLength(DocumentId inDocumentId, double inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Wanted value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_IMaterials_SetTransmissionScatteringLength_TopSolid_Kernel_Automating_DocumentId_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div id="footer-alt">
+              <div class="container">
+                  <div id="footer-alt-bottom">
+                      <ul>
+                          <li><a href="#">Mentions légales</a></li>
+                          <li><a href="#">Plan du site</a></li>
+                          <li><a href="#">C.G.U</a></li>
+                          <li><a href="#">Données personnelles</a></li>
+                      </ul>
+                      <p>Copyright © 2024 TopSolid Tous droits réservés</p>
+                  </div>
+              </div>
+          </div>
+        </footer></div>
+      
+    
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

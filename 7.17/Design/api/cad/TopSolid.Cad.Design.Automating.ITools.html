@@ -1,0 +1,1858 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface ITools
+   | TopSolid Automation website </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface ITools
+   | TopSolid Automation website ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../img/TopSolid_footer.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TopSolid.Cad.Design.Automating.ITools">
+  
+  
+  <h1 id="TopSolid_Cad_Design_Automating_ITools" data-uid="TopSolid.Cad.Design.Automating.ITools" class="text-break">Interface ITools
+  </h1>
+  <div class="markdown level0 summary"><p>Gives access to various tools.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TopSolid.Cad.Design.Automating.html">TopSolid.Cad.Design.Automating</a></h6>
+  <h6><strong>Assembly</strong>: TopSolid.Cad.Design.Automating.dll</h6>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ServiceContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+public interface ITools</code></pre>
+  </div>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This interface is available since v7.10.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="TopSolid_Cad_Design_Automating_ITools_CreateAuxiliairyElement_" data-uid="TopSolid.Cad.Design.Automating.ITools.CreateAuxiliairyElement*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_CreateAuxiliairyElement_TopSolid_Kernel_Automating_DocumentId_System_Collections_Generic_List_TopSolid_Kernel_Automating_ElementId__" data-uid="TopSolid.Cad.Design.Automating.ITools.CreateAuxiliairyElement(TopSolid.Kernel.Automating.DocumentId,System.Collections.Generic.List{TopSolid.Kernel.Automating.ElementId})">CreateAuxiliairyElement(DocumentId, List&lt;ElementId&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates an auxiliairy element in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 13, 0, 0)]
+ElementId CreateAuxiliairyElement(DocumentId inDocumentId, List&lt;ElementId&gt; inConstituents)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><span class="parametername">inConstituents</span></td>
+        <td><p>Identifiers of constituents of the auxiliairy element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created auxiliairy entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_CreateAuxiliairyElement_TopSolid_Kernel_Automating_DocumentId_System_Collections_Generic_List_TopSolid_Kernel_Automating_ElementId___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.13.300.128.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_CreateDerivedDocument_" data-uid="TopSolid.Cad.Design.Automating.ITools.CreateDerivedDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_CreateDerivedDocument_TopSolid_Kernel_Automating_PdmObjectId_TopSolid_Kernel_Automating_DocumentId_System_Boolean_" data-uid="TopSolid.Cad.Design.Automating.ITools.CreateDerivedDocument(TopSolid.Kernel.Automating.PdmObjectId,TopSolid.Kernel.Automating.DocumentId,System.Boolean)">CreateDerivedDocument(PdmObjectId, DocumentId, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates a new derived part or assembly of a specified part or assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+DocumentId CreateDerivedDocument(PdmObjectId inOwnerId, DocumentId inDocumentId, bool inUseDefaultTemplate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.PdmObjectId.html">PdmObjectId</a></td>
+        <td><span class="parametername">inOwnerId</span></td>
+        <td><p>Identifier of owner.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the part or assembly document to derive.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inUseDefaultTemplate</span></td>
+        <td><p>Tells whether to use the default template if present.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><p>Derived part or assembly document identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_CreateDerivedDocument_TopSolid_Kernel_Automating_PdmObjectId_TopSolid_Kernel_Automating_DocumentId_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method must not be called between <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_EndModification_System_Boolean_System_Boolean_">EndModification(Boolean, Boolean)</a>
+methods calls.</p>
+<p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_CreateMirrorDocument_" data-uid="TopSolid.Cad.Design.Automating.ITools.CreateMirrorDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_CreateMirrorDocument_TopSolid_Kernel_Automating_PdmObjectId_TopSolid_Kernel_Automating_DocumentId_System_Boolean_" data-uid="TopSolid.Cad.Design.Automating.ITools.CreateMirrorDocument(TopSolid.Kernel.Automating.PdmObjectId,TopSolid.Kernel.Automating.DocumentId,System.Boolean)">CreateMirrorDocument(PdmObjectId, DocumentId, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates the derived mirror part or assembly of a specified part or assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+DocumentId CreateMirrorDocument(PdmObjectId inOwnerId, DocumentId inDocumentId, bool inUseDefaultTemplate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.PdmObjectId.html">PdmObjectId</a></td>
+        <td><span class="parametername">inOwnerId</span></td>
+        <td><p>Identifier of owner.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the part or assembly document to derive.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inUseDefaultTemplate</span></td>
+        <td><p>Tells whether to use the default template if present.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><p>Derived mirror part or assembly document identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_CreateMirrorDocument_TopSolid_Kernel_Automating_PdmObjectId_TopSolid_Kernel_Automating_DocumentId_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If the specified part or assembly already has a symmetrical document (i.e. the method <a class="xref" href="TopSolid.Cad.Design.Automating.ITools.html#TopSolid_Cad_Design_Automating_ITools_SearchSymmetricalDocument_TopSolid_Kernel_Automating_DocumentId_">SearchSymmetricalDocument(DocumentId)</a> does not
+return <a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html#TopSolid_Kernel_Automating_DocumentId_Empty">Empty</a>), it is not allowed to create a derived mirror document, and this method throws an exception.</p>
+<p>This method must not be called between <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_EndModification_System_Boolean_System_Boolean_">EndModification(Boolean, Boolean)</a>
+methods calls.</p>
+<p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_CreatePlaneSymmetry_" data-uid="TopSolid.Cad.Design.Automating.ITools.CreatePlaneSymmetry*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_CreatePlaneSymmetry_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_SmartPlane3D_" data-uid="TopSolid.Cad.Design.Automating.ITools.CreatePlaneSymmetry(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.SmartPlane3D)">CreatePlaneSymmetry(DocumentId, SmartPlane3D)</h4>
+  <div class="markdown level1 summary"><p>Creates a plane symmetry.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+ElementId CreatePlaneSymmetry(DocumentId inDocumentId, SmartPlane3D inPlane)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartPlane3D.html">SmartPlane3D</a></td>
+        <td><span class="parametername">inPlane</span></td>
+        <td><p>Symmetry plane.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created symmetry entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_CreatePlaneSymmetry_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_SmartPlane3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_CreateRevolutionSymmetry_" data-uid="TopSolid.Cad.Design.Automating.ITools.CreateRevolutionSymmetry*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_CreateRevolutionSymmetry_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_SmartAxis3D_" data-uid="TopSolid.Cad.Design.Automating.ITools.CreateRevolutionSymmetry(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.SmartAxis3D)">CreateRevolutionSymmetry(DocumentId, SmartAxis3D)</h4>
+  <div class="markdown level1 summary"><p>Creates a revolution symmetry.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+ElementId CreateRevolutionSymmetry(DocumentId inDocumentId, SmartAxis3D inAxis)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartAxis3D.html">SmartAxis3D</a></td>
+        <td><span class="parametername">inAxis</span></td>
+        <td><p>Rotation and translation axis.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created symmetry entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_CreateRevolutionSymmetry_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_SmartAxis3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_GetBaseDocument_" data-uid="TopSolid.Cad.Design.Automating.ITools.GetBaseDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_GetBaseDocument_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.ITools.GetBaseDocument(TopSolid.Kernel.Automating.DocumentId)">GetBaseDocument(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the base part or assembly of a derived part or assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+DocumentId GetBaseDocument(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the derived part or assembly document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><p>Base part or assembly document identifier, or empty if the part or assembly is not derived.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_GetBaseDocument_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_GetDerivationInheritances_" data-uid="TopSolid.Cad.Design.Automating.ITools.GetDerivationInheritances*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_GetDerivationInheritances_TopSolid_Kernel_Automating_DocumentId_System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Collections_Generic_List_TopSolid_Kernel_Automating_ElementId___System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__" data-uid="TopSolid.Cad.Design.Automating.ITools.GetDerivationInheritances(TopSolid.Kernel.Automating.DocumentId,System.Boolean@,System.Boolean@,System.Boolean@,System.Boolean@,System.Boolean@,System.Boolean@,System.Boolean@,System.Boolean@,System.Collections.Generic.List{TopSolid.Kernel.Automating.ElementId}@,System.Boolean@,System.Boolean@,System.Boolean@,System.Boolean@,System.Boolean@,System.Boolean@,System.Boolean@,System.Boolean@,System.Boolean@,System.Boolean@,System.Boolean@,System.Boolean@,System.Boolean@,System.Boolean@)">GetDerivationInheritances(DocumentId, out Boolean, out Boolean, out Boolean, out Boolean, out Boolean, out Boolean, out Boolean, out Boolean, out List&lt;ElementId&gt;, out Boolean, out Boolean, out Boolean, out Boolean, out Boolean, out Boolean, out Boolean, out Boolean, out Boolean, out Boolean, out Boolean, out Boolean, out Boolean, out Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets the derivation inheritances of a derived part or assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+void GetDerivationInheritances(DocumentId inDocumentId, out bool outName, out bool outDescription, out bool outCode, out bool outPartNumber, out bool outComplementaryPartNumber, out bool outManufacturer, out bool outManufacturerPartNumber, out bool outComment, out List&lt;ElementId&gt; outOtherSystemParameters, out bool outNonSystemParameters, out bool outPoints, out bool outAxes, out bool outPlanes, out bool outFrames, out bool outSketches, out bool outShapes, out bool outPublishings, out bool outFunctions, out bool outSymmetries, out bool outUnsectionabilities, out bool outRepresentations, out bool outSets, out bool outCameras)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of derived part or assembly document to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outName</span></td>
+        <td><p>Inherits name from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outDescription</span></td>
+        <td><p>Inherits description from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outCode</span></td>
+        <td><p>Inherits code from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outPartNumber</span></td>
+        <td><p>Inherits part number from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outComplementaryPartNumber</span></td>
+        <td><p>Inherits complementary part number from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outManufacturer</span></td>
+        <td><p>Inherits complementary manufacturer from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outManufacturerPartNumber</span></td>
+        <td><p>Inherits manufacturer part number from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outComment</span></td>
+        <td><p>Inherits comment from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><span class="parametername">outOtherSystemParameters</span></td>
+        <td><p>Identifiers of other base document system parameters to inherit.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outNonSystemParameters</span></td>
+        <td><p>Inherits non-system parameters from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outPoints</span></td>
+        <td><p>Inherits points from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outAxes</span></td>
+        <td><p>Inherits axes from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outPlanes</span></td>
+        <td><p>Inherits planes from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outFrames</span></td>
+        <td><p>Inherits frames from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outSketches</span></td>
+        <td><p>Inherits sketches from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outShapes</span></td>
+        <td><p>Inherits shapes from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outPublishings</span></td>
+        <td><p>Inherits publishings from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outFunctions</span></td>
+        <td><p>Inherits functions from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outSymmetries</span></td>
+        <td><p>Inherits symmetries from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outUnsectionabilities</span></td>
+        <td><p>Inherits unsectionabilities from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outRepresentations</span></td>
+        <td><p>Inherits representations from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outSets</span></td>
+        <td><p>Inherits sets from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">outCameras</span></td>
+        <td><p>Inherits cameras from base.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_GetDerivationInheritances_TopSolid_Kernel_Automating_DocumentId_System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Collections_Generic_List_TopSolid_Kernel_Automating_ElementId___System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean__System_Boolean___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_GetInstanceFamilyDocument_" data-uid="TopSolid.Cad.Design.Automating.ITools.GetInstanceFamilyDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_GetInstanceFamilyDocument_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.ITools.GetInstanceFamilyDocument(TopSolid.Kernel.Automating.DocumentId)">GetInstanceFamilyDocument(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the family document of an instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 17, 0, 0)]
+DocumentId GetInstanceFamilyDocument(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the instance document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><p>The family document, return <a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html#TopSolid_Kernel_Automating_DocumentId_Empty">Empty</a> if there is no family document or if inDOcument is not an instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_GetInstanceFamilyDocument_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.17.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_GetPlaneSymmetry_" data-uid="TopSolid.Cad.Design.Automating.ITools.GetPlaneSymmetry*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_GetPlaneSymmetry_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartPlane3D__" data-uid="TopSolid.Cad.Design.Automating.ITools.GetPlaneSymmetry(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.SmartPlane3D@)">GetPlaneSymmetry(ElementId, out SmartPlane3D)</h4>
+  <div class="markdown level1 summary"><p>Gets a plane symmetry.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+void GetPlaneSymmetry(ElementId inElementId, out SmartPlane3D outPlane)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the symmetry to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartPlane3D.html">SmartPlane3D</a></td>
+        <td><span class="parametername">outPlane</span></td>
+        <td><p>Symmetry plane.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_GetPlaneSymmetry_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartPlane3D___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_GetRevolutionSymmetry_" data-uid="TopSolid.Cad.Design.Automating.ITools.GetRevolutionSymmetry*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_GetRevolutionSymmetry_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartAxis3D__" data-uid="TopSolid.Cad.Design.Automating.ITools.GetRevolutionSymmetry(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.SmartAxis3D@)">GetRevolutionSymmetry(ElementId, out SmartAxis3D)</h4>
+  <div class="markdown level1 summary"><p>Gets a revolution symmetry.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+void GetRevolutionSymmetry(ElementId inElementId, out SmartAxis3D outAxis)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the symmetry to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartAxis3D.html">SmartAxis3D</a></td>
+        <td><span class="parametername">outAxis</span></td>
+        <td><p>Symmetry axis.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_GetRevolutionSymmetry_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartAxis3D___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_GetStockManagement_" data-uid="TopSolid.Cad.Design.Automating.ITools.GetStockManagement*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_GetStockManagement_TopSolid_Kernel_Automating_DocumentId_TopSolid_Cad_Design_Automating_StockManagementType__TopSolid_Kernel_Automating_DocumentId__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_SmartText__TopSolid_Kernel_Automating_SmartText__TopSolid_Kernel_Automating_SmartText__TopSolid_Kernel_Automating_SmartText__" data-uid="TopSolid.Cad.Design.Automating.ITools.GetStockManagement(TopSolid.Kernel.Automating.DocumentId,TopSolid.Cad.Design.Automating.StockManagementType@,TopSolid.Kernel.Automating.DocumentId@,TopSolid.Kernel.Automating.ElementId@,TopSolid.Kernel.Automating.SmartText@,TopSolid.Kernel.Automating.SmartText@,TopSolid.Kernel.Automating.SmartText@,TopSolid.Kernel.Automating.SmartText@)">GetStockManagement(DocumentId, out StockManagementType, out DocumentId, out ElementId, out SmartText, out SmartText, out SmartText, out SmartText)</h4>
+  <div class="markdown level1 summary"><p>Superseeded by <a class="xref" href="TopSolid.Cad.Design.Automating.ITools.html#TopSolid_Cad_Design_Automating_ITools_GetStockManagement2_TopSolid_Kernel_Automating_DocumentId_TopSolid_Cad_Design_Automating_StockManagementType__TopSolid_Kernel_Automating_DocumentId__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_SmartText__TopSolid_Kernel_Automating_SmartText__TopSolid_Kernel_Automating_SmartText__TopSolid_Kernel_Automating_SmartText__TopSolid_Kernel_Automating_SmartText__">GetStockManagement2(DocumentId, out StockManagementType, out DocumentId, out ElementId, out SmartText, out SmartText, out SmartText, out SmartText, out SmartText)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+void GetStockManagement(DocumentId inDocumentId, out StockManagementType outType, out DocumentId outStockDocumentId, out ElementId outStockOccurrenceId, out SmartText outStockName, out SmartText outStockDescription, out SmartText outStockPartNumber, out SmartText outStockMajorRevision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of part or assembly document to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html">StockManagementType</a></td>
+        <td><span class="parametername">outType</span></td>
+        <td><p>Type of management.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">outStockDocumentId</span></td>
+        <td><p>Stock document identifier, or empty if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Document">Document</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">outStockOccurrenceId</span></td>
+        <td><p>Stock occurrence identifier, or empty if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Occurrence">Occurrence</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartText.html">SmartText</a></td>
+        <td><span class="parametername">outStockName</span></td>
+        <td><p>Stock name, or null if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Manual">Manual</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartText.html">SmartText</a></td>
+        <td><span class="parametername">outStockDescription</span></td>
+        <td><p>Stock description, or null if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Manual">Manual</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartText.html">SmartText</a></td>
+        <td><span class="parametername">outStockPartNumber</span></td>
+        <td><p>Stock part number, or null if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Manual">Manual</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartText.html">SmartText</a></td>
+        <td><span class="parametername">outStockMajorRevision</span></td>
+        <td><p>Stock major revision, or null if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Manual">Manual</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_GetStockManagement_TopSolid_Kernel_Automating_DocumentId_TopSolid_Cad_Design_Automating_StockManagementType__TopSolid_Kernel_Automating_DocumentId__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_SmartText__TopSolid_Kernel_Automating_SmartText__TopSolid_Kernel_Automating_SmartText__TopSolid_Kernel_Automating_SmartText___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_GetStockManagement2_" data-uid="TopSolid.Cad.Design.Automating.ITools.GetStockManagement2*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_GetStockManagement2_TopSolid_Kernel_Automating_DocumentId_TopSolid_Cad_Design_Automating_StockManagementType__TopSolid_Kernel_Automating_DocumentId__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_SmartText__TopSolid_Kernel_Automating_SmartText__TopSolid_Kernel_Automating_SmartText__TopSolid_Kernel_Automating_SmartText__TopSolid_Kernel_Automating_SmartText__" data-uid="TopSolid.Cad.Design.Automating.ITools.GetStockManagement2(TopSolid.Kernel.Automating.DocumentId,TopSolid.Cad.Design.Automating.StockManagementType@,TopSolid.Kernel.Automating.DocumentId@,TopSolid.Kernel.Automating.ElementId@,TopSolid.Kernel.Automating.SmartText@,TopSolid.Kernel.Automating.SmartText@,TopSolid.Kernel.Automating.SmartText@,TopSolid.Kernel.Automating.SmartText@,TopSolid.Kernel.Automating.SmartText@)">GetStockManagement2(DocumentId, out StockManagementType, out DocumentId, out ElementId, out SmartText, out SmartText, out SmartText, out SmartText, out SmartText)</h4>
+  <div class="markdown level1 summary"><p>Gets the stock management of a part or assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 11, 0, 0)]
+void GetStockManagement2(DocumentId inDocumentId, out StockManagementType outType, out DocumentId outStockDocumentId, out ElementId outStockOccurrenceId, out SmartText outStockName, out SmartText outStockDescription, out SmartText outStockPartNumber, out SmartText outStockMajorRevision, out SmartText outStockDimensions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of part or assembly document to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html">StockManagementType</a></td>
+        <td><span class="parametername">outType</span></td>
+        <td><p>Type of management.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">outStockDocumentId</span></td>
+        <td><p>Stock document identifier, or empty if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Document">Document</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">outStockOccurrenceId</span></td>
+        <td><p>Stock occurrence identifier, or empty if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Occurrence">Occurrence</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartText.html">SmartText</a></td>
+        <td><span class="parametername">outStockName</span></td>
+        <td><p>Stock name, or null if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Manual">Manual</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartText.html">SmartText</a></td>
+        <td><span class="parametername">outStockDescription</span></td>
+        <td><p>Stock description, or null if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Manual">Manual</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartText.html">SmartText</a></td>
+        <td><span class="parametername">outStockPartNumber</span></td>
+        <td><p>Stock part number, or null if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Manual">Manual</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartText.html">SmartText</a></td>
+        <td><span class="parametername">outStockMajorRevision</span></td>
+        <td><p>Stock major revision, or null if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Manual">Manual</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartText.html">SmartText</a></td>
+        <td><span class="parametername">outStockDimensions</span></td>
+        <td><p>Stock dimensions, or null if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Manual">Manual</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_GetStockManagement2_TopSolid_Kernel_Automating_DocumentId_TopSolid_Cad_Design_Automating_StockManagementType__TopSolid_Kernel_Automating_DocumentId__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_SmartText__TopSolid_Kernel_Automating_SmartText__TopSolid_Kernel_Automating_SmartText__TopSolid_Kernel_Automating_SmartText__TopSolid_Kernel_Automating_SmartText___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.11.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_GetStockParameters_" data-uid="TopSolid.Cad.Design.Automating.ITools.GetStockParameters*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_GetStockParameters_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_ElementId__" data-uid="TopSolid.Cad.Design.Automating.ITools.GetStockParameters(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.ElementId@,TopSolid.Kernel.Automating.ElementId@,TopSolid.Kernel.Automating.ElementId@,TopSolid.Kernel.Automating.ElementId@)">GetStockParameters(DocumentId, out ElementId, out ElementId, out ElementId, out ElementId)</h4>
+  <div class="markdown level1 summary"><p>Superseeded by <a class="xref" href="TopSolid.Cad.Design.Automating.ITools.html#TopSolid_Cad_Design_Automating_ITools_GetStockParameters2_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_ElementId__">GetStockParameters2(DocumentId, out ElementId, out ElementId, out ElementId, out ElementId, out ElementId)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+void GetStockParameters(DocumentId inDocumentId, out ElementId outStockName, out ElementId outStockDescription, out ElementId outStockPartNumber, out ElementId outStockMajorRevision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of part or assembly document to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">outStockName</span></td>
+        <td><p>Stock name text parameter entity identifier, or empty if not managed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">outStockDescription</span></td>
+        <td><p>Stock description text parameter entity identifier, or empty if not managed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">outStockPartNumber</span></td>
+        <td><p>Stock part number text parameter entity identifier, or empty if not managed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">outStockMajorRevision</span></td>
+        <td><p>Stock major revision text parameter entity identifier, or empty if not managed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_GetStockParameters_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_ElementId___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_GetStockParameters2_" data-uid="TopSolid.Cad.Design.Automating.ITools.GetStockParameters2*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_GetStockParameters2_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_ElementId__" data-uid="TopSolid.Cad.Design.Automating.ITools.GetStockParameters2(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.ElementId@,TopSolid.Kernel.Automating.ElementId@,TopSolid.Kernel.Automating.ElementId@,TopSolid.Kernel.Automating.ElementId@,TopSolid.Kernel.Automating.ElementId@)">GetStockParameters2(DocumentId, out ElementId, out ElementId, out ElementId, out ElementId, out ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the stock parameters of a part or assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 11, 0, 0)]
+void GetStockParameters2(DocumentId inDocumentId, out ElementId outStockName, out ElementId outStockDescription, out ElementId outStockPartNumber, out ElementId outStockMajorRevision, out ElementId outStockDimensions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of part or assembly document to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">outStockName</span></td>
+        <td><p>Stock name text parameter entity identifier, or empty if not managed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">outStockDescription</span></td>
+        <td><p>Stock description text parameter entity identifier, or empty if not managed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">outStockPartNumber</span></td>
+        <td><p>Stock part number text parameter entity identifier, or empty if not managed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">outStockMajorRevision</span></td>
+        <td><p>Stock major revision text parameter entity identifier, or empty if not managed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">outStockDimensions</span></td>
+        <td><p>Stock dimensions text parameter entity identifier, or empty if not managed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_GetStockParameters2_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_ElementId___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.11.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_GetSymmetries_" data-uid="TopSolid.Cad.Design.Automating.ITools.GetSymmetries*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_GetSymmetries_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.ITools.GetSymmetries(TopSolid.Kernel.Automating.DocumentId)">GetSymmetries(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the symmetry entities that are in the symmetries folder of a part or assembly document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+List&lt;ElementId&gt; GetSymmetries(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><p>Symmetries entities found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_GetSymmetries_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_GetSymmetryType_" data-uid="TopSolid.Cad.Design.Automating.ITools.GetSymmetryType*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_GetSymmetryType_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Cad.Design.Automating.ITools.GetSymmetryType(TopSolid.Kernel.Automating.ElementId)">GetSymmetryType(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the type of a symmetry entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+SymmetryType GetSymmetryType(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Cad.Design.Automating.SymmetryType.html">SymmetryType</a></td>
+        <td><p>Type of the symmetry, or <a class="xref" href="TopSolid.Cad.Design.Automating.SymmetryType.html#TopSolid_Cad_Design_Automating_SymmetryType_None">None</a> if the element is not a symmetry entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_GetSymmetryType_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_InheritDetailingsElements_" data-uid="TopSolid.Cad.Design.Automating.ITools.InheritDetailingsElements*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_InheritDetailingsElements_TopSolid_Kernel_Automating_ElementId_TopSolid_Cad_Design_Automating_EntityCopyNameMode_System_String_" data-uid="TopSolid.Cad.Design.Automating.ITools.InheritDetailingsElements(TopSolid.Kernel.Automating.ElementId,TopSolid.Cad.Design.Automating.EntityCopyNameMode,System.String)">InheritDetailingsElements(ElementId, EntityCopyNameMode, String)</h4>
+  <div class="markdown level1 summary"><p>Inherits the detailings elements of a node enttiy.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 16, 0, 0)]
+ElementId InheritDetailingsElements(ElementId inElementToInheritDetailings, EntityCopyNameMode inEntityCopyNameMode, string inPrefixName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementToInheritDetailings</span></td>
+        <td><p>Identifier of the element to inherit.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Cad.Design.Automating.EntityCopyNameMode.html">EntityCopyNameMode</a></td>
+        <td><span class="parametername">inEntityCopyNameMode</span></td>
+        <td><p>The entity copy name mode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inPrefixName</span></td>
+        <td><p>Prefix of the name of the created entity (only in PrefixedByCustomPrefix mode).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created detailing elements inheriting operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_InheritDetailingsElements_TopSolid_Kernel_Automating_ElementId_TopSolid_Cad_Design_Automating_EntityCopyNameMode_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_IsDerived_" data-uid="TopSolid.Cad.Design.Automating.ITools.IsDerived*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_IsDerived_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.ITools.IsDerived(TopSolid.Kernel.Automating.DocumentId)">IsDerived(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether part or assembly is a derived part or assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+bool IsDerived(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the part or assembly document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The part or assembly is a derived part or assembly.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_IsDerived_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_IsMirror_" data-uid="TopSolid.Cad.Design.Automating.ITools.IsMirror*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_IsMirror_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.ITools.IsMirror(TopSolid.Kernel.Automating.DocumentId)">IsMirror(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether part or assembly is a derived mirror.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+bool IsMirror(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the part or assembly document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The part or assembly is a derived mirror.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_IsMirror_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_IsSymmetrical_" data-uid="TopSolid.Cad.Design.Automating.ITools.IsSymmetrical*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_IsSymmetrical_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.ITools.IsSymmetrical(TopSolid.Kernel.Automating.DocumentId)">IsSymmetrical(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether part or assembly is symmetrical.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+bool IsSymmetrical(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the part or assembly document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The part or assembly is symmetrical.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_IsSymmetrical_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>A part or assembly is symmetrical if it contains at least one symmetry entity.</p>
+<p>Symmetrical parts and assemblies are not replaced by mirror parts or assemblies when making a mirror assembly
+of an assembly in which they are included.</p>
+<p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_SearchMirrorDocument_" data-uid="TopSolid.Cad.Design.Automating.ITools.SearchMirrorDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_SearchMirrorDocument_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.ITools.SearchMirrorDocument(TopSolid.Kernel.Automating.DocumentId)">SearchMirrorDocument(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Searches for the derived mirror part or assembly of a specified part or assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+DocumentId SearchMirrorDocument(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the part or assembly document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><p>Derived mirror part or assembly found, or <a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html#TopSolid_Kernel_Automating_DocumentId_Empty">Empty</a> if not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_SearchMirrorDocument_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_SearchSymmetricalDocument_" data-uid="TopSolid.Cad.Design.Automating.ITools.SearchSymmetricalDocument*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_SearchSymmetricalDocument_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Cad.Design.Automating.ITools.SearchSymmetricalDocument(TopSolid.Kernel.Automating.DocumentId)">SearchSymmetricalDocument(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Searches for the symmetrical part or assembly of a specified part or assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+DocumentId SearchSymmetricalDocument(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the part or assembly document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><p>Symmetrical part or assembly found, or <a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html#TopSolid_Kernel_Automating_DocumentId_Empty">Empty</a> if not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_SearchSymmetricalDocument_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If the specified part or assembly is symmetrical (i.e. <a class="xref" href="TopSolid.Cad.Design.Automating.ITools.html#TopSolid_Cad_Design_Automating_ITools_IsSymmetrical_TopSolid_Kernel_Automating_DocumentId_">IsSymmetrical(DocumentId)</a> returns <code>true</code>), this method returns the
+specified part or assembly.</p>
+<p>Otherwise, if the specified part or assembly is a derived mirror, this method returns the base part or assembly.</p>
+<p>Otherwise, if the specified part or assembly is the base part of a derived mirror part or assembly, this method returns
+the derived part or assembly.</p>
+<p>Otherwise, this method returns <a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html#TopSolid_Kernel_Automating_DocumentId_Empty">Empty</a>.</p>
+<p>If there is no symmetrical part or assembly found, it will not be possible to make a mirror assembly of an assembly containing
+the specified part or assembly.</p>
+<p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_SetDerivationInheritances_" data-uid="TopSolid.Cad.Design.Automating.ITools.SetDerivationInheritances*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_SetDerivationInheritances_TopSolid_Kernel_Automating_DocumentId_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Collections_Generic_List_TopSolid_Kernel_Automating_ElementId__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="TopSolid.Cad.Design.Automating.ITools.SetDerivationInheritances(TopSolid.Kernel.Automating.DocumentId,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Collections.Generic.List{TopSolid.Kernel.Automating.ElementId},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">SetDerivationInheritances(DocumentId, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, List&lt;ElementId&gt;, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets the derivation inheritances of a derived part or assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+void SetDerivationInheritances(DocumentId inDocumentId, bool inName, bool inDescription, bool inCode, bool inPartNumber, bool inComplementaryPartNumber, bool inManufacturer, bool inManufacturerPartNumber, bool inComment, List&lt;ElementId&gt; inOtherSystemParameters, bool inNonSystemParameters, bool inPoints, bool inAxes, bool inPlanes, bool inFrames, bool inSketches, bool inShapes, bool inPublishings, bool inFunctions, bool inSymmetries, bool inUnsectionabilities, bool inRepresentations, bool inSets, bool inCameras)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of derived part or assembly document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inName</span></td>
+        <td><p>Inherits name from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inDescription</span></td>
+        <td><p>Inherits description from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inCode</span></td>
+        <td><p>Inherits code from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inPartNumber</span></td>
+        <td><p>Inherits part number from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inComplementaryPartNumber</span></td>
+        <td><p>Inherits complementary part number from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inManufacturer</span></td>
+        <td><p>Inherits complementary manufacturer from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inManufacturerPartNumber</span></td>
+        <td><p>Inherits manufacturer part number from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inComment</span></td>
+        <td><p>Inherits comment from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><span class="parametername">inOtherSystemParameters</span></td>
+        <td><p>Identifiers of other base document system parameters to inherit.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inNonSystemParameters</span></td>
+        <td><p>Inherits non-system parameters from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inPoints</span></td>
+        <td><p>Inherits points from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inAxes</span></td>
+        <td><p>Inherits axes from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inPlanes</span></td>
+        <td><p>Inherits planes from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inFrames</span></td>
+        <td><p>Inherits frames from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inSketches</span></td>
+        <td><p>Inherits sketches from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inShapes</span></td>
+        <td><p>Inherits shapes from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inPublishings</span></td>
+        <td><p>Inherits publishings from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inFunctions</span></td>
+        <td><p>Inherits functions from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inSymmetries</span></td>
+        <td><p>Inherits symmetries from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inUnsectionabilities</span></td>
+        <td><p>Inherits unsectionabilities from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inRepresentations</span></td>
+        <td><p>Inherits representations from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inSets</span></td>
+        <td><p>Inherits sets from base.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inCameras</span></td>
+        <td><p>Inherits cameras from base.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_SetDerivationInheritances_TopSolid_Kernel_Automating_DocumentId_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Collections_Generic_List_TopSolid_Kernel_Automating_ElementId__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_SetPlaneSymmetry_" data-uid="TopSolid.Cad.Design.Automating.ITools.SetPlaneSymmetry*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_SetPlaneSymmetry_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartPlane3D_" data-uid="TopSolid.Cad.Design.Automating.ITools.SetPlaneSymmetry(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.SmartPlane3D)">SetPlaneSymmetry(ElementId, SmartPlane3D)</h4>
+  <div class="markdown level1 summary"><p>Sets a plane symmetry.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+void SetPlaneSymmetry(ElementId inElementId, SmartPlane3D inPlane)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the symmetry to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartPlane3D.html">SmartPlane3D</a></td>
+        <td><span class="parametername">inPlane</span></td>
+        <td><p>Symmetry plane.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_SetPlaneSymmetry_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartPlane3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_SetRevolutionSymmetry_" data-uid="TopSolid.Cad.Design.Automating.ITools.SetRevolutionSymmetry*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_SetRevolutionSymmetry_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartAxis3D_" data-uid="TopSolid.Cad.Design.Automating.ITools.SetRevolutionSymmetry(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.SmartAxis3D)">SetRevolutionSymmetry(ElementId, SmartAxis3D)</h4>
+  <div class="markdown level1 summary"><p>Sets a revolution symmetry.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+void SetRevolutionSymmetry(ElementId inElementId, SmartAxis3D inAxis)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the symmetry to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartAxis3D.html">SmartAxis3D</a></td>
+        <td><span class="parametername">inAxis</span></td>
+        <td><p>Symmetry axis.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_SetRevolutionSymmetry_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartAxis3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_SetStockManagement_" data-uid="TopSolid.Cad.Design.Automating.ITools.SetStockManagement*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_SetStockManagement_TopSolid_Kernel_Automating_DocumentId_TopSolid_Cad_Design_Automating_StockManagementType_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartText_TopSolid_Kernel_Automating_SmartText_TopSolid_Kernel_Automating_SmartText_TopSolid_Kernel_Automating_SmartText_" data-uid="TopSolid.Cad.Design.Automating.ITools.SetStockManagement(TopSolid.Kernel.Automating.DocumentId,TopSolid.Cad.Design.Automating.StockManagementType,TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.SmartText,TopSolid.Kernel.Automating.SmartText,TopSolid.Kernel.Automating.SmartText,TopSolid.Kernel.Automating.SmartText)">SetStockManagement(DocumentId, StockManagementType, DocumentId, ElementId, SmartText, SmartText, SmartText, SmartText)</h4>
+  <div class="markdown level1 summary"><p>Superseeded by <a class="xref" href="TopSolid.Cad.Design.Automating.ITools.html#TopSolid_Cad_Design_Automating_ITools_SetStockManagement2_TopSolid_Kernel_Automating_DocumentId_TopSolid_Cad_Design_Automating_StockManagementType_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartText_TopSolid_Kernel_Automating_SmartText_TopSolid_Kernel_Automating_SmartText_TopSolid_Kernel_Automating_SmartText_TopSolid_Kernel_Automating_SmartText_">SetStockManagement2(DocumentId, StockManagementType, DocumentId, ElementId, SmartText, SmartText, SmartText, SmartText, SmartText)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 10, 0, 0)]
+void SetStockManagement(DocumentId inDocumentId, StockManagementType inType, DocumentId inStockDocumentId, ElementId inStockOccurrenceId, SmartText inStockName, SmartText inStockDescription, SmartText inStockPartNumber, SmartText inStockMajorRevision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of part or assembly document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html">StockManagementType</a></td>
+        <td><span class="parametername">inType</span></td>
+        <td><p>Type of management.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inStockDocumentId</span></td>
+        <td><p>Stock document identifier, or empty if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Document">Document</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inStockOccurrenceId</span></td>
+        <td><p>Stock occurrence identifier, or empty if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Occurrence">Occurrence</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartText.html">SmartText</a></td>
+        <td><span class="parametername">inStockName</span></td>
+        <td><p>Stock name, or null if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Manual">Manual</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartText.html">SmartText</a></td>
+        <td><span class="parametername">inStockDescription</span></td>
+        <td><p>Stock description, or null if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Manual">Manual</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartText.html">SmartText</a></td>
+        <td><span class="parametername">inStockPartNumber</span></td>
+        <td><p>Stock part number, or null if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Manual">Manual</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartText.html">SmartText</a></td>
+        <td><span class="parametername">inStockMajorRevision</span></td>
+        <td><p>Stock major revision, or null if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Manual">Manual</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_SetStockManagement_TopSolid_Kernel_Automating_DocumentId_TopSolid_Cad_Design_Automating_StockManagementType_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartText_TopSolid_Kernel_Automating_SmartText_TopSolid_Kernel_Automating_SmartText_TopSolid_Kernel_Automating_SmartText__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Cad_Design_Automating_ITools_SetStockManagement2_" data-uid="TopSolid.Cad.Design.Automating.ITools.SetStockManagement2*"></a>
+  <h4 id="TopSolid_Cad_Design_Automating_ITools_SetStockManagement2_TopSolid_Kernel_Automating_DocumentId_TopSolid_Cad_Design_Automating_StockManagementType_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartText_TopSolid_Kernel_Automating_SmartText_TopSolid_Kernel_Automating_SmartText_TopSolid_Kernel_Automating_SmartText_TopSolid_Kernel_Automating_SmartText_" data-uid="TopSolid.Cad.Design.Automating.ITools.SetStockManagement2(TopSolid.Kernel.Automating.DocumentId,TopSolid.Cad.Design.Automating.StockManagementType,TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.SmartText,TopSolid.Kernel.Automating.SmartText,TopSolid.Kernel.Automating.SmartText,TopSolid.Kernel.Automating.SmartText,TopSolid.Kernel.Automating.SmartText)">SetStockManagement2(DocumentId, StockManagementType, DocumentId, ElementId, SmartText, SmartText, SmartText, SmartText, SmartText)</h4>
+  <div class="markdown level1 summary"><p>Sets the stock management of a part or assembly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[OperationContract]
+[AvailableSinceVersion(7, 11, 0, 0)]
+void SetStockManagement2(DocumentId inDocumentId, StockManagementType inType, DocumentId inStockDocumentId, ElementId inStockOccurrenceId, SmartText inStockName, SmartText inStockDescription, SmartText inStockPartNumber, SmartText inStockMajorRevision, SmartText inStockDimensions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of part or assembly document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html">StockManagementType</a></td>
+        <td><span class="parametername">inType</span></td>
+        <td><p>Type of management.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inStockDocumentId</span></td>
+        <td><p>Stock document identifier, or empty if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Document">Document</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inStockOccurrenceId</span></td>
+        <td><p>Stock occurrence identifier, or empty if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Occurrence">Occurrence</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartText.html">SmartText</a></td>
+        <td><span class="parametername">inStockName</span></td>
+        <td><p>Stock name, or null if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Manual">Manual</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartText.html">SmartText</a></td>
+        <td><span class="parametername">inStockDescription</span></td>
+        <td><p>Stock description, or null if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Manual">Manual</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartText.html">SmartText</a></td>
+        <td><span class="parametername">inStockPartNumber</span></td>
+        <td><p>Stock part number, or null if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Manual">Manual</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartText.html">SmartText</a></td>
+        <td><span class="parametername">inStockMajorRevision</span></td>
+        <td><p>Stock major revision, or null if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Manual">Manual</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../kernel/TopSolid.Kernel.Automating.SmartText.html">SmartText</a></td>
+        <td><span class="parametername">inStockDimensions</span></td>
+        <td><p>Stock dimensions, or null if not of type <a class="xref" href="TopSolid.Cad.Design.Automating.StockManagementType.html#TopSolid_Cad_Design_Automating_StockManagementType_Manual">Manual</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Cad_Design_Automating_ITools_SetStockManagement2_TopSolid_Kernel_Automating_DocumentId_TopSolid_Cad_Design_Automating_StockManagementType_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartText_TopSolid_Kernel_Automating_SmartText_TopSolid_Kernel_Automating_SmartText_TopSolid_Kernel_Automating_SmartText_TopSolid_Kernel_Automating_SmartText__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="../kernel/TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="../kernel/TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.11.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div id="footer-alt">
+              <div class="container">
+                  <div id="footer-alt-bottom">
+                      <ul>
+                          <li><a href="#">Mentions légales</a></li>
+                          <li><a href="#">Plan du site</a></li>
+                          <li><a href="#">C.G.U</a></li>
+                          <li><a href="#">Données personnelles</a></li>
+                      </ul>
+                      <p>Copyright © 2024 TopSolid Tous droits réservés</p>
+                  </div>
+              </div>
+          </div>
+        </footer></div>
+      
+    
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
