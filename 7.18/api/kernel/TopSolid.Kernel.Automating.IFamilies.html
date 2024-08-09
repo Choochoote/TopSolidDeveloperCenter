@@ -1,0 +1,1560 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IFamilies
+   | TopSolid Automation website </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IFamilies
+   | TopSolid Automation website ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../img/TopSolid_footer.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TopSolid.Kernel.Automating.IFamilies">
+  
+  
+  <h1 id="TopSolid_Kernel_Automating_IFamilies" data-uid="TopSolid.Kernel.Automating.IFamilies" class="text-break">Interface IFamilies
+  </h1>
+  <div class="markdown level0 summary"><p>Gives access to families.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TopSolid.Kernel.Automating.html">TopSolid.Kernel.Automating</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+public interface IFamilies</code></pre>
+  </div>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This interface is available since v7.7.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="TopSolid_Kernel_Automating_IFamilies_AddCatalogNewRow_" data-uid="TopSolid.Kernel.Automating.IFamilies.AddCatalogNewRow*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_AddCatalogNewRow_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IFamilies.AddCatalogNewRow(TopSolid.Kernel.Automating.DocumentId)">AddCatalogNewRow(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Add a new row to the catalog cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+ElementId AddCatalogNewRow(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the family document to modify.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Row identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_AddCatalogNewRow_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_CreateDerivedDocument_" data-uid="TopSolid.Kernel.Automating.IFamilies.CreateDerivedDocument*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_CreateDerivedDocument_TopSolid_Kernel_Automating_PdmObjectId_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IFamilies.CreateDerivedDocument(TopSolid.Kernel.Automating.PdmObjectId,TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.DocumentId)">CreateDerivedDocument(PdmObjectId, DocumentId, DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Creates a new derived family document of a specified family document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 0, 0)]
+DocumentId CreateDerivedDocument(PdmObjectId inOwnerId, DocumentId inDocumentId, DocumentId inGenericId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.PdmObjectId.html">PdmObjectId</a></td>
+        <td><span class="parametername">inOwnerId</span></td>
+        <td><p>Identifier of owner.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the family document to derive.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inGenericId</span></td>
+        <td><p>Identifier of the derived generic document, or <a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html#TopSolid_Kernel_Automating_DocumentId_Empty">Empty</a> if not derived.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><p>Derived family document identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_CreateDerivedDocument_TopSolid_Kernel_Automating_PdmObjectId_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method must not be called between <a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_EndModification_System_Boolean_System_Boolean_">EndModification(Boolean, Boolean)</a>
+methods calls.</p>
+<p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_DeleteCatalogRow_" data-uid="TopSolid.Kernel.Automating.IFamilies.DeleteCatalogRow*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_DeleteCatalogRow_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IFamilies.DeleteCatalogRow(TopSolid.Kernel.Automating.ElementId)">DeleteCatalogRow(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Delete the row of the catalog cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+void DeleteCatalogRow(ElementId inRow)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inRow</span></td>
+        <td><p>Identifier of the row to delete.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_DeleteCatalogRow_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_GetBaseDocument_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetBaseDocument*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_GetBaseDocument_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetBaseDocument(TopSolid.Kernel.Automating.DocumentId)">GetBaseDocument(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the base family of a derived family.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 0, 0)]
+DocumentId GetBaseDocument(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the derived family document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><p>Base family document identifier, or empty if the family is not derived.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_GetBaseDocument_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellBooleanValue_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogCellBooleanValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellBooleanValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogCellBooleanValue(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId)">GetCatalogCellBooleanValue(ElementId, ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the boolean value of the catalog cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+bool GetCatalogCellBooleanValue(ElementId inRow, ElementId inParameterId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inRow</span></td>
+        <td><p>Identifier of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inParameterId</span></td>
+        <td><p>Identifier of the parameter of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Value of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellBooleanValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellCodeValue_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogCellCodeValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellCodeValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogCellCodeValue(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId)">GetCatalogCellCodeValue(ElementId, ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the code value of the catalog cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+string GetCatalogCellCodeValue(ElementId inRow, ElementId inParameterId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inRow</span></td>
+        <td><p>Identifier of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inParameterId</span></td>
+        <td><p>Identifier of the parameter of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Value of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellCodeValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellEnumerationValue_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogCellEnumerationValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellEnumerationValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogCellEnumerationValue(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId)">GetCatalogCellEnumerationValue(ElementId, ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the enumeration value of the catalog cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+int GetCatalogCellEnumerationValue(ElementId inRow, ElementId inParameterId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inRow</span></td>
+        <td><p>Identifier of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inParameterId</span></td>
+        <td><p>Identifier of the parameter of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Value of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellEnumerationValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellFamilyValue_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogCellFamilyValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellFamilyValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogCellFamilyValue(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId)">GetCatalogCellFamilyValue(ElementId, ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the family value of the catalog cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+PdmMinorRevisionId GetCatalogCellFamilyValue(ElementId inRow, ElementId inParameterId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inRow</span></td>
+        <td><p>Identifier of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inParameterId</span></td>
+        <td><p>Identifier of the parameter of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.PdmMinorRevisionId.html">PdmMinorRevisionId</a></td>
+        <td><p>Value of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellFamilyValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellIntegerValue_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogCellIntegerValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellIntegerValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogCellIntegerValue(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId)">GetCatalogCellIntegerValue(ElementId, ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the integer value of the catalog cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+int GetCatalogCellIntegerValue(ElementId inRow, ElementId inParameterId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inRow</span></td>
+        <td><p>Identifier of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inParameterId</span></td>
+        <td><p>Identifier of the parameter of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Value of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellIntegerValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellRealValue_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogCellRealValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellRealValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogCellRealValue(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId)">GetCatalogCellRealValue(ElementId, ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the real value of the catalog cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+double GetCatalogCellRealValue(ElementId inRow, ElementId inParameterId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inRow</span></td>
+        <td><p>Identifier of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inParameterId</span></td>
+        <td><p>Identifier of the parameter of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Value of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellRealValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellTextValue_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogCellTextValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellTextValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogCellTextValue(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId)">GetCatalogCellTextValue(ElementId, ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the text value of the catalog cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+string GetCatalogCellTextValue(ElementId inRow, ElementId inParameterId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inRow</span></td>
+        <td><p>Identifier of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inParameterId</span></td>
+        <td><p>Identifier of the parameter of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Value of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellTextValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellUserEnumerationValue_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogCellUserEnumerationValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellUserEnumerationValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogCellUserEnumerationValue(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId)">GetCatalogCellUserEnumerationValue(ElementId, ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the user enumeration value of the catalog cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+int GetCatalogCellUserEnumerationValue(ElementId inRow, ElementId inParameterId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inRow</span></td>
+        <td><p>Identifier of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inParameterId</span></td>
+        <td><p>Identifier of the parameter of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Value of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogCellUserEnumerationValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_GetCatalogColumnParameters_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogColumnParameters*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogColumnParameters_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogColumnParameters(TopSolid.Kernel.Automating.DocumentId)">GetCatalogColumnParameters(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the catalog column parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+List&lt;ElementId&gt; GetCatalogColumnParameters(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the family document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><p>Column parameter identifiers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogColumnParameters_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_GetCatalogRow_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogRow*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogRow_TopSolid_Kernel_Automating_DocumentId_System_String_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCatalogRow(TopSolid.Kernel.Automating.DocumentId,System.String)">GetCatalogRow(DocumentId, String)</h4>
+  <div class="markdown level1 summary"><p>Gets the catalog row.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+ElementId GetCatalogRow(DocumentId inDocumentId, string inCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the family document to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inCode</span></td>
+        <td><p>The row code.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Row identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_GetCatalogRow_TopSolid_Kernel_Automating_DocumentId_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_GetCodes_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCodes*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_GetCodes_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetCodes(TopSolid.Kernel.Automating.DocumentId)">GetCodes(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the codes of a family document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+List&lt;string&gt; GetCodes(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the family document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>Codes found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_GetCodes_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_GetDriversFolderImage_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetDriversFolderImage*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_GetDriversFolderImage_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetDriversFolderImage(TopSolid.Kernel.Automating.ElementId)">GetDriversFolderImage(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the drivers folder image.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 17, 0, 0)]
+Bitmap GetDriversFolderImage(ElementId inDriverFolder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inDriverFolder</span></td>
+        <td><p>Identifier of the drivers folder.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Drawing.Bitmap</span></td>
+        <td><p>The driver image.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_GetDriversFolderImage_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.17.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_GetGenericDocument_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetGenericDocument*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_GetGenericDocument_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IFamilies.GetGenericDocument(TopSolid.Kernel.Automating.DocumentId)">GetGenericDocument(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the generic document of a family.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 0, 0)]
+DocumentId GetGenericDocument(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the family document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><p>Generic document identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_GetGenericDocument_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_IsDerived_" data-uid="TopSolid.Kernel.Automating.IFamilies.IsDerived*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_IsDerived_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IFamilies.IsDerived(TopSolid.Kernel.Automating.DocumentId)">IsDerived(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether a family document is a derived family document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 0, 0)]
+bool IsDerived(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the family document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The family is a derived family.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_IsDerived_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_IsExplicit_" data-uid="TopSolid.Kernel.Automating.IFamilies.IsExplicit*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_IsExplicit_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IFamilies.IsExplicit(TopSolid.Kernel.Automating.DocumentId)">IsExplicit(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether a family document is an explicit family document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 0, 0)]
+bool IsExplicit(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the family document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The family is an explicit family.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_IsExplicit_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_IsFamily_" data-uid="TopSolid.Kernel.Automating.IFamilies.IsFamily*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_IsFamily_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IFamilies.IsFamily(TopSolid.Kernel.Automating.DocumentId)">IsFamily(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether a document is a family document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+bool IsFamily(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The document is a family document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_IsFamily_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellBooleanValue_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetCatalogCellBooleanValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellBooleanValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_System_Boolean_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetCatalogCellBooleanValue(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId,System.Boolean)">SetCatalogCellBooleanValue(ElementId, ElementId, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Sets the boolean value of the catalog cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+void SetCatalogCellBooleanValue(ElementId inRow, ElementId inParameterId, bool inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inRow</span></td>
+        <td><p>Identifier of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inParameterId</span></td>
+        <td><p>Identifier of the parameter of the column.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Value of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellBooleanValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellCodeValue_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetCatalogCellCodeValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellCodeValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_System_String_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetCatalogCellCodeValue(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId,System.String)">SetCatalogCellCodeValue(ElementId, ElementId, String)</h4>
+  <div class="markdown level1 summary"><p>Sets the code value of the catalog cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+void SetCatalogCellCodeValue(ElementId inRow, ElementId inParameterId, string inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inRow</span></td>
+        <td><p>Identifier of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inParameterId</span></td>
+        <td><p>Identifier of the parameter of the column.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Value of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellCodeValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellEnumerationValue_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetCatalogCellEnumerationValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellEnumerationValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_System_Int32_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetCatalogCellEnumerationValue(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId,System.Int32)">SetCatalogCellEnumerationValue(ElementId, ElementId, Int32)</h4>
+  <div class="markdown level1 summary"><p>Sets the enumeration value of the catalog cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+void SetCatalogCellEnumerationValue(ElementId inRow, ElementId inParameterId, int inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inRow</span></td>
+        <td><p>Identifier of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inParameterId</span></td>
+        <td><p>Identifier of the parameter of the column.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Value of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellEnumerationValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellFamilyValue_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetCatalogCellFamilyValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellFamilyValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_PdmMinorRevisionId_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetCatalogCellFamilyValue(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.PdmMinorRevisionId)">SetCatalogCellFamilyValue(ElementId, ElementId, PdmMinorRevisionId)</h4>
+  <div class="markdown level1 summary"><p>Sets the family value of the catalog cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+void SetCatalogCellFamilyValue(ElementId inRow, ElementId inParameterId, PdmMinorRevisionId inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inRow</span></td>
+        <td><p>Identifier of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inParameterId</span></td>
+        <td><p>Identifier of the parameter of the column.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.PdmMinorRevisionId.html">PdmMinorRevisionId</a></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Value of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellFamilyValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_PdmMinorRevisionId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellIntegerValue_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetCatalogCellIntegerValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellIntegerValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_System_Int32_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetCatalogCellIntegerValue(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId,System.Int32)">SetCatalogCellIntegerValue(ElementId, ElementId, Int32)</h4>
+  <div class="markdown level1 summary"><p>Sets the integer value of the catalog cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+void SetCatalogCellIntegerValue(ElementId inRow, ElementId inParameterId, int inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inRow</span></td>
+        <td><p>Identifier of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inParameterId</span></td>
+        <td><p>Identifier of the parameter of the column.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Value of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellIntegerValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellRealValue_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetCatalogCellRealValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellRealValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_System_Double_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetCatalogCellRealValue(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId,System.Double)">SetCatalogCellRealValue(ElementId, ElementId, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the real value of the catalog cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+void SetCatalogCellRealValue(ElementId inRow, ElementId inParameterId, double inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inRow</span></td>
+        <td><p>Identifier of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inParameterId</span></td>
+        <td><p>Identifier of the parameter of the column.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Value of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellRealValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellTextValue_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetCatalogCellTextValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellTextValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_System_String_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetCatalogCellTextValue(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId,System.String)">SetCatalogCellTextValue(ElementId, ElementId, String)</h4>
+  <div class="markdown level1 summary"><p>Sets the text value of the catalog cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+void SetCatalogCellTextValue(ElementId inRow, ElementId inParameterId, string inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inRow</span></td>
+        <td><p>Identifier of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inParameterId</span></td>
+        <td><p>Identifier of the parameter of the column.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Value of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellTextValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellUserEnumerationValue_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetCatalogCellUserEnumerationValue*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellUserEnumerationValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_System_Int32_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetCatalogCellUserEnumerationValue(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId,System.Int32)">SetCatalogCellUserEnumerationValue(ElementId, ElementId, Int32)</h4>
+  <div class="markdown level1 summary"><p>Sets the user enumeration value of the catalog cell.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 0, 60)]
+void SetCatalogCellUserEnumerationValue(ElementId inRow, ElementId inParameterId, int inValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inRow</span></td>
+        <td><p>Identifier of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inParameterId</span></td>
+        <td><p>Identifier of the parameter of the column.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inValue</span></td>
+        <td><p>Value of the cell.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_SetCatalogCellUserEnumerationValue_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.15.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_SetDriversFolderImage_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetDriversFolderImage*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_SetDriversFolderImage_TopSolid_Kernel_Automating_ElementId_System_String_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetDriversFolderImage(TopSolid.Kernel.Automating.ElementId,System.String)">SetDriversFolderImage(ElementId, String)</h4>
+  <div class="markdown level1 summary"><p>Sets the drivers folder image.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 17, 0, 0)]
+void SetDriversFolderImage(ElementId inDriverFolder, string inImagePath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inDriverFolder</span></td>
+        <td><p>Identifier of the drivers folder.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inImagePath</span></td>
+        <td><p>Image of the driver.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_SetDriversFolderImage_TopSolid_Kernel_Automating_ElementId_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.17.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IFamilies_SetInheritedCodes_" data-uid="TopSolid.Kernel.Automating.IFamilies.SetInheritedCodes*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IFamilies_SetInheritedCodes_TopSolid_Kernel_Automating_DocumentId_List_System_String__" data-uid="TopSolid.Kernel.Automating.IFamilies.SetInheritedCodes(TopSolid.Kernel.Automating.DocumentId,List{System.String})">SetInheritedCodes(DocumentId, List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the inherited codes of a derived family.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 0, 0)]
+void SetInheritedCodes(DocumentId inDocumentId, List&lt;string&gt; inCodes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the derived family document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">inCodes</span></td>
+        <td><p>Base family codes to inherit in the derived family.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IFamilies_SetInheritedCodes_TopSolid_Kernel_Automating_DocumentId_List_System_String___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.10.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div id="footer-alt">
+              <div class="container">
+                  <div id="footer-alt-bottom">
+                      <ul>
+                          <li><a href="#">Mentions légales</a></li>
+                          <li><a href="#">Plan du site</a></li>
+                          <li><a href="#">C.G.U</a></li>
+                          <li><a href="#">Données personnelles</a></li>
+                      </ul>
+                      <p>Copyright © 2024 TopSolid Tous droits réservés</p>
+                  </div>
+              </div>
+          </div>
+        </footer></div>
+      
+    
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

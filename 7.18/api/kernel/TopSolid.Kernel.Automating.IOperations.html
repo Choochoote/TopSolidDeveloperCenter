@@ -1,0 +1,1386 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IOperations
+   | TopSolid Automation website </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IOperations
+   | TopSolid Automation website ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../img/TopSolid_footer.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TopSolid.Kernel.Automating.IOperations">
+  
+  
+  <h1 id="TopSolid_Kernel_Automating_IOperations" data-uid="TopSolid.Kernel.Automating.IOperations" class="text-break">Interface IOperations
+  </h1>
+  <div class="markdown level0 summary"><p>Gives access to operations.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TopSolid.Kernel.Automating.html">TopSolid.Kernel.Automating</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+public interface IOperations</code></pre>
+  </div>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This interface is available since v7.6.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="TopSolid_Kernel_Automating_IOperations_Activate_" data-uid="TopSolid.Kernel.Automating.IOperations.Activate*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_Activate_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IOperations.Activate(TopSolid.Kernel.Automating.ElementId)">Activate(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Activates an operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 0, 0)]
+void Activate(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the operation to modify.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_Activate_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.12.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_Deactivate_" data-uid="TopSolid.Kernel.Automating.IOperations.Deactivate*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_Deactivate_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IOperations.Deactivate(TopSolid.Kernel.Automating.ElementId)">Deactivate(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Deactivates an operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 0, 0)]
+void Deactivate(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the operation to modify.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_Deactivate_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>An exception will be thrown when trying to deactivate an operation that is not deactivable.</p>
+<p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.12.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_Freeze_" data-uid="TopSolid.Kernel.Automating.IOperations.Freeze*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_Freeze_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IOperations.Freeze(TopSolid.Kernel.Automating.ElementId)">Freeze(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Freezes an operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 0, 0)]
+void Freeze(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the operation to modify.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_Freeze_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>An exception will be thrown when trying to freeze an operation that is not freezable.</p>
+<p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.12.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_GetChild_" data-uid="TopSolid.Kernel.Automating.IOperations.GetChild*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_GetChild_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IOperations.GetChild(TopSolid.Kernel.Automating.ElementId)">GetChild(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the child element of an operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+ElementId GetChild(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the operation to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the child element found, or <a class="xref" href="TopSolid.Kernel.Automating.ElementId.html#TopSolid_Kernel_Automating_ElementId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_GetChild_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The operation must not have several children, otherwise an exception is thrown.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_GetChildren_" data-uid="TopSolid.Kernel.Automating.IOperations.GetChildren*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_GetChildren_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IOperations.GetChildren(TopSolid.Kernel.Automating.ElementId)">GetChildren(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the children elements of a an operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+List&lt;ElementId&gt; GetChildren(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the operation to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><p>Identifiers of the children elements found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_GetChildren_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_GetCondition_" data-uid="TopSolid.Kernel.Automating.IOperations.GetCondition*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_GetCondition_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IOperations.GetCondition(TopSolid.Kernel.Automating.ElementId)">GetCondition(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the condition of an operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 0, 0)]
+SmartBoolean GetCondition(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the operation to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartBoolean.html">SmartBoolean</a></td>
+        <td><p>Condition of the operation, or <code>null</code> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_GetCondition_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.12.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_GetDefinitionStage_" data-uid="TopSolid.Kernel.Automating.IOperations.GetDefinitionStage*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_GetDefinitionStage_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IOperations.GetDefinitionStage(TopSolid.Kernel.Automating.DocumentId)">GetDefinitionStage(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the definition stage operation of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+ElementId GetDefinitionStage(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the definition stage operation found, or <a class="xref" href="TopSolid.Kernel.Automating.ElementId.html#TopSolid_Kernel_Automating_ElementId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_GetDefinitionStage_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_GetFinalStage_" data-uid="TopSolid.Kernel.Automating.IOperations.GetFinalStage*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_GetFinalStage_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IOperations.GetFinalStage(TopSolid.Kernel.Automating.DocumentId)">GetFinalStage(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the final stage operation of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+ElementId GetFinalStage(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the final stage operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_GetFinalStage_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_GetInitialStage_" data-uid="TopSolid.Kernel.Automating.IOperations.GetInitialStage*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_GetInitialStage_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IOperations.GetInitialStage(TopSolid.Kernel.Automating.DocumentId)">GetInitialStage(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the initial stage operation of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+ElementId GetInitialStage(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the initial stage operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_GetInitialStage_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_GetInsertionOperation_" data-uid="TopSolid.Kernel.Automating.IOperations.GetInsertionOperation*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_GetInsertionOperation_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IOperations.GetInsertionOperation(TopSolid.Kernel.Automating.DocumentId)">GetInsertionOperation(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the insertion operation of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+ElementId GetInsertionOperation(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the insertion operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_GetInsertionOperation_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>New operations are created before the insertion operation.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_GetModelingStage_" data-uid="TopSolid.Kernel.Automating.IOperations.GetModelingStage*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_GetModelingStage_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IOperations.GetModelingStage(TopSolid.Kernel.Automating.DocumentId)">GetModelingStage(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the modeling stage operation of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+ElementId GetModelingStage(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the modeling stage operation found, or <a class="xref" href="TopSolid.Kernel.Automating.ElementId.html#TopSolid_Kernel_Automating_ElementId_Empty">Empty</a> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_GetModelingStage_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_GetModelingTolerances_" data-uid="TopSolid.Kernel.Automating.IOperations.GetModelingTolerances*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_GetModelingTolerances_TopSolid_Kernel_Automating_ElementId_System_Double__System_Double__" data-uid="TopSolid.Kernel.Automating.IOperations.GetModelingTolerances(TopSolid.Kernel.Automating.ElementId,System.Double@,System.Double@)">GetModelingTolerances(ElementId, out Double, out Double)</h4>
+  <div class="markdown level1 summary"><p>Gets the modeling tolerances of an operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+void GetModelingTolerances(ElementId inElementId, out double outLinearTolerance, out double outAngularTolerance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the operation to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outLinearTolerance</span></td>
+        <td><p>Linear tolerance (in meters), or 0 if the operation does not have a linear modeling tolerance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outAngularTolerance</span></td>
+        <td><p>Angular tolerance (in radians), or 0 if the operation does not have an angular modeling tolerance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_GetModelingTolerances_TopSolid_Kernel_Automating_ElementId_System_Double__System_Double___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_GetOperations_" data-uid="TopSolid.Kernel.Automating.IOperations.GetOperations*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_GetOperations_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IOperations.GetOperations(TopSolid.Kernel.Automating.DocumentId)">GetOperations(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the operations of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+List&lt;ElementId&gt; GetOperations(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><p>Operations found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_GetOperations_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The operations are sorted in chronological order (i.e. first operation of the list is executed first).</p>
+<p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_GetStages_" data-uid="TopSolid.Kernel.Automating.IOperations.GetStages*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_GetStages_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IOperations.GetStages(TopSolid.Kernel.Automating.DocumentId)">GetStages(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the stage operations of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+List&lt;ElementId&gt; GetStages(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><p>Stage operations found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_GetStages_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The stage operations are sorted in chronological order.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_GetWorkingStage_" data-uid="TopSolid.Kernel.Automating.IOperations.GetWorkingStage*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_GetWorkingStage_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IOperations.GetWorkingStage(TopSolid.Kernel.Automating.DocumentId)">GetWorkingStage(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the working stage operation of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+ElementId GetWorkingStage(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the working stage operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_GetWorkingStage_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_HasFrozenOwner_" data-uid="TopSolid.Kernel.Automating.IOperations.HasFrozenOwner*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_HasFrozenOwner_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IOperations.HasFrozenOwner(TopSolid.Kernel.Automating.ElementId)">HasFrozenOwner(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an operation owner is frozen, or the owner of its owner,...</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 0, 0)]
+bool HasFrozenOwner(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the operation to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The operation has a direct or indirect frozen owner.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_HasFrozenOwner_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.12.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_HasInactiveOwner_" data-uid="TopSolid.Kernel.Automating.IOperations.HasInactiveOwner*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_HasInactiveOwner_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IOperations.HasInactiveOwner(TopSolid.Kernel.Automating.ElementId)">HasInactiveOwner(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an operation owner is not active, or the owner of its owner,...</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 0, 0)]
+bool HasInactiveOwner(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the operation to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The operation has a direct or indirect inactive owner.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_HasInactiveOwner_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.12.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_IsActive_" data-uid="TopSolid.Kernel.Automating.IOperations.IsActive*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_IsActive_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IOperations.IsActive(TopSolid.Kernel.Automating.ElementId)">IsActive(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an operation is active.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool IsActive(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the operation to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The operation is active.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_IsActive_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_IsDeactivable_" data-uid="TopSolid.Kernel.Automating.IOperations.IsDeactivable*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_IsDeactivable_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IOperations.IsDeactivable(TopSolid.Kernel.Automating.ElementId)">IsDeactivable(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an operation may be deactivated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 0, 0)]
+bool IsDeactivable(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the operation to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The operation may be deactivated.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_IsDeactivable_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.12.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_IsFreezable_" data-uid="TopSolid.Kernel.Automating.IOperations.IsFreezable*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_IsFreezable_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IOperations.IsFreezable(TopSolid.Kernel.Automating.ElementId)">IsFreezable(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an operation may be frozen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 0, 0)]
+bool IsFreezable(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the operation to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The operation may be frozen.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_IsFreezable_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.12.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_IsFrozen_" data-uid="TopSolid.Kernel.Automating.IOperations.IsFrozen*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_IsFrozen_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IOperations.IsFrozen(TopSolid.Kernel.Automating.ElementId)">IsFrozen(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an operation is frozen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 0, 0)]
+bool IsFrozen(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the operation to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The operation is frozen.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_IsFrozen_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.12.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_IsOperation_" data-uid="TopSolid.Kernel.Automating.IOperations.IsOperation*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_IsOperation_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IOperations.IsOperation(TopSolid.Kernel.Automating.ElementId)">IsOperation(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an element is an operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool IsOperation(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The element is an operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_IsOperation_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_MoveOperation_" data-uid="TopSolid.Kernel.Automating.IOperations.MoveOperation*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_MoveOperation_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_System_Int32_" data-uid="TopSolid.Kernel.Automating.IOperations.MoveOperation(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId,System.Int32)">MoveOperation(ElementId, ElementId, Int32)</h4>
+  <div class="markdown level1 summary"><p>Moves an operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 80)]
+void MoveOperation(ElementId inElementId, ElementId inOwnerId, int inIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the operation to move.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inOwnerId</span></td>
+        <td><p>Identifier of the new owner operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inIndex</span></td>
+        <td><p>Index of the operation in the new owner.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_MoveOperation_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.80.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_ResetInsertionOperation_" data-uid="TopSolid.Kernel.Automating.IOperations.ResetInsertionOperation*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_ResetInsertionOperation_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IOperations.ResetInsertionOperation(TopSolid.Kernel.Automating.DocumentId)">ResetInsertionOperation(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Resets the insertion operation of a document to its natural place.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+void ResetInsertionOperation(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_ResetInsertionOperation_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>New operations are created before the insertion operation.</p>
+<p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_SetCondition_" data-uid="TopSolid.Kernel.Automating.IOperations.SetCondition*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_SetCondition_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartBoolean_" data-uid="TopSolid.Kernel.Automating.IOperations.SetCondition(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.SmartBoolean)">SetCondition(ElementId, SmartBoolean)</h4>
+  <div class="markdown level1 summary"><p>Sets the condition of an operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 0, 0)]
+void SetCondition(ElementId inElementId, SmartBoolean inCondition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the operation to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartBoolean.html">SmartBoolean</a></td>
+        <td><span class="parametername">inCondition</span></td>
+        <td><p>Condition, or <code>null</code> if none.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_SetCondition_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartBoolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>An exception will be thrown when trying to set a non-null condition to an operation that is not deactivable.</p>
+<p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.12.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_SetInsertionOperation_" data-uid="TopSolid.Kernel.Automating.IOperations.SetInsertionOperation*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_SetInsertionOperation_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IOperations.SetInsertionOperation(TopSolid.Kernel.Automating.ElementId)">SetInsertionOperation(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Sets the insertion operation of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+void SetInsertionOperation(ElementId inOperationId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inOperationId</span></td>
+        <td><p>Identifier of new insertion operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_SetInsertionOperation_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>New operations are created before the insertion operation.</p>
+<p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_SetModelingTolerances_" data-uid="TopSolid.Kernel.Automating.IOperations.SetModelingTolerances*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_SetModelingTolerances_TopSolid_Kernel_Automating_ElementId_System_Double_System_Double_" data-uid="TopSolid.Kernel.Automating.IOperations.SetModelingTolerances(TopSolid.Kernel.Automating.ElementId,System.Double,System.Double)">SetModelingTolerances(ElementId, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the modeling tolerances of an operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+void SetModelingTolerances(ElementId inElementId, double inLinearTolerance, double inAngularTolerance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the operation to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inLinearTolerance</span></td>
+        <td><p>Linear tolerance (in meters, within [0.0001mm,0.1mm]), or 0 for unchanged.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inAngularTolerance</span></td>
+        <td><p>Angular tolerance (in radians, within [0.01°,10°]), or 0 for unchanged.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_SetModelingTolerances_TopSolid_Kernel_Automating_ElementId_System_Double_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_SetWorkingStage_" data-uid="TopSolid.Kernel.Automating.IOperations.SetWorkingStage*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_SetWorkingStage_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IOperations.SetWorkingStage(TopSolid.Kernel.Automating.ElementId)">SetWorkingStage(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Sets the working stage operation of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+void SetWorkingStage(ElementId inOperationId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inOperationId</span></td>
+        <td><p>Identifier of new working stage operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_SetWorkingStage_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IOperations_Unfreeze_" data-uid="TopSolid.Kernel.Automating.IOperations.Unfreeze*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IOperations_Unfreeze_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IOperations.Unfreeze(TopSolid.Kernel.Automating.ElementId)">Unfreeze(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Unfreezes an operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 0, 0)]
+void Unfreeze(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the operation to modify.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IOperations_Unfreeze_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.12.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div id="footer-alt">
+              <div class="container">
+                  <div id="footer-alt-bottom">
+                      <ul>
+                          <li><a href="#">Mentions légales</a></li>
+                          <li><a href="#">Plan du site</a></li>
+                          <li><a href="#">C.G.U</a></li>
+                          <li><a href="#">Données personnelles</a></li>
+                      </ul>
+                      <p>Copyright © 2024 TopSolid Tous droits réservés</p>
+                  </div>
+              </div>
+          </div>
+        </footer></div>
+      
+    
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

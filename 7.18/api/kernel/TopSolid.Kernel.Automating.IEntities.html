@@ -1,0 +1,1555 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IEntities
+   | TopSolid Automation website </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IEntities
+   | TopSolid Automation website ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../img/TopSolid_footer.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TopSolid.Kernel.Automating.IEntities">
+  
+  
+  <h1 id="TopSolid_Kernel_Automating_IEntities" data-uid="TopSolid.Kernel.Automating.IEntities" class="text-break">Interface IEntities
+  </h1>
+  <div class="markdown level0 summary"><p>Gives access to entities.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TopSolid.Kernel.Automating.html">TopSolid.Kernel.Automating</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+public interface IEntities</code></pre>
+  </div>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This interface is available since v7.6.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="TopSolid_Kernel_Automating_IEntities_AddSetTargets_" data-uid="TopSolid.Kernel.Automating.IEntities.AddSetTargets*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_AddSetTargets_TopSolid_Kernel_Automating_ElementId_List_TopSolid_Kernel_Automating_ElementId__" data-uid="TopSolid.Kernel.Automating.IEntities.AddSetTargets(TopSolid.Kernel.Automating.ElementId,List{TopSolid.Kernel.Automating.ElementId})">AddSetTargets(ElementId, List&lt;ElementId&gt;)</h4>
+  <div class="markdown level1 summary"><p>Add targets to the set definition entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 14, 300, 140)]
+void AddSetTargets(ElementId inElementId, List&lt;ElementId&gt; inTargetIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifiers of the set definition entity.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><span class="parametername">inTargetIds</span></td>
+        <td><p>Identifiers of targets to add to the set definition entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_AddSetTargets_TopSolid_Kernel_Automating_ElementId_List_TopSolid_Kernel_Automating_ElementId___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.14.300.140.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_Basify_" data-uid="TopSolid.Kernel.Automating.IEntities.Basify*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_Basify_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IEntities.Basify(TopSolid.Kernel.Automating.ElementId)">Basify(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Basifies an entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 200)]
+void Basify(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the entity to basify.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_Basify_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.200.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_BasifySeveral_" data-uid="TopSolid.Kernel.Automating.IEntities.BasifySeveral*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_BasifySeveral_List_TopSolid_Kernel_Automating_ElementId__" data-uid="TopSolid.Kernel.Automating.IEntities.BasifySeveral(List{TopSolid.Kernel.Automating.ElementId})">BasifySeveral(List&lt;ElementId&gt;)</h4>
+  <div class="markdown level1 summary"><p>Basifies several entities.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 200)]
+void BasifySeveral(List&lt;ElementId&gt; inElementIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><span class="parametername">inElementIds</span></td>
+        <td><p>Identifiers of the entities to basify.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_BasifySeveral_List_TopSolid_Kernel_Automating_ElementId___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.200.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_CreateClassifying_" data-uid="TopSolid.Kernel.Automating.IEntities.CreateClassifying*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_CreateClassifying_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IEntities.CreateClassifying(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.ElementId)">CreateClassifying(DocumentId, ElementId)</h4>
+  <div class="markdown level1 summary"><p>Creates a classifying entity in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 0, 0)]
+ElementId CreateClassifying(DocumentId inDocumentId, ElementId inClassId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inClassId</span></td>
+        <td><p>Identifier of a class entity in a classification document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Classifying entity created identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_CreateClassifying_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_CreateFolder_" data-uid="TopSolid.Kernel.Automating.IEntities.CreateFolder*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_CreateFolder_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IEntities.CreateFolder(TopSolid.Kernel.Automating.ElementId)">CreateFolder(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Creates a folder entity inside a specified folder entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 0, 0)]
+ElementId CreateFolder(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the folder entity to modify.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Folder entity created identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_CreateFolder_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_CreateSet_" data-uid="TopSolid.Kernel.Automating.IEntities.CreateSet*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_CreateSet_TopSolid_Kernel_Automating_DocumentId_List_TopSolid_Kernel_Automating_ElementId__" data-uid="TopSolid.Kernel.Automating.IEntities.CreateSet(TopSolid.Kernel.Automating.DocumentId,List{TopSolid.Kernel.Automating.ElementId})">CreateSet(DocumentId, List&lt;ElementId&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a set definition entity in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 14, 300, 120)]
+ElementId CreateSet(DocumentId inDocumentId, List&lt;ElementId&gt; inTargetIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><span class="parametername">inTargetIds</span></td>
+        <td><p>Identifiers of targets of the set definition entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created set definition entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_CreateSet_TopSolid_Kernel_Automating_DocumentId_List_TopSolid_Kernel_Automating_ElementId___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.14.300.120.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_GetClassifyingClass_" data-uid="TopSolid.Kernel.Automating.IEntities.GetClassifyingClass*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_GetClassifyingClass_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IEntities.GetClassifyingClass(TopSolid.Kernel.Automating.ElementId)">GetClassifyingClass(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the classification class entity of a specified classifying entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 0, 0)]
+ElementId GetClassifyingClass(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the classifying entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the classifying class definition entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_GetClassifyingClass_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_GetClassifyings_" data-uid="TopSolid.Kernel.Automating.IEntities.GetClassifyings*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_GetClassifyings_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IEntities.GetClassifyings(TopSolid.Kernel.Automating.DocumentId)">GetClassifyings(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the classifying entities that are in the classifyings folder of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 0, 0)]
+List&lt;ElementId&gt; GetClassifyings(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><p>Classifying entities found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_GetClassifyings_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_GetCurrentSet_" data-uid="TopSolid.Kernel.Automating.IEntities.GetCurrentSet*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_GetCurrentSet_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IEntities.GetCurrentSet(TopSolid.Kernel.Automating.DocumentId)">GetCurrentSet(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the current set definition entity in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 14, 300, 140)]
+ElementId GetCurrentSet(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to get the current set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the current set definition entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_GetCurrentSet_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.14.300.140.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_GetFunctionDefinition_" data-uid="TopSolid.Kernel.Automating.IEntities.GetFunctionDefinition*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_GetFunctionDefinition_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IEntities.GetFunctionDefinition(TopSolid.Kernel.Automating.ElementId)">GetFunctionDefinition(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the definition of a function entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+DocumentId GetFunctionDefinition(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the function entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><p>Identifier of the corresponding function definition document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_GetFunctionDefinition_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_GetFunctionOccurrenceName_" data-uid="TopSolid.Kernel.Automating.IEntities.GetFunctionOccurrenceName*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_GetFunctionOccurrenceName_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IEntities.GetFunctionOccurrenceName(TopSolid.Kernel.Automating.ElementId)">GetFunctionOccurrenceName(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the occurrence name of a function entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+string GetFunctionOccurrenceName(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the function entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Function occurrence name, or null if this type of function cannot be provided several times..</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_GetFunctionOccurrenceName_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_GetFunctionPublishings_" data-uid="TopSolid.Kernel.Automating.IEntities.GetFunctionPublishings*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_GetFunctionPublishings_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IEntities.GetFunctionPublishings(TopSolid.Kernel.Automating.ElementId)">GetFunctionPublishings(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the publishing entities that are in a specified function of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+List&lt;ElementId&gt; GetFunctionPublishings(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the function entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><p>Publishing entities found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_GetFunctionPublishings_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_GetFunctions_" data-uid="TopSolid.Kernel.Automating.IEntities.GetFunctions*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_GetFunctions_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IEntities.GetFunctions(TopSolid.Kernel.Automating.DocumentId)">GetFunctions(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the function entities that are in the functions folder of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+List&lt;ElementId&gt; GetFunctions(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><p>Function entities found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_GetFunctions_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_GetOccurrenceDefinition_" data-uid="TopSolid.Kernel.Automating.IEntities.GetOccurrenceDefinition*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_GetOccurrenceDefinition_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IEntities.GetOccurrenceDefinition(TopSolid.Kernel.Automating.ElementId)">GetOccurrenceDefinition(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the definition entity of an occurrence entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+ElementId GetOccurrenceDefinition(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the definition entity of the occurrence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_GetOccurrenceDefinition_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_GetOccurrenceSource_" data-uid="TopSolid.Kernel.Automating.IEntities.GetOccurrenceSource*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_GetOccurrenceSource_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IEntities.GetOccurrenceSource(TopSolid.Kernel.Automating.ElementId)">GetOccurrenceSource(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the source entity of an occurrence entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+ElementId GetOccurrenceSource(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the source entity of the occurrence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_GetOccurrenceSource_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_GetPublishings_" data-uid="TopSolid.Kernel.Automating.IEntities.GetPublishings*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_GetPublishings_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IEntities.GetPublishings(TopSolid.Kernel.Automating.DocumentId)">GetPublishings(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the publishing entities that are in the publishings folder of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+List&lt;ElementId&gt; GetPublishings(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><p>Publishing entities found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_GetPublishings_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_GetSets_" data-uid="TopSolid.Kernel.Automating.IEntities.GetSets*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_GetSets_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IEntities.GetSets(TopSolid.Kernel.Automating.DocumentId)">GetSets(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the set definition entities that are in the sets folder of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 0, 0)]
+List&lt;ElementId&gt; GetSets(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><p>Set definition entities found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_GetSets_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The method <a class="xref" href="TopSolid.Kernel.Automating.IElements.html#TopSolid_Kernel_Automating_IElements_GetConstituents_TopSolid_Kernel_Automating_ElementId_">GetConstituents(ElementId)</a> may be used to explore the contents of a set definition.</p>
+<p>Set definition constituents may be other set definition entities or shortcut entities which target entity may be obtained using
+the <a class="xref" href="TopSolid.Kernel.Automating.IEntities.html#TopSolid_Kernel_Automating_IEntities_GetShortcutTarget_TopSolid_Kernel_Automating_ElementId_">GetShortcutTarget(ElementId)</a> method.</p>
+<p>This method is available since v7.12.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_GetShortcutTarget_" data-uid="TopSolid.Kernel.Automating.IEntities.GetShortcutTarget*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_GetShortcutTarget_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IEntities.GetShortcutTarget(TopSolid.Kernel.Automating.ElementId)">GetShortcutTarget(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the target entity of a shortcut entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 0, 0)]
+ElementId GetShortcutTarget(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the shortcut entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the target entity of the shortcut.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_GetShortcutTarget_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.12.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_IsBasifiable_" data-uid="TopSolid.Kernel.Automating.IEntities.IsBasifiable*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_IsBasifiable_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IEntities.IsBasifiable(TopSolid.Kernel.Automating.ElementId)">IsBasifiable(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an entity may be basified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 200)]
+bool IsBasifiable(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the entity may be basified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_IsBasifiable_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.201.200.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_IsEntity_" data-uid="TopSolid.Kernel.Automating.IEntities.IsEntity*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_IsEntity_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IEntities.IsEntity(TopSolid.Kernel.Automating.ElementId)">IsEntity(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an element is an entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool IsEntity(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The element is an entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_IsEntity_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_IsFolder_" data-uid="TopSolid.Kernel.Automating.IEntities.IsFolder*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_IsFolder_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IEntities.IsFolder(TopSolid.Kernel.Automating.ElementId)">IsFolder(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an element is a folder entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 0, 0)]
+bool IsFolder(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The element is a folder entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_IsFolder_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_IsOccurrence_" data-uid="TopSolid.Kernel.Automating.IEntities.IsOccurrence*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_IsOccurrence_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IEntities.IsOccurrence(TopSolid.Kernel.Automating.ElementId)">IsOccurrence(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an entity is an occurrence.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+bool IsOccurrence(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The entity is an occurrence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_IsOccurrence_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_IsSetDefinition_" data-uid="TopSolid.Kernel.Automating.IEntities.IsSetDefinition*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_IsSetDefinition_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IEntities.IsSetDefinition(TopSolid.Kernel.Automating.ElementId)">IsSetDefinition(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an element is a set definition entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 0, 0)]
+bool IsSetDefinition(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The element is a set definition entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_IsSetDefinition_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.12.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_IsShortcut_" data-uid="TopSolid.Kernel.Automating.IEntities.IsShortcut*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_IsShortcut_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IEntities.IsShortcut(TopSolid.Kernel.Automating.ElementId)">IsShortcut(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Tells whether an entity is a shortcut.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 12, 0, 0)]
+bool IsShortcut(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>The entity is a shortcut.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_IsShortcut_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.12.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_MoveEntity_" data-uid="TopSolid.Kernel.Automating.IEntities.MoveEntity*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_MoveEntity_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_System_Int32_" data-uid="TopSolid.Kernel.Automating.IEntities.MoveEntity(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId,System.Int32)">MoveEntity(ElementId, ElementId, Int32)</h4>
+  <div class="markdown level1 summary"><p>Moves an entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 0, 0)]
+void MoveEntity(ElementId inElementId, ElementId inOwnerId, int inIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the entity to move.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inOwnerId</span></td>
+        <td><p>Identifier of the new owner folder entity.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inIndex</span></td>
+        <td><p>Index of the entity in the new owner, or -1 for last.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_MoveEntity_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_ProvideFunction_" data-uid="TopSolid.Kernel.Automating.IEntities.ProvideFunction*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_ProvideFunction_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId_System_String_" data-uid="TopSolid.Kernel.Automating.IEntities.ProvideFunction(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.DocumentId,System.String)">ProvideFunction(DocumentId, DocumentId, String)</h4>
+  <div class="markdown level1 summary"><p>Provides a specified function in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+ElementId ProvideFunction(DocumentId inDocumentId, DocumentId inFunctionId, string inOccurrenceName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inFunctionId</span></td>
+        <td><p>Identifier of the function definition document.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inOccurrenceName</span></td>
+        <td><p>Provided function occurrence name, or null if this type of function cannot be provided several times.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Function entity created identifier.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_ProvideFunction_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_DocumentId_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_RemoveSetTargets_" data-uid="TopSolid.Kernel.Automating.IEntities.RemoveSetTargets*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_RemoveSetTargets_TopSolid_Kernel_Automating_ElementId_List_TopSolid_Kernel_Automating_ElementId__" data-uid="TopSolid.Kernel.Automating.IEntities.RemoveSetTargets(TopSolid.Kernel.Automating.ElementId,List{TopSolid.Kernel.Automating.ElementId})">RemoveSetTargets(ElementId, List&lt;ElementId&gt;)</h4>
+  <div class="markdown level1 summary"><p>Remove targets to the set definition entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 14, 300, 140)]
+void RemoveSetTargets(ElementId inElementId, List&lt;ElementId&gt; inTargetIds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifiers of the set definition entity.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><span class="parametername">inTargetIds</span></td>
+        <td><p>Identifiers of targets to add to the set definition entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_RemoveSetTargets_TopSolid_Kernel_Automating_ElementId_List_TopSolid_Kernel_Automating_ElementId___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.14.300.140.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_SetClassifyingClass_" data-uid="TopSolid.Kernel.Automating.IEntities.SetClassifyingClass*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_SetClassifyingClass_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IEntities.SetClassifyingClass(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.ElementId)">SetClassifyingClass(ElementId, ElementId)</h4>
+  <div class="markdown level1 summary"><p>Sets the classification class entity of a specified classifying entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 0, 0)]
+void SetClassifyingClass(ElementId inElementId, ElementId inClassId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the classifying entity to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inClassId</span></td>
+        <td><p>Identifier of the classifying class definition entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_SetClassifyingClass_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_SetCurrentSet_" data-uid="TopSolid.Kernel.Automating.IEntities.SetCurrentSet*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_SetCurrentSet_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IEntities.SetCurrentSet(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.ElementId)">SetCurrentSet(DocumentId, ElementId)</h4>
+  <div class="markdown level1 summary"><p>Sets the current set definition entity in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 14, 300, 140)]
+void SetCurrentSet(DocumentId inDocumentId, ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to set the current set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifiers of the set definition entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_SetCurrentSet_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.14.300.140.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_SetFunctionOccurrenceName_" data-uid="TopSolid.Kernel.Automating.IEntities.SetFunctionOccurrenceName*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_SetFunctionOccurrenceName_TopSolid_Kernel_Automating_ElementId_System_String_" data-uid="TopSolid.Kernel.Automating.IEntities.SetFunctionOccurrenceName(TopSolid.Kernel.Automating.ElementId,System.String)">SetFunctionOccurrenceName(ElementId, String)</h4>
+  <div class="markdown level1 summary"><p>Sets the occurrence name of a function entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+void SetFunctionOccurrenceName(ElementId inElementId, string inOccurrenceName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the function entity to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inOccurrenceName</span></td>
+        <td><p>Occurrence name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_SetFunctionOccurrenceName_TopSolid_Kernel_Automating_ElementId_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IEntities_Transform_" data-uid="TopSolid.Kernel.Automating.IEntities.Transform*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IEntities_Transform_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_Transform3D_" data-uid="TopSolid.Kernel.Automating.IEntities.Transform(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.Transform3D)">Transform(ElementId, Transform3D)</h4>
+  <div class="markdown level1 summary"><p>Creates a transform operation in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 13, 300, 0)]
+ElementId Transform(ElementId inElementId, Transform3D inTransform)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the entity to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Transform3D.html">Transform3D</a></td>
+        <td><span class="parametername">inTransform</span></td>
+        <td><p>Transform to apply.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the transform operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IEntities_Transform_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_Transform3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.13.300.00.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div id="footer-alt">
+              <div class="container">
+                  <div id="footer-alt-bottom">
+                      <ul>
+                          <li><a href="#">Mentions légales</a></li>
+                          <li><a href="#">Plan du site</a></li>
+                          <li><a href="#">C.G.U</a></li>
+                          <li><a href="#">Données personnelles</a></li>
+                      </ul>
+                      <p>Copyright © 2024 TopSolid Tous droits réservés</p>
+                  </div>
+              </div>
+          </div>
+        </footer></div>
+      
+    
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1404 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IVisualization3D
+   | TopSolid Automation website </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IVisualization3D
+   | TopSolid Automation website ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../img/TopSolid_footer.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TopSolid.Kernel.Automating.IVisualization3D">
+  
+  
+  <h1 id="TopSolid_Kernel_Automating_IVisualization3D" data-uid="TopSolid.Kernel.Automating.IVisualization3D" class="text-break">Interface IVisualization3D
+  </h1>
+  <div class="markdown level0 summary"><p>Gives access to 3D visualization.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TopSolid.Kernel.Automating.html">TopSolid.Kernel.Automating</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+public interface IVisualization3D</code></pre>
+  </div>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This interface is available since v7.7.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetActiveView_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetActiveView*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetActiveView_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetActiveView(TopSolid.Kernel.Automating.DocumentId)">GetActiveView(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the active graphic view of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+int GetActiveView(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Identifier of the active graphic view of the document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetActiveView_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetBackCamera_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetBackCamera*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetBackCamera_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetBackCamera(TopSolid.Kernel.Automating.DocumentId)">GetBackCamera(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the back camera entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+ElementId GetBackCamera(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the back camera entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetBackCamera_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetBottomCamera_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetBottomCamera*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetBottomCamera_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetBottomCamera(TopSolid.Kernel.Automating.DocumentId)">GetBottomCamera(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the bottom camera entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+ElementId GetBottomCamera(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the bottom camera entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetBottomCamera_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetCameraDefinition_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetCameraDefinition*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetCameraDefinition_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_Point3D__TopSolid_Kernel_Automating_Direction3D__TopSolid_Kernel_Automating_Direction3D__System_Double__System_Double__" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetCameraDefinition(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.Point3D@,TopSolid.Kernel.Automating.Direction3D@,TopSolid.Kernel.Automating.Direction3D@,System.Double@,System.Double@)">GetCameraDefinition(ElementId, out Point3D, out Direction3D, out Direction3D, out Double, out Double)</h4>
+  <div class="markdown level1 summary"><p>Gets the definition of a camera entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+void GetCameraDefinition(ElementId inElementId, out Point3D outEyePosition, out Direction3D outLookAtDirection, out Direction3D outUpDirection, out double outFieldAngle, out double outFieldRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the camera entity to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Point3D.html">Point3D</a></td>
+        <td><span class="parametername">outEyePosition</span></td>
+        <td><p>Eye position.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Direction3D.html">Direction3D</a></td>
+        <td><span class="parametername">outLookAtDirection</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Direction3D.html">Direction3D</a></td>
+        <td><span class="parametername">outUpDirection</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outFieldAngle</span></td>
+        <td><p>Field angle for perspective projection, or 0 if orthographic projection.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outFieldRadius</span></td>
+        <td><p>Field radius for orthographic projection, or distance between camera origin and projection plane if perspective projection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetCameraDefinition_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_Point3D__TopSolid_Kernel_Automating_Direction3D__TopSolid_Kernel_Automating_Direction3D__System_Double__System_Double___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetCameras_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetCameras*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetCameras_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetCameras(TopSolid.Kernel.Automating.DocumentId)">GetCameras(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the cameras entities that are in the cameras folder of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+List&lt;ElementId&gt; GetCameras(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><p>Cameras entities found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetCameras_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetConicalCamera_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetConicalCamera*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetConicalCamera_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetConicalCamera(TopSolid.Kernel.Automating.DocumentId)">GetConicalCamera(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the conical camera entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+ElementId GetConicalCamera(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the conical camera entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetConicalCamera_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetDefaultDocumentPreviewParameters_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetDefaultDocumentPreviewParameters*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetDefaultDocumentPreviewParameters_TopSolid_Kernel_Automating_DocumentId_System_Int32__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_RenderMode__" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetDefaultDocumentPreviewParameters(TopSolid.Kernel.Automating.DocumentId,System.Int32@,TopSolid.Kernel.Automating.ElementId@,TopSolid.Kernel.Automating.RenderMode@)">GetDefaultDocumentPreviewParameters(DocumentId, out Int32, out ElementId, out RenderMode)</h4>
+  <div class="markdown level1 summary"><p>Gets the document&apos;s default preview parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 14, 300, 140)]
+void GetDefaultDocumentPreviewParameters(DocumentId inDocumentId, out int outSizeOfPreview, out ElementId outPreviewCamera, out RenderMode outPreviewRenderMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">outSizeOfPreview</span></td>
+        <td><p>Size of the preview.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">outPreviewCamera</span></td>
+        <td><p>Preview camera if the document is of Geometric type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.RenderMode.html">RenderMode</a></td>
+        <td><span class="parametername">outPreviewRenderMode</span></td>
+        <td><p>Preview render mode if the document is of Geometric type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetDefaultDocumentPreviewParameters_TopSolid_Kernel_Automating_DocumentId_System_Int32__TopSolid_Kernel_Automating_ElementId__TopSolid_Kernel_Automating_RenderMode___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.14.300.140.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetDocumentPreviewMode_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetDocumentPreviewMode*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetDocumentPreviewMode_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetDocumentPreviewMode(TopSolid.Kernel.Automating.DocumentId)">GetDocumentPreviewMode(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the document preview mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 14, 300, 140)]
+PreviewMode GetDocumentPreviewMode(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.PreviewMode.html">PreviewMode</a></td>
+        <td><p>Preview mode of the document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetDocumentPreviewMode_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.14.300.140.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetFrontCamera_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetFrontCamera*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetFrontCamera_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetFrontCamera(TopSolid.Kernel.Automating.DocumentId)">GetFrontCamera(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the front camera entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+ElementId GetFrontCamera(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the front camera entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetFrontCamera_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetIsometricCamera_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetIsometricCamera*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetIsometricCamera_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetIsometricCamera(TopSolid.Kernel.Automating.DocumentId)">GetIsometricCamera(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the isometric camera entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+ElementId GetIsometricCamera(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the isometric camera entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetIsometricCamera_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetLeftCamera_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetLeftCamera*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetLeftCamera_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetLeftCamera(TopSolid.Kernel.Automating.DocumentId)">GetLeftCamera(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the left camera entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+ElementId GetLeftCamera(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the left camera entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetLeftCamera_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetPerspectiveCamera_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetPerspectiveCamera*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetPerspectiveCamera_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetPerspectiveCamera(TopSolid.Kernel.Automating.DocumentId)">GetPerspectiveCamera(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the perspective camera entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+ElementId GetPerspectiveCamera(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the perspective camera entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetPerspectiveCamera_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetRightCamera_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetRightCamera*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetRightCamera_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetRightCamera(TopSolid.Kernel.Automating.DocumentId)">GetRightCamera(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the right camera entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+ElementId GetRightCamera(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the right camera entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetRightCamera_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetTopCamera_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetTopCamera*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetTopCamera_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetTopCamera(TopSolid.Kernel.Automating.DocumentId)">GetTopCamera(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the top camera entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+ElementId GetTopCamera(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the top camera entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetTopCamera_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetViewCamera_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetViewCamera*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetViewCamera_TopSolid_Kernel_Automating_DocumentId_System_Int32_TopSolid_Kernel_Automating_Point3D__TopSolid_Kernel_Automating_Direction3D__TopSolid_Kernel_Automating_Direction3D__System_Double__System_Double__" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetViewCamera(TopSolid.Kernel.Automating.DocumentId,System.Int32,TopSolid.Kernel.Automating.Point3D@,TopSolid.Kernel.Automating.Direction3D@,TopSolid.Kernel.Automating.Direction3D@,System.Double@,System.Double@)">GetViewCamera(DocumentId, Int32, out Point3D, out Direction3D, out Direction3D, out Double, out Double)</h4>
+  <div class="markdown level1 summary"><p>Gets the camera of a graphic view of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+void GetViewCamera(DocumentId inDocumentId, int inViewId, out Point3D outEyePosition, out Direction3D outLookAtDirection, out Direction3D outUpDirection, out double outFieldAngle, out double outFieldRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inViewId</span></td>
+        <td><p>Identifier of the graphic view to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Point3D.html">Point3D</a></td>
+        <td><span class="parametername">outEyePosition</span></td>
+        <td><p>Position of the eye.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Direction3D.html">Direction3D</a></td>
+        <td><span class="parametername">outLookAtDirection</span></td>
+        <td><p>Eye looking direction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Direction3D.html">Direction3D</a></td>
+        <td><span class="parametername">outUpDirection</span></td>
+        <td><p>Vertical upwards direction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outFieldAngle</span></td>
+        <td><p>Field angle for perspective projection, or 0 if orthographic projection.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outFieldRadius</span></td>
+        <td><p>Field radius for orthographic projection, or distance between camera origin and projection plane if perspective projection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetViewCamera_TopSolid_Kernel_Automating_DocumentId_System_Int32_TopSolid_Kernel_Automating_Point3D__TopSolid_Kernel_Automating_Direction3D__TopSolid_Kernel_Automating_Direction3D__System_Double__System_Double___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetViewCount_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetViewCount*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetViewCount_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetViewCount(TopSolid.Kernel.Automating.DocumentId)">GetViewCount(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the number of graphic views of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+int GetViewCount(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Number of graphic views of the document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetViewCount_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetViewRectangle_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetViewRectangle*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetViewRectangle_TopSolid_Kernel_Automating_DocumentId_System_Int32_System_Int32__System_Int32__System_Int32__System_Int32__" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetViewRectangle(TopSolid.Kernel.Automating.DocumentId,System.Int32,System.Int32@,System.Int32@,System.Int32@,System.Int32@)">GetViewRectangle(DocumentId, Int32, out Int32, out Int32, out Int32, out Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets the screen rectangle of the graphic view of a document. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+void GetViewRectangle(DocumentId inDocumentId, int inViewId, out int outXMin, out int outXMax, out int outYMin, out int outYMax)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inViewId</span></td>
+        <td><p>Identifier of the graphic view to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">outXMin</span></td>
+        <td><p>Left side coordinate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">outXMax</span></td>
+        <td><p>Right side coordinate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">outYMin</span></td>
+        <td><p>Bottom side coordinate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">outYMax</span></td>
+        <td><p>Top side coordinate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetViewRectangle_TopSolid_Kernel_Automating_DocumentId_System_Int32_System_Int32__System_Int32__System_Int32__System_Int32___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Rectangle is expressed in GDI screen coordinates (origin at top-left of screen).</p>
+<p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetViewRenderMode_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetViewRenderMode*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetViewRenderMode_TopSolid_Kernel_Automating_DocumentId_System_Int32_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetViewRenderMode(TopSolid.Kernel.Automating.DocumentId,System.Int32)">GetViewRenderMode(DocumentId, Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets the render mode of a graphic view of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+RenderMode GetViewRenderMode(DocumentId inDocumentId, int inViewId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inViewId</span></td>
+        <td><p>Identifier of the graphic view to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.RenderMode.html">RenderMode</a></td>
+        <td><p>View render mode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetViewRenderMode_TopSolid_Kernel_Automating_DocumentId_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_GetViews_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetViews*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_GetViews_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.GetViews(TopSolid.Kernel.Automating.DocumentId)">GetViews(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the graphic views of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+List&lt;int&gt; GetViews(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><p>Identifiers of the graphic views of the document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_GetViews_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_RedrawView_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.RedrawView*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_RedrawView_TopSolid_Kernel_Automating_DocumentId_System_Int32_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.RedrawView(TopSolid.Kernel.Automating.DocumentId,System.Int32)">RedrawView(DocumentId, Int32)</h4>
+  <div class="markdown level1 summary"><p>Redraws a graphic view of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+void RedrawView(DocumentId inDocumentId, int inViewId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inViewId</span></td>
+        <td><p>Identifier of the graphic view to redraw.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_RedrawView_TopSolid_Kernel_Automating_DocumentId_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_SetActiveView_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.SetActiveView*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_SetActiveView_TopSolid_Kernel_Automating_DocumentId_System_Int32_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.SetActiveView(TopSolid.Kernel.Automating.DocumentId,System.Int32)">SetActiveView(DocumentId, Int32)</h4>
+  <div class="markdown level1 summary"><p>Sets the active graphic view of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+void SetActiveView(DocumentId inDocumentId, int inViewId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inViewId</span></td>
+        <td><p>Identifier of the active graphic view of the document.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_SetActiveView_TopSolid_Kernel_Automating_DocumentId_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_SetDefaultDocumentPreviewParameters_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.SetDefaultDocumentPreviewParameters*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_SetDefaultDocumentPreviewParameters_TopSolid_Kernel_Automating_DocumentId_System_Int32_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_RenderMode_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.SetDefaultDocumentPreviewParameters(TopSolid.Kernel.Automating.DocumentId,System.Int32,TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.RenderMode)">SetDefaultDocumentPreviewParameters(DocumentId, Int32, ElementId, RenderMode)</h4>
+  <div class="markdown level1 summary"><p>Sets the document&apos;s default preview parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 14, 300, 140)]
+void SetDefaultDocumentPreviewParameters(DocumentId inDocumentId, int inSizeOfPreview, ElementId inPreviewCamera, RenderMode inPreviewRenderMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inSizeOfPreview</span></td>
+        <td><p>Size of the preview.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inPreviewCamera</span></td>
+        <td><p>Preview camera.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.RenderMode.html">RenderMode</a></td>
+        <td><span class="parametername">inPreviewRenderMode</span></td>
+        <td><p>Preview render mode. Only Realistic, RealisticWithEdges and GouraudWithEdges are available for this method.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_SetDefaultDocumentPreviewParameters_TopSolid_Kernel_Automating_DocumentId_System_Int32_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_RenderMode__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.14.300.140.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_SetStandardCamerasDefinitions_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.SetStandardCamerasDefinitions*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_SetStandardCamerasDefinitions_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Direction3D_TopSolid_Kernel_Automating_Direction3D_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.SetStandardCamerasDefinitions(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.Direction3D,TopSolid.Kernel.Automating.Direction3D)">SetStandardCamerasDefinitions(DocumentId, Direction3D, Direction3D)</h4>
+  <div class="markdown level1 summary"><p>Sets the definitions of the standard cameras entities.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 11, 0, 0)]
+void SetStandardCamerasDefinitions(DocumentId inDocumentId, Direction3D inHorizontalDirection, Direction3D inVerticalDirection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Direction3D.html">Direction3D</a></td>
+        <td><span class="parametername">inHorizontalDirection</span></td>
+        <td><p>Horizontal direction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Direction3D.html">Direction3D</a></td>
+        <td><span class="parametername">inVerticalDirection</span></td>
+        <td><p>Vertical direction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_SetStandardCamerasDefinitions_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Direction3D_TopSolid_Kernel_Automating_Direction3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The standard &quot;Top Camera&quot; will be set so that when applied to a view the <code>inHorizontalDirection</code> is actually horizontal
+on the screen oriented from left to right, and the <code>inVerticalDirection</code> is normal to the screen oriented towards the user.
+The other standard cameras will be set accordingly.</p>
+<p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.11.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_SetViewCamera_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.SetViewCamera*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_SetViewCamera_TopSolid_Kernel_Automating_DocumentId_System_Int32_TopSolid_Kernel_Automating_Point3D_TopSolid_Kernel_Automating_Direction3D_TopSolid_Kernel_Automating_Direction3D_System_Double_System_Double_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.SetViewCamera(TopSolid.Kernel.Automating.DocumentId,System.Int32,TopSolid.Kernel.Automating.Point3D,TopSolid.Kernel.Automating.Direction3D,TopSolid.Kernel.Automating.Direction3D,System.Double,System.Double)">SetViewCamera(DocumentId, Int32, Point3D, Direction3D, Direction3D, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the camera of a graphic view of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+void SetViewCamera(DocumentId inDocumentId, int inViewId, Point3D inEyePosition, Direction3D inLookAtDirection, Direction3D inUpDirection, double inFieldAngle, double inFieldRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inViewId</span></td>
+        <td><p>Identifier of the graphic view to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Point3D.html">Point3D</a></td>
+        <td><span class="parametername">inEyePosition</span></td>
+        <td><p>Position of the eye.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Direction3D.html">Direction3D</a></td>
+        <td><span class="parametername">inLookAtDirection</span></td>
+        <td><p>Eye looking direction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Direction3D.html">Direction3D</a></td>
+        <td><span class="parametername">inUpDirection</span></td>
+        <td><p>Vertical upwards direction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inFieldAngle</span></td>
+        <td><p>Field angle for perspective projection, or 0 if orthographic projection.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inFieldRadius</span></td>
+        <td><p>Field radius for orthographic projection, or distance between camera origin and projection plane if perspective projection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_SetViewCamera_TopSolid_Kernel_Automating_DocumentId_System_Int32_TopSolid_Kernel_Automating_Point3D_TopSolid_Kernel_Automating_Direction3D_TopSolid_Kernel_Automating_Direction3D_System_Double_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_SetViewRenderMode_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.SetViewRenderMode*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_SetViewRenderMode_TopSolid_Kernel_Automating_DocumentId_System_Int32_TopSolid_Kernel_Automating_RenderMode_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.SetViewRenderMode(TopSolid.Kernel.Automating.DocumentId,System.Int32,TopSolid.Kernel.Automating.RenderMode)">SetViewRenderMode(DocumentId, Int32, RenderMode)</h4>
+  <div class="markdown level1 summary"><p>Sets the render mode of a graphic view of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+void SetViewRenderMode(DocumentId inDocumentId, int inViewId, RenderMode inRenderMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inViewId</span></td>
+        <td><p>Identifier of the graphic view to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.RenderMode.html">RenderMode</a></td>
+        <td><span class="parametername">inRenderMode</span></td>
+        <td><p>View render mode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_SetViewRenderMode_TopSolid_Kernel_Automating_DocumentId_System_Int32_TopSolid_Kernel_Automating_RenderMode__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IVisualization3D_ZoomToFitView_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.ZoomToFitView*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IVisualization3D_ZoomToFitView_TopSolid_Kernel_Automating_DocumentId_System_Int32_" data-uid="TopSolid.Kernel.Automating.IVisualization3D.ZoomToFitView(TopSolid.Kernel.Automating.DocumentId,System.Int32)">ZoomToFitView(DocumentId, Int32)</h4>
+  <div class="markdown level1 summary"><p>Performs a &quot;Zoom to Fit&quot; on a graphic view of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 0, 0)]
+void ZoomToFitView(DocumentId inDocumentId, int inViewId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inViewId</span></td>
+        <td><p>Identifier of the graphic view to modify.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IVisualization3D_ZoomToFitView_TopSolid_Kernel_Automating_DocumentId_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.7.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div id="footer-alt">
+              <div class="container">
+                  <div id="footer-alt-bottom">
+                      <ul>
+                          <li><a href="#">Mentions légales</a></li>
+                          <li><a href="#">Plan du site</a></li>
+                          <li><a href="#">C.G.U</a></li>
+                          <li><a href="#">Données personnelles</a></li>
+                      </ul>
+                      <p>Copyright © 2024 TopSolid Tous droits réservés</p>
+                  </div>
+              </div>
+          </div>
+        </footer></div>
+      
+    
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
