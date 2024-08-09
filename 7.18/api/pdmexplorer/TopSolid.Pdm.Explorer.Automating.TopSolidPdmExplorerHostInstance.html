@@ -1,0 +1,832 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TopSolidPdmExplorerHostInstance
+   | TopSolid Automation website </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TopSolidPdmExplorerHostInstance
+   | TopSolid Automation website ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../img/TopSolid_footer.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance">
+  
+  
+  <h1 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance" class="text-break">Class TopSolidPdmExplorerHostInstance
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a TopSolid&apos;Pdm Explorer host instance providing WCF services for automating.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">TopSolidPdmExplorerHostInstance</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TopSolid.Pdm.Explorer.Automating.html">TopSolid.Pdm.Explorer.Automating</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 11, 300, 80)]
+public sealed class TopSolidPdmExplorerHostInstance</code></pre>
+  </div>
+  <h5 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>When automating several instances of TopSolid at the same time one must make and use several instances of this class (one per TopSolid instance),
+otherwize if only one instance of TopSolid is to be automated, it is possible to simply use the <a class="xref" href="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHost.html">TopSolidPdmExplorerHost</a> static class.</p>
+<p>This class is available since v7.10.</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance__ctor_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.#ctor*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance__ctor" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.#ctor">TopSolidPdmExplorerHostInstance()</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.html">TopSolidPdmExplorerHostInstance</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TopSolidPdmExplorerHostInstance()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Application_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.Application*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Application" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.Application">Application</h4>
+  <div class="markdown level1 summary"><p>Gets access to the application, or null if not available.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IApplication Application { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Pdm.Explorer.Automating.IApplication.html">IApplication</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_ClientAddress_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.ClientAddress*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_ClientAddress" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.ClientAddress">ClientAddress</h4>
+  <div class="markdown level1 summary"><p>Gets the client IP address used for receiving events when using TCP, or null for not managing events.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ClientAddress { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_ClientName_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.ClientName*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_ClientName" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.ClientName">ClientName</h4>
+  <div class="markdown level1 summary"><p>Gets the client name, or null if anonymous.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ClientName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_ClientPort_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.ClientPort*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_ClientPort" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.ClientPort">ClientPort</h4>
+  <div class="markdown level1 summary"><p>Gets the client port used for receiving events when using TCP, or 0 for not managing events.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ClientPort { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_HostAddress_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.HostAddress*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_HostAddress" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.HostAddress">HostAddress</h4>
+  <div class="markdown level1 summary"><p>Gets the host IP address, or null if not using TCP.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string HostAddress { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_HostPort_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.HostPort*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_HostPort" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.HostPort">HostPort</h4>
+  <div class="markdown level1 summary"><p>Gets the host port, or 0 if not using TCP.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int HostPort { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_IsConnected_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.IsConnected*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_IsConnected" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.IsConnected">IsConnected</h4>
+  <div class="markdown level1 summary"><p>Tells whether TopSolid is connected.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsConnected { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Pdm_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.Pdm*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Pdm" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.Pdm">Pdm</h4>
+  <div class="markdown level1 summary"><p>Gets access to the PDM, or null if not available.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPdm Pdm { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Pdm.Explorer.Automating.IPdm.html">IPdm</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_PdmAdmin_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.PdmAdmin*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_PdmAdmin" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.PdmAdmin">PdmAdmin</h4>
+  <div class="markdown level1 summary"><p>Gets access to the PDM administration, or null if not available.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPdmAdmin PdmAdmin { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Pdm.Explorer.Automating.IPdmAdmin.html">IPdmAdmin</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_PdmSecurity_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.PdmSecurity*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_PdmSecurity" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.PdmSecurity">PdmSecurity</h4>
+  <div class="markdown level1 summary"><p>Gets access to the PDM security, or null if not available.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPdmSecurity PdmSecurity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Pdm.Explorer.Automating.IPdmSecurity.html">IPdmSecurity</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_PdmWorkflow_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.PdmWorkflow*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_PdmWorkflow" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.PdmWorkflow">PdmWorkflow</h4>
+  <div class="markdown level1 summary"><p>Gets access to the PDM administration, or null if not available.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPdmWorkflow PdmWorkflow { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Pdm.Explorer.Automating.IPdmWorkflow.html">IPdmWorkflow</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_PipeName_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.PipeName*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_PipeName" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.PipeName">PipeName</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the name used to make named pipe, or null for default.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PipeName { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_PipeName_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This property can be changed before connecting to a TopSolid host on the same machine using named pipes if the default name is not
+convenient (in particular when several TopSolid processes are running at the same time), it is not needed to change it otherwize.</p>
+<p>This property cannot be set once connected to TopSolid, i.e. when <a class="xref" href="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.html#TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_IsConnected">IsConnected</a> is <code>true</code>.</p>
+</div>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Version_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.Version*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Version" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.Version">Version</h4>
+  <div class="markdown level1 summary"><p>Gets the version of TopSolid host, or 0 if not connected.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Version { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Version_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The value returned is defined by: <code>Major * 100000000 + Minor * 1000000 + Build * 1000 + Revision</code>.</p>
+<p>For example, v7.5.200.100 is returned as: <code>705200100</code>.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Connect_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.Connect*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Connect" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.Connect">Connect()</h4>
+  <div class="markdown level1 summary"><p>Connects to TopSolid application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Connect()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>TopSolid has been automatically started.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Connect_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>TopSolid is automatically started if it is not already running.</p>
+<p>When starting TopSolid automatically, if several versions are installed, the most recent version is started.</p>
+<p>When starting TopSolid automatically, if both 64-bit and 32-bit versions are installed, the 64-bit version is started.</p>
+<p>This methods waits up to 10 minutes for TopSolid to be ready before failing to connect. </p>
+</div>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Connect_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.Connect*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Connect_System_Boolean_System_Int32_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.Connect(System.Boolean,System.Int32)">Connect(Boolean, Int32)</h4>
+  <div class="markdown level1 summary"><p>Connects to TopSolid application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Connect(bool inStarts, int inTimeOut)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inStarts</span></td>
+        <td><p>Automatically starts TopSolid if it is not already running.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inTimeOut</span></td>
+        <td><p>Number of seconds to wait for TopSolid to be ready before failing to connect.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>TopSolid has been automatically started.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Connect_System_Boolean_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>When starting TopSolid automatically, if several versions are installed, the most recent version is started.</p>
+<p>When starting TopSolid automatically, if both 64-bit and 32-bit versions are installed, the 64-bit version is started.</p>
+</div>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Connect_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.Connect*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Connect_System_Boolean_System_Int32_System_String_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.Connect(System.Boolean,System.Int32,System.String)">Connect(Boolean, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Connects to TopSolid application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Connect(bool inStarts, int inTimeOut, string inClientName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inStarts</span></td>
+        <td><p>Automatically starts TopSolid if it is not already running.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inTimeOut</span></td>
+        <td><p>Number of seconds to wait for TopSolid to be ready before failing to connect.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inClientName</span></td>
+        <td><p>Name identifying your application, ex: &quot;MyApplication&quot;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>TopSolid has been automatically started.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Connect_System_Boolean_System_Int32_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>When starting TopSolid automatically, if several versions are installed, the most recent version is started.</p>
+<p>When starting TopSolid automatically, if both 64-bit and 32-bit versions are installed, the 64-bit version is started.</p>
+<p>The <code>inClientName</code> string must uniquely identify your application, as it is used to make a Windows pipe name that must be unique
+when managing events.</p>
+</div>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Connect_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.Connect*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Connect_System_String_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.Connect(System.String)">Connect(String)</h4>
+  <div class="markdown level1 summary"><p>Connects to TopSolid application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Connect(string inClientName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inClientName</span></td>
+        <td><p>Name identifying your application, ex: &quot;MyApplication&quot;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>TopSolid has been automatically started.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Connect_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>TopSolid is automatically started if it is not already running.</p>
+<p>When starting TopSolid automatically, if several versions are installed, the most recent version is started.</p>
+<p>When starting TopSolid automatically, if both 64-bit and 32-bit versions are installed, the 64-bit version is started.</p>
+<p>This methods waits up to 10 minutes for TopSolid to be ready before failing to connect. </p>
+</div>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_DefineConnection_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.DefineConnection*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_DefineConnection_System_String_System_Int32_System_String_System_Int32_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.DefineConnection(System.String,System.Int32,System.String,System.Int32)">DefineConnection(String, Int32, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Defines the connection between this client application and TopSolid host for remote access.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DefineConnection(string inHostAddress, int inHostPort, string inClientAddress, int inClientPort)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inHostAddress</span></td>
+        <td><p>Host IP address (or &quot;localhost&quot; for local machine) if using TCP, or null otherwize (default).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inHostPort</span></td>
+        <td><p>Host port used if using TCP, or 0 otherwize (default).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inClientAddress</span></td>
+        <td><p>Client IP address (or &quot;localhost&quot; for local machine) if using TCP and managing events, or null otherwize (default).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">inClientPort</span></td>
+        <td><p>Client port used if using TCP and managing events, or 0 otherwize (default).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_DefineConnection_System_String_System_Int32_System_String_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method must be called before connecting to a remote TopSolid host on another machine to use TCP instead of named pipes,
+it is not needed to call it otherwize.</p>
+<p>When performing remote access and using events, <code>inClientAddress</code> and <code>inClientPort</code> must be set to allow TopSolid to connect
+to this client application, otherwize they must be set to <code>null</code> and <code>0</code>.</p>
+<p>This method cannot be called once connected to TopSolid, i.e. when <a class="xref" href="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.html#TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_IsConnected">IsConnected</a> is <code>true</code>.</p>
+</div>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Disconnect_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.Disconnect*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Disconnect" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.Disconnect">Disconnect()</h4>
+  <div class="markdown level1 summary"><p>Disconnects from TopSolid application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Disconnect()</code></pre>
+  </div>
+  <a id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_MakeClientHost_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.MakeClientHost*"></a>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_MakeClientHost_System_Type_System_Type_" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.MakeClientHost(System.Type,System.Type)">MakeClientHost(Type, Type)</h4>
+  <div class="markdown level1 summary"><p>Makes a TopSolid client WCF host.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServiceHost MakeClientHost(Type inClassType, Type inInterfaceType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">inClassType</span></td>
+        <td><p>Class type, implementing the <code>inInterfaceType</code> interface.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">inInterfaceType</span></td>
+        <td><p>Interface type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ServiceHost</span></td>
+        <td><p>Host.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <h4 id="TopSolid_Pdm_Explorer_Automating_TopSolidPdmExplorerHostInstance_Exited" data-uid="TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.Exited">Exited</h4>
+  <div class="markdown level1 summary"><p>This event is raised when TopSolid has exited.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler Exited</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div id="footer-alt">
+              <div class="container">
+                  <div id="footer-alt-bottom">
+                      <ul>
+                          <li><a href="#">Mentions légales</a></li>
+                          <li><a href="#">Plan du site</a></li>
+                          <li><a href="#">C.G.U</a></li>
+                          <li><a href="#">Données personnelles</a></li>
+                      </ul>
+                      <p>Copyright © 2024 TopSolid Tous droits réservés</p>
+                  </div>
+              </div>
+          </div>
+        </footer></div>
+      
+    
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+- name: Home
+  href: articles/
+- name: Automation Kernel Documentation
+  href: api/kernel/
+- name: Automation Cad Documentation
+  href: api/cad/
