@@ -1,0 +1,3546 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Sources/Workspaces/TopSolid/TopSolid v7.18/Work",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.BendFeature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.BendFeature.html",
+          "hash": "f7XlkOfoJYq4AN+uihAnPMvydPcrtAkp7bwqvmV9qFo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.BomPropertyDefinitions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.BomPropertyDefinitions.html",
+          "hash": "GSraFKLKroHucUpulrB16hF3Wa54hFRhNpg3Kkr1t1A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.BomRoot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.BomRoot.html",
+          "hash": "pQ2NfFB0LvJY1Q7uXWEL/RAFBcwMogfw7gwzVfqwZVI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.BomRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.BomRow.html",
+          "hash": "Z77VGv7wJBrs+Kj0LvqpNRmej/7vxaUJTSm4pUd5svs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.CoatingCategoryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.CoatingCategoryType.html",
+          "hash": "2Yvg6DDYW7z3mBnCNIgZCJDCDEXbQrrYQWbRPuokblc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingCounterSinkingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingCounterSinkingMode.html",
+          "hash": "pxD3lTQJFRuzkEEY5DBIp24rkPvH8JsvhfARbg05l34="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingCounterSinkingPrimitive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingCounterSinkingPrimitive.html",
+          "hash": "+uIl9N13FpZ9oAZcBdeol9N3LQM4dKWFTimvdK5+k1U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingHolePrimitive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingHolePrimitive.html",
+          "hash": "6sM1B8W4sOZj8jA4R9PmSWP5gtGUIOfQDYw4PjjuF1Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingHolePrimitiveBottomType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingHolePrimitiveBottomType.html",
+          "hash": "P08jZrJ2rKeSZ+JVGw+gilngpYecc1a88Xd6d1RBetc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingPrimitive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingPrimitive.html",
+          "hash": "7mUN0hK01Y8PMF5YkNDApIL6AJ5io25QSQjqE2Kjhco="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingPrimitiveDepthType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingPrimitiveDepthType.html",
+          "hash": "pTEc9AImUTOqlgE2ajkepnXRf1G3OObCSgP6I5Tk1lY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingPrimitiveType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingPrimitiveType.html",
+          "hash": "KON6bYQm8Ct8PD9vTbJt+Rg72baufTeNV6vCnTpNEKo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingSpotFacingPrimitive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingSpotFacingPrimitive.html",
+          "hash": "dAKnbMw/HcEi1PSAUNpVexmvBzIFwwJ3eDNbL9lT4FM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingTappedHolePrimitive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingTappedHolePrimitive.html",
+          "hash": "agd2BVbV3LbE7IVNr7ZmDhL0xhNMYi5Z3BjuaSBkxY4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingTappedHolePrimitiveThreadType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.DrillingTappedHolePrimitiveThreadType.html",
+          "hash": "Kkv6GOUHGhB2xBJAo65OhIVpy8D3IsIZHmo/CcbR7Bk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.EnclosingBoxManagementType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.EnclosingBoxManagementType.html",
+          "hash": "L1c8UPiXO1tZjpZQE+H6LPpTI66AfcWc5DH9G9Y3c4s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.EnclosingCylinderManagementType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.EnclosingCylinderManagementType.html",
+          "hash": "JWZj8kI/dpFFrP/KpM9kHwquXKr6JUO9YWaeETYtc0s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.EntityCopyNameMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.EntityCopyNameMode.html",
+          "hash": "GqNbh1fDGjQEcj1wtBFp5ysyc/h0xrf5IYcFwZYFphc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.FeatureType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.FeatureType.html",
+          "hash": "Sh/V96CfupNj43MejqcQhGPgvDrvYoGPf51WzLVhApQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.ForceDrivingInterpolationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.ForceDrivingInterpolationType.html",
+          "hash": "3fAfAjlTAJ8SJUHtWXCpjg8DAlIwE3BE6uUtjJrhn5s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.IAssemblies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.IAssemblies.html",
+          "hash": "P7WevEiEkzIAPCh7D2trbfRHgK7nmOkDx1V9mwz3UVU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.IBoms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.IBoms.html",
+          "hash": "2PoeKHyAIEc6jl870sfd3Cu8gyx5a6bm74tlyG/rLFE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.ICoatings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.ICoatings.html",
+          "hash": "pAkQCnrVIcuJympwRNkINlAMKV8gukZun56cniJjCb0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.IFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.IFeatures.html",
+          "hash": "eeOzgB4H0zxqyKT1x+sfx9ToBXH2kBAgMlVN58H8ACU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.IMaterials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.IMaterials.html",
+          "hash": "UVH4P/Qil2mUTw5LEFhiWJPUREiAIIUjo+FlSSAavSE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.IMechanisms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.IMechanisms.html",
+          "hash": "ZQaoO6Y9+oZgGKq9H07qOpMjBjJd47H67o6vGPQCPMY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.IParts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.IParts.html",
+          "hash": "HRlPgVoBxcYcn+G29RfnhFK71McZPdB2TTW2+7X3aac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.IRepresentations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.IRepresentations.html",
+          "hash": "JvyfF5wup9F9i+2reYRl97B7ECcPD5mx0jLnWts++Rw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.ISimulations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.ISimulations.html",
+          "hash": "UbzUc1mVuNOAZw8F6w+uS+buRp6nfdvurbb14KZlcH4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.ITools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.ITools.html",
+          "hash": "TXHLbghhK6me839utpc61a5KjXXsAdA/WkEFyOz4cQ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.IUnfoldings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.IUnfoldings.html",
+          "hash": "dQ5pryVH1TK8XwpMLuiP+ttvB57shCcOMMW4GYRTdUs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.JointDrivingInterpolationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.JointDrivingInterpolationType.html",
+          "hash": "oFnZTyV/ECj/8uwBc2ecTRfHPnnfkcC1b3CPJNNXvsk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.JointDrivingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.JointDrivingType.html",
+          "hash": "buGjAv3JjUoH/5upP0p2FMPlC86QyVN/C/rXbIWGqfc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.JointType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.JointType.html",
+          "hash": "gv3ibGIqjvOfvsvbNoBqhy5igUmBImeE+MQ53EsBPf4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.MaterialCategoryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.MaterialCategoryType.html",
+          "hash": "jcosaBmHNaIA8iD9V/qvrLo42Wqq+agxbsGJLOHElF0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.MaterialModelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.MaterialModelType.html",
+          "hash": "ovm4y3z2CC+8a2kq/LLBcf9Cd5f7ukqa/fXGqJUSb5M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.RigidGroupDrivingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.RigidGroupDrivingType.html",
+          "hash": "RsPY0qBeznJmpPoh0vNdX0jYTr3+7HmiZNouZougpNE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.SmartCoating.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.SmartCoating.html",
+          "hash": "/v41SWUzXYRW8DdeNknxi5czdzXMQv4abIzs9w6YxIY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.SmartDesignObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.SmartDesignObject.html",
+          "hash": "qDysJjRiRa1vSDgY/GctVqUM1wVClfumnVsxiOYNOHQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.SmartDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.SmartDocument.html",
+          "hash": "obn0IZUsTc/qutPgfD7KOKF7bDqXpRA/dnSTbc4r98I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.SmartFinishing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.SmartFinishing.html",
+          "hash": "bLrsZH2LmEYmsKmpb4klbO0ixXeR5zXDEU5t+Wuv8Go="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.SmartMaterial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.SmartMaterial.html",
+          "hash": "fJvleLQgADUXFxScp40fsoaHK0tgv+qN696efdwJSkI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.StockManagementType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.StockManagementType.html",
+          "hash": "iwU31EfNHvkx4bA0yPUgmIdF3OuytN4S0VBFMkK/oe8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.SymmetryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.SymmetryType.html",
+          "hash": "3T7nw9raJE0WgWpsp4euyUrTdQa956TDJxl+xHXF8xA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.TaskType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.TaskType.html",
+          "hash": "R6r8X1cTLcWXQ/0/YURuaYlYVKHVw37vKUaFtF/J/3k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.TopSolidDesignHost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.TopSolidDesignHost.html",
+          "hash": "tBqqYFPNBQKxQIwIShpZvL/voRmS7z4BSL8J0DbAEws="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.TopSolidDesignHostInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.TopSolidDesignHostInstance.html",
+          "hash": "UbrHuAW0GkTnwgu5gGgBxYmm7yjnCc6ikmgmZn5IQqo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/cad/TopSolid.Cad.Design.Automating.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/TopSolid.Cad.Design.Automating.html",
+          "hash": "ywSb1Jx3AZ4LNKeGGCHVuXbjZIZ3TByl5Z76OzXyAAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/cad/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/cad/toc.html",
+          "hash": "9iKELv/ssB3FJyKwF4f3CoK5uB+Nx+Rlpfn4wYN10z8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.AvailableSinceVersionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.AvailableSinceVersionAttribute.html",
+          "hash": "DwXScK3/5uuEOmpBLr44+dT3sO4oqb0ape4FIx8gA+A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.Axis2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.Axis2D.html",
+          "hash": "ZEqXWKgIPJyewC4PVvIz92a4z5Ewi6HMZ1sLIITrG8A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.Axis3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.Axis3D.html",
+          "hash": "2aUT94NT5CZuRhuRr3PHnQLshV5clRx100+bWJyEh7s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.BooleanProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.BooleanProperty.html",
+          "hash": "85pZ5LjZ5jblSY1xH5+2xrx38gu2t2wuZXfnTl8PA5s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.CodeProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.CodeProperty.html",
+          "hash": "4wHINfSG/BX/75lRhY/9q6LtiwI5AtUwc3JkW64tnJY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.Color.html",
+          "hash": "elVhof0Q8SlNpDIiUmsfs5zfOvaqAaamlT0aG8p/Kzw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.ColorProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.ColorProperty.html",
+          "hash": "3nrN0nuSqamyN+D2PaxK95zVQsu6TW+5cXA2Av3NjSM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.ColorWithDescriptionProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.ColorWithDescriptionProperty.html",
+          "hash": "6TA0mJ4YADnN329ycAnICJLLriW7LbUaLNkEtFtQclI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.CompressionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.CompressionType.html",
+          "hash": "8+L/C811730mOZYffV+9n+9VaGtbPJAoDb7KyEzB1YM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.CurveParametricApproximationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.CurveParametricApproximationType.html",
+          "hash": "0lFLN8cs+Ia6LxVgo81Bszv2zkqrdk8deUna8a25H2c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.CurveType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.CurveType.html",
+          "hash": "qER5Q+etwmRSMrbau3EjKQaeADLAfadRxZrmImb1bs8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.DateTimeProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.DateTimeProperty.html",
+          "hash": "cDAT1gfnd60LKUomhw5ERGMVsgxz6uYG+A7BDP7Er+s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.Direction2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.Direction2D.html",
+          "hash": "FN3vKwVwWY3CoPhrTagoTf6TI70eEZXkjeWhRNbdH6U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.Direction3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.Direction3D.html",
+          "hash": "xhQyIG5JWz0697GX2kAZCvRPCoacFUMzGDwxrWK6J+M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.DocumentId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.DocumentId.html",
+          "hash": "6IIYfvqxtXcmV8+ymHmB7gr6eWCc6Wbf4tGqaEgwT+I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.DocumentProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.DocumentProperty.html",
+          "hash": "PQaLOvkZ+iES7oAQnTwhYArMJRWr54ADqm7aeCFjnNA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.DocumentReferenceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.DocumentReferenceType.html",
+          "hash": "AixnIVTft7WLL4v18302BfrGe+YG2LrDnF9jDyksbHM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.ElementId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.ElementId.html",
+          "hash": "VeNJZaRX+itdA7aXyuwa5Wwbia/BEFQtApnLo9nve1U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.ElementItemId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.ElementItemId.html",
+          "hash": "gsk87BZJnczLWErqT1HI71/j2bJrxuxerbBhB5TlfpU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.EnumerationProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.EnumerationProperty.html",
+          "hash": "xnXk/sqli5ZX9VF/67MVARhA0IIV6EUQuNY625g7Hu4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.FacesDivisionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.FacesDivisionType.html",
+          "hash": "OuaJ6FrYURG8loq0vR9IyhGEZPUqvLTmjLbqKPSY2WE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.Frame2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.Frame2D.html",
+          "hash": "6mpmqFhmUYge3e22hzrUws8mp1t0immtwZls3G2TzlM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.Frame3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.Frame3D.html",
+          "hash": "y/JVPaJ8xK3pAm9pYn9Z4xIgGXGUmEb2PuRgWRaBRP8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.GeometryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.GeometryType.html",
+          "hash": "6rNXUEtqTEGtut72bQzyepyY9dGhq3ZrN0U1dbFnE5w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IApplication.html",
+          "hash": "MAbiXhdm4z+y8mdzlo2QY/kIArpyWEVgbvZsuynGZto="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IClassifications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IClassifications.html",
+          "hash": "GP/zYLWZC1a4hoEGUXTDeD1avQ2NOOISi01wvNiqz3U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IDocuments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IDocuments.html",
+          "hash": "tPSw9/nhzhSXlQtALhMI2spalfQEE1vajPaGfLyIHDE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IDocumentsEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IDocumentsEvents.html",
+          "hash": "/mgo9/JQRlBbnOFVRNXQkek4vwxzU4+KJ4aOuM9H8m0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IElements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IElements.html",
+          "hash": "S2zLkrrCua3wjrVnN7XpBdGAuWd5XfTO1hxYubbNr/o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IEntities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IEntities.html",
+          "hash": "m4W6wVcdDQOKb5LmIF85nhLBbdNQVpww7FZgdboV/iQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IFamilies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IFamilies.html",
+          "hash": "EJLNPnXd2/UTwik/llsxlDx0p/WwqohZuY0nNm66Io8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IGeometries2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IGeometries2D.html",
+          "hash": "AHD07KWzuTYypnwhWm7/KW/IVHkG3gLoVLGp74X/+jA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IGeometries3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IGeometries3D.html",
+          "hash": "oOQF5LIdSzOCiuq2+SC0F0pkMxzjW9/L5MsqpKCqrRA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.ILicenses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.ILicenses.html",
+          "hash": "9bjbXE8GXqPxcJ+f0fyDb+MjLTDvD8ef1BtRyxa681A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IMaterials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IMaterials.html",
+          "hash": "WZ5BULqR3V9RjS/IF/Whr43MUJHy+jN52Tx6CbY7h4k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IOperations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IOperations.html",
+          "hash": "e+MQUfk6ZIer5/GbC/s/7TnhXiGXBTn+gMiHyfvWyn0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IOptions.html",
+          "hash": "SXjfrOg3KWwQAKgDO7RjmVwxwx8AiVMd6dNEapJ70ck="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IParameters.html",
+          "hash": "UEFlob0kTJMzteL+2iYHEuYXvZ8Cm1WVmXm3HO0yPqg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IPdm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IPdm.html",
+          "hash": "qW9nIYf8VGFVXHlJGnJjsv9imiUhAghvU/oiFU98huE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IPdmAdmin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IPdmAdmin.html",
+          "hash": "Q3zWDuEQGrGPkjeBBTLyCaMcjz5IT6nvIn6KdAJaA94="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IPdmSecurity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IPdmSecurity.html",
+          "hash": "FJesq10F8qGnhaiq5TYefcvipYLU0Jdknc4ni7Ea5Mk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IPdmWorkflow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IPdmWorkflow.html",
+          "hash": "Bpm29xGNlnLRJqaDuBri+SkNavp2CAGxCjAokvXj0gU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IShapes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IShapes.html",
+          "hash": "41cx4HVBYogtZORf9WkHMxAZYwa3RWz/MEsSgsHrFr0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.ISketches2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.ISketches2D.html",
+          "hash": "yAwb7MkHNeJLR1euXv0fpBg5HJA6M0DVNpe7+fIQIoU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.ISketches3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.ISketches3D.html",
+          "hash": "H7sXBym32+ChizerRZQpAkh5o+khGoRgOcvTo9LBRsQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.ITextures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.ITextures.html",
+          "hash": "IF3mlLU71SDjcB6iqGkT28wy7N5magbnP1QJ+L5eSNs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IUnits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IUnits.html",
+          "hash": "yTjBs4lntppXCaFTr2IEzzxB0Wi/3XocwZZRLKBaJSI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IUser.html",
+          "hash": "IRZaOHV8tIU2J1wTGgakDyftnEGvJFwzgl7cmDW8VEo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IVisualization3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IVisualization3D.html",
+          "hash": "2QXlLXaLlwmyy9i7eMwJ5sPOFmfzVpPXAoFeA2rSSbc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.IntegerProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.IntegerProperty.html",
+          "hash": "eU1hmYa6L3ol6KRhHug0HRMUlIc59p1Sna3293bQHIs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.ItemLabel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.ItemLabel.html",
+          "hash": "Ua/eazdsQDaT3G2OCU/4mdbuc5fNsUg0F8q6v+Uvgy0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.ItemType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.ItemType.html",
+          "hash": "529P4E5IyePmiIXYkIb9/oMbgRdRmszNaPZehsnKSic="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.KeyValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.KeyValue.html",
+          "hash": "StGVtAB8VqSAjBwv/3IQBVy2DVTImJ8ei9ExboLMSBA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.License.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.License.html",
+          "hash": "yWBI/HgcDwXXBHx6SqzBi29IG0VrZgLsKfn+oSiSrlg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.LicenseType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.LicenseType.html",
+          "hash": "GSQeEjx0VXLgP7bdUl0IHwoj6FApPmHoa+MrwcXB4z4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.LoopType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.LoopType.html",
+          "hash": "nYQ9fTdGbbvdfF67ZNQiG0zCWfXGLSD2nE1mdhy/vFY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.ModifierType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.ModifierType.html",
+          "hash": "j/Ck0YCO4Xu1Do3x1XijAkkMgOLQ2WvE0qIy1E7+fys="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.ParameterRelayType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.ParameterRelayType.html",
+          "hash": "USQ7oPVVSVIUrMn6XN40YSTC53VRwPcnbJAdL7G7oVs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.ParameterType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.ParameterType.html",
+          "hash": "RRSzGp48XjUKbvJwqHrcD/IKR3hPpzcEOUFqgszROb8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmLifeCycleMainState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmLifeCycleMainState.html",
+          "hash": "0UH+6ozZE2LUJ2R1otIHpmZVTz2+Djk8vqsPgSArtlk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmMajorRevisionId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmMajorRevisionId.html",
+          "hash": "zjuAVCJieO7jqFpD8slcyRia9VXn6mci8zl1aabiwX8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmMinorRevisionId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmMinorRevisionId.html",
+          "hash": "gc+k49E8nYYDrpVwFJoyZrG5vRJZTpsbToPjsCOYmqE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmObjectId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmObjectId.html",
+          "hash": "99R00LUKIPsqcWRcIRlBOTEifciTpP0CAIgg3K9q5AA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmObjectState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmObjectState.html",
+          "hash": "GKaYKFg1OZj4NZU+tugfaNM5LWGRoxviCoDTa3fE0tU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmObjectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmObjectType.html",
+          "hash": "572hENdauX7G7F0wMbHsqLTGxKsmxVOpXrdeVEgxEyc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmProjectFolderId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmProjectFolderId.html",
+          "hash": "pb+1C7SAsXSeCdXGikVAFFwR39PVk40Yj0q1rnP5yk8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmRight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmRight.html",
+          "hash": "M8VQ/CiuiQHupQ7nvfwbos0cfkUbVARWtx95F9GRUDg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmSecurityPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmSecurityPermission.html",
+          "hash": "2DduN4W/3a7FoagIMBHnu1lr2QCQJG4j+tLqzwS/dKg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmSecurityUserOrGroupPermissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.PdmSecurityUserOrGroupPermissions.html",
+          "hash": "OgQvGjUxOitRpN/GGNqSxJBYuvRK4cnZyUmG+50oqIE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.Plane3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.Plane3D.html",
+          "hash": "MbzCH1ou0SnG1nljDJmOSDWXdcquI++Fqcraf7UqjFc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.Point2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.Point2D.html",
+          "hash": "ult++FvZsNpVNmKrJuSG0ZmdGT8MwMZElof8YzVg1nU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.Point3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.Point3D.html",
+          "hash": "5NCemM4LamxeD5hBkLrZnP3MwqKb4JqBTRIluaP17Lk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.PreviewMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.PreviewMode.html",
+          "hash": "tx5RcVdAV0I/cTqlA3ZlWK1S+QS10xM/GZlAk7zZIX8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.PrintColorMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.PrintColorMapping.html",
+          "hash": "5SY0C2ry1rAmH3u2cktCJhmLmyvi+keGA1MPsJzSfkU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.Property.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.Property.html",
+          "hash": "Aa3Ix7gwV7oumENub8p0SHR3d7LeykWfulcqw3H9Vvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.PropertyDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.PropertyDefinition.html",
+          "hash": "3p4X8juPMGjQrurWiCVK0Mp4tD7CByLre1cs5w11t1I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.PropertyType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.PropertyType.html",
+          "hash": "R8lW6QpKeqGVPuXFAhtGKTKNscuqcfn+BXo5JzXMRxE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.Real.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.Real.html",
+          "hash": "RI/VakzytssgFgdGhGePjW+HZBwnemQANVELq3oUPDE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.RealParameterConstraintsMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.RealParameterConstraintsMode.html",
+          "hash": "OXlboPo47m2jor9TnhyOG1lpOqluSutinyfuCbojWqI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.RealParameterDiscretizationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.RealParameterDiscretizationMode.html",
+          "hash": "6wn65cHz+65UTsd9JwVTkTWBWsbTQ/oSgXpSj0xWt2o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.RealProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.RealProperty.html",
+          "hash": "T03vZyoqJTEbb3S6pU776yELLGUdQbcka0E5gmPz33E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.RenderMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.RenderMode.html",
+          "hash": "ho2QCUNBozjVBlVLt+OiMX6wYWRbz/Zlx/sV18MG2ig="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.ScriptType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.ScriptType.html",
+          "hash": "KRsK4iX//v/EIEvqkik4Fxb7L4PZZUefvam+5rd0tbw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.ShapeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.ShapeType.html",
+          "hash": "xBtN4GgrFuyI9R1pBKIl41rwolgv9Y0/rYXrdNrJaJ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartAxis2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartAxis2D.html",
+          "hash": "yZrumOwInN+4ITHdFuXjOME664bJFEpXKtvYcOKVRxY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartAxis2DType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartAxis2DType.html",
+          "hash": "a5w03aBVLmpStz4VUTJg7t4683i0Zjt3UjLTNPDg3xU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartAxis3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartAxis3D.html",
+          "hash": "MHWcFpviULLpYWNC17MhFbXh9/0jKxkRx5m+APOtAVQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartAxis3DType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartAxis3DType.html",
+          "hash": "aVKB40zplnVBCBhrDKkAsBd26Ursj6TJfFRLkdqZOPY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartBoolean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartBoolean.html",
+          "hash": "vO56jxFyizttqzRIBIkefvdRNKzkdPyM4FeJG/tCSIk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartBooleanType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartBooleanType.html",
+          "hash": "Wtknw+1H9Dk6M/OEHpd0I9qRH2ujeUR8Dh03iPRrTtc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartCode.html",
+          "hash": "eJ1vQFEco1MMzZT9vJctZ4Fuuvw6Qmeq5qrvwZJhoXo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartCodeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartCodeType.html",
+          "hash": "/EPB53dekubZZ0dZxWBQHFLd9On+NYF+kYJVtIboZEA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartColor.html",
+          "hash": "OsefHcp6Rt5BQXvNfeYlaeRjca1UiCnleXnQ+GQ9ftI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartColorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartColorType.html",
+          "hash": "qcH6GWfybE6PlEK9LMJE4fiuvle/5Frf55RAH7mkEAg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartDirection2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartDirection2D.html",
+          "hash": "LdOZ//VrDGv8dYzdTR8H4lU9rUGomNP0UFaQIfSV1SY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartDirection2DType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartDirection2DType.html",
+          "hash": "Cl8qv6vU6mTuscljoIrqy0NFlUkE4SXVIfcTX9F+wcQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartDirection3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartDirection3D.html",
+          "hash": "+HvDJM0TPwjr/Z0siLV15ghqHqe+YLNylgTwvgNTpe0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartDirection3DType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartDirection3DType.html",
+          "hash": "wAN0aT6PqMdbOIr/WMGwdnOgRNdNDLsBvzAEQgbhNjg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartDocument.html",
+          "hash": "He2Jd9kI/zLpmbArRT0VrilOjo0OXKlxO63XZ4fwvU4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartDocumentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartDocumentType.html",
+          "hash": "WWdvF7Wye3rkrg+lGfuWnvOOm+j16sgFmkwYso21ybc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartEnumeration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartEnumeration.html",
+          "hash": "FLQuEJsoAfDXAr+nFyUuL16nPaNyt8vbFmIAAv+18+M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartEnumerationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartEnumerationType.html",
+          "hash": "5C5H1tPo1N73dKZI0NRAR/JNYc1n3zJplVIg6EK/Ikk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartFamily.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartFamily.html",
+          "hash": "3nxjGPHP7jXjAbIOCeMZStpO2pS2fuSOtCDJ97RDf4o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartFrame2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartFrame2D.html",
+          "hash": "Hivg1hKOo7GwSxhnfaLaCQwwEpx9+D6o3hRCN3bUOIw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartFrame2DType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartFrame2DType.html",
+          "hash": "u+McPRKSd9cG3u2BcU2LePTz27yxQobQQe/TGUJh3FU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartFrame3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartFrame3D.html",
+          "hash": "yeSWpczX+xeVUB6+BQNP6LBzCsPJ4vJ0W/HhTW8EPUY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartFrame3DType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartFrame3DType.html",
+          "hash": "5Dai6A1GVctKqdWZHBlE8QSLogy71UbmU/d4lCULBSA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartInteger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartInteger.html",
+          "hash": "9dX7vgTz0hQ7yvsiWDm4HG7HXYvkN20x9uWEIFe8Ry0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartIntegerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartIntegerType.html",
+          "hash": "FesIU3Fji15LUmHfunShmd2qAtmm1/61PK3Bx42W9HQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartObject.html",
+          "hash": "/Q8/2zrGfKOsyuH4pvR9vEMPqRZmte6OZGvXTPNhWZU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartPlane3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartPlane3D.html",
+          "hash": "bI7CcRPDZ2lWQrxcxGnRYx36oISHrpoUwlfOilQZ0S4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartPlane3DType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartPlane3DType.html",
+          "hash": "rkOqSk3RncoEllLQBhWLknxMMRGFNRA+M+Q3igO12OY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartPoint2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartPoint2D.html",
+          "hash": "5z+HBIPxrR6pFcMYNsLFq3yuItJGQDEt1ZGAYRCKqGA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartPoint2DType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartPoint2DType.html",
+          "hash": "dRymoGBr1vrh3HhdkKUexjGUDkEgySnCPHPN0vDbcrA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartPoint3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartPoint3D.html",
+          "hash": "OlKzBgKx0zsXzG/63wceCE1iPBvo9nY64UFH0741o5U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartPoint3DType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartPoint3DType.html",
+          "hash": "8OZZJnpJIUBeZN/ttOq0aWm3wOeRpnUDQIuNGHsamDA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartProfile2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartProfile2D.html",
+          "hash": "FQPBfqdfFwTsU+Y4LDMnf8/jYKWl4DpgH+dQolU9yJM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartProfile2DType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartProfile2DType.html",
+          "hash": "WkQ7q9SA58DATO6OfjpEBGXUhFk8dHg+Bbtfs3J7f3s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartProfile3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartProfile3D.html",
+          "hash": "NWPpQKDuPSEjhaxkvhdZcpU83wK6Uj7QBJyDoGMPExo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartProfile3DType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartProfile3DType.html",
+          "hash": "T1fviEsYE+Y1hC+n4KPWdpkpYJ98gZ1NdDIRmuEUGAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartReal.html",
+          "hash": "VNFCznJgQw5IW286A07pzzxSPsxaJyHXHnXWgkTWr14="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartRealType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartRealType.html",
+          "hash": "DqhLKkvWsVS6rV6g8kc3ZUP6fJ20yggHrlh9sXkQGQM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartSection3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartSection3D.html",
+          "hash": "46GdCijeRwGvhAKTqvTCCHlxY1MxuIGfezZcD7O4Gcc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartSection3DType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartSection3DType.html",
+          "hash": "ZwEfbenU1qoeJRP0vcs/mRWM6uV05qaBBUzTb2/jnWE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartShape.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartShape.html",
+          "hash": "FShhks5JYv1GOCuwxhUVZDnXuqGed8ph7FxT5bSPOhw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartShapeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartShapeType.html",
+          "hash": "Yhtrvwwh/YKqo1+X0XAiCmb6B9LRYudBupTav3xXYHQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartText.html",
+          "hash": "q2lxWIr4IQPVshOz0x3QBYsg/Bdjwbo1ZLlitGM1dc4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartTextType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartTextType.html",
+          "hash": "m9kV1exRGPRN64W4XfdZz43Ar8SJ0eIqtsS9midMa+0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartTexture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartTexture.html",
+          "hash": "yu64lt5oBlCNvDPkdd7FDh3r620ctXqrEyCli5pbj+8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartUserEnumeration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartUserEnumeration.html",
+          "hash": "bDCZwj7cy4DH8A6Eme5lLnnME5TfumpqEXSVKDekfgQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartUserEnumerationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SmartUserEnumerationType.html",
+          "hash": "rcQUlBlgmrrBI66M8gJXeCEvzd/y6QDjozP8le0P3tc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.SurfaceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.SurfaceType.html",
+          "hash": "9CvAzZJpUfdldNhqpV5wOYyT6dbkxt7zHe/Qko6A5fQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.TextProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.TextProperty.html",
+          "hash": "G3ieV/dAhXm2N0UpIKA4yPpKIcXyFuQUkS2jVtbhM78="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.TextureCategoryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.TextureCategoryType.html",
+          "hash": "J4AESqSg7cbAQkj8J2AGmucLKb+MPclzA1uAWI+vSQg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.TextureImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.TextureImage.html",
+          "hash": "3OYVYTszg3R1X4vR2WMuohnyH8Ojw3VPZqoV2ac1h3c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.TextureMappingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.TextureMappingType.html",
+          "hash": "m8WVMAP+qMhRQaEBxWgSZJFL8gjyVAWTK7e+Rd+565I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.ToleranceSymbolType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.ToleranceSymbolType.html",
+          "hash": "tkK8EFbsHwweXTb94gUKKcTH9JLSIskipk6QT+olIAA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.ToleranceZoneType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.ToleranceZoneType.html",
+          "hash": "84o1Hw6NcmOPFUeS0WS/7pYCOiw2PnS+n/oNgn+ojyU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.TopSolidHost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.TopSolidHost.html",
+          "hash": "KlBk25CTipFV2+GmpZCj6cY75BXc61kL8WWGBLR8KBY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.TopSolidHostInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.TopSolidHostInstance.html",
+          "hash": "VhdK5FxFl034ptm9Qf2J7emiAmeZc6H/uMHHPD9d3G0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.Transform2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.Transform2D.html",
+          "hash": "aIB1Ru4PuCrx/n4mduVUOkyVKrOa31tuCg+Y+GVQ3SA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.Transform3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.Transform3D.html",
+          "hash": "scyomlws4hiOp5bo7xX9SqqbzUSfTkdg/j5RWZl4e5E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.UnitType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.UnitType.html",
+          "hash": "pWpeviJjVKBphQf0cCJSD+mzmqI+mV/GBWcLrQ2KYm8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.UserAnswerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.UserAnswerType.html",
+          "hash": "uBdAeiG7fldBq2VYJZYRlShNTcQa/u/pRIAGIm8tc3k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.UserEnumerationProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.UserEnumerationProperty.html",
+          "hash": "vt/MjxAz58lUz16jGiYBd1moIpXDtGDlafu4vvImKoI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.UserQuestion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.UserQuestion.html",
+          "hash": "m+wfq4uwaiA8p8A5RWg85e/v/E0vKxw0eDWBHkFrjTU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.UserQuestionFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.UserQuestionFlags.html",
+          "hash": "jSzZIxvfEBpdKjT3WVH+qJs9vrwU3YVQ+eeeVstDJPA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.Vector2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.Vector2D.html",
+          "hash": "zstnU6sSb1hnO6R7btesnGJFmJZVZVENdVXMnEN7J2I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.Vector3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.Vector3D.html",
+          "hash": "yGi4bTC02bMUsMKKcxxs17GMQ3v884CD/Oe5LQw17u0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.WorkflowActionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.WorkflowActionState.html",
+          "hash": "/62KbqohwuWnewUAVWwdzjbqSrOnwwsN40HdwuJ0XHM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/TopSolid.Kernel.Automating.html",
+          "hash": "NjJQswk1tz9oNCV5w8xWqX5lKLPjfNcw1n17SZbXv6Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/kernel/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/kernel/toc.html",
+          "hash": "Rvk25CCxdublfadfWgbpfRWSEPLEJLX/F5fzDTQKaYU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.AvailableSinceVersionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.AvailableSinceVersionAttribute.html",
+          "hash": "CMEYgn435QG1xIs82oXSKyVPPmquOmCQVntn524F2eQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.BomNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.BomNode.html",
+          "hash": "NWEwRmR3smiN/OPtdBN/LJRENyDJIrIpvhB4tH+RwLk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IApplication.html",
+          "hash": "kw4BboHud/Fpo82zShQSNhkgAfMng0dL7SvSYRzuCaY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdm.html",
+          "hash": "OAWSE3GQjRopHO8W5wyLX3QLFttWwXyUBHFL+Ty+Odc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdmAdmin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdmAdmin.html",
+          "hash": "d/73ikCrzyOgv2P5e/3bguqkdL/pkyAEMFUkrbv7Mpw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdmSecurity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdmSecurity.html",
+          "hash": "GkfTMsBbRsxByMtZ7lX1+3q9sCCWejb/xVaCfH1y44I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdmWorkflow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdmWorkflow.html",
+          "hash": "zUObzbsThW9CG8VeRA5GWswYJxoYMwkQUUMrZNDUrYw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmLifeCycleMainState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmLifeCycleMainState.html",
+          "hash": "dMLrH5U+X8PD5mecViDix6pTAkxdJoexNQ7Qic8hdGA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmMajorRevisionId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmMajorRevisionId.html",
+          "hash": "yDidG1rSg+9VytL08UGGeUlocfno/z8W7Gz4EeVsuC8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmMinorRevisionId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmMinorRevisionId.html",
+          "hash": "kKNJ+HiigvZZ3CSuS3uzjOCOFlUaRDgvUrNA5P+L0+4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmObjectId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmObjectId.html",
+          "hash": "Dogmg1EkicbYCs43dF15z2QQJEvJtbSgXuoDqHTkQpQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmObjectState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmObjectState.html",
+          "hash": "q7KKuzJqzXTb50XQBAC/QJFQkJJnPB/KPoTI/UDPR/M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmObjectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmObjectType.html",
+          "hash": "6I6lcfrN3cmwqTSQd1YykhC1NzDGWGza6GEIqDH2Baw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmPermissionArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmPermissionArea.html",
+          "hash": "smMPZ42arPQB6PpmvmUve1IJ9XN7cefzhZLivR1K8rY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmProjectFolderId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmProjectFolderId.html",
+          "hash": "/reVdxWdZRdm9X8G/YxXmpiCWj2mPDywcUoJknje7EU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmRight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmRight.html",
+          "hash": "Ljh3wK1CMqIVwjS0L+AJlxw7q5fz/KvksY9EuQxo1VA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmSecurityPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmSecurityPermission.html",
+          "hash": "Ei/vBpA1jI85S/ZQxK3DNO12poByKvJ7qQ6sx/aFz/I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmSecurityUserOrGroupPermissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.PdmSecurityUserOrGroupPermissions.html",
+          "hash": "3O/3JGgFuep/bNx3U8+OgujPxbWOnCmX6MRnIZ9ZlQ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHost.html",
+          "hash": "7m9AXVReR4BB9y9twrtHmZbMY7LilBtZAljSxNaKNxg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.TopSolidPdmExplorerHostInstance.html",
+          "hash": "zYU/FLHsEEPGT91area8lVmwl5mjQTJoABTtPCNBOrM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.html",
+          "hash": "rYNKwyyMzK4GP0Wv5Zdm0j/RkCVMRTs8HvzZrkeEc8M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/pdmexplorer/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/pdmexplorer/toc.html",
+          "hash": "n6OCW7vjjHUBhFGMvd7eLBh/z2CuGxzROcKpRtZl18g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "rrj+axkfMnjSZeEwop4dxYhArnLAd7zYaxfLPOuv98w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "RLUTp01QD4LYL+wa6gepTD9j/cxy89B965dI4Fx0QFo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/welcome.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/welcome.html",
+          "hash": "K7N0VPwcHCcJOMkkc8uGcZ5NBYNnERL0ckKIB41tjEo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/Digital-engineering.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/Digital-engineering.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/Precision-manufacturing.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/Precision-manufacturing.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/Sherco.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/Sherco.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/Steel-industry.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/Steel-industry.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/TopSolid_PartCosting.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/TopSolid_PartCosting.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/TopSolid_footer.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/TopSolid_footer.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/TopSolid_logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/TopSolid_logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/TopSolid_macaron.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/TopSolid_macaron.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/Woodworking.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/Woodworking.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/aube.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/aube.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/big-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/big-menu.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/bloc--carrousel-text.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/bloc--carrousel-text.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/buy-map.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/buy-map.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/carrousel-map_circular-arrow.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/carrousel-map_circular-arrow.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/carrousel-map_circular-arrow2.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/carrousel-map_circular-arrow2.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/carrousel-map_circular-petales.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/carrousel-map_circular-petales.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/cercle-carrousel-navigation.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/cercle-carrousel-navigation.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/certification.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/certification.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/certification_cad.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/certification_cad.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/certification_machining.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/certification_machining.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/certification_mold.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/certification_mold.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/certification_wood.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/certification_wood.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/chevron_droite-rouge.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/chevron_droite-rouge.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/chevron_droite.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/chevron_droite.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/circular-scroll-univers--controls.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/circular-scroll-univers--controls.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/citation.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/citation.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/download.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/download.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/fleche_droite.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/fleche_droite.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/fleche_gauche.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/fleche_gauche.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/fleche_up.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/fleche_up.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/home-map-bg1.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/home-map-bg1.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/home-map-bg2.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/home-map-bg2.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/img-cards-1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/img-cards-1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/img-cards-2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/img-cards-2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/img-carousel-1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/img-carousel-1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/img-carousel-2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/img-carousel-2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/img-carousel-news-1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/img-carousel-news-1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/img-carousel-news-2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/img-carousel-news-2.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/industries_bg_left.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/industries_bg_left.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/industries_bg_right.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/industries_bg_right.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/iut_bdx.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/iut_bdx.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/login-alt.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/login-alt.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/login.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/login.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/login_edit.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/login_edit.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/login_lock.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/login_lock.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/login_logout.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/login_logout.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/map-shadow.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/map-shadow.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/map.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/map.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/map_batiment.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/map_batiment.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/marker_black.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/marker_black.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/marker_red.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/marker_red.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/menu-univers-1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/menu-univers-1.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/page-title.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/page-title.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/products-benefits-bg.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/products-benefits-bg.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/promo.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "img/promo.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/search.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/search.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/select.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/select.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/show-engimach.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/show-engimach.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/show-fitma.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/show-fitma.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/show-nortec.png",
+      "output": {
+        "resource": {
+          "relative_path": "img/show-nortec.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/social_facebook.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/social_facebook.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/social_linkedin.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/social_linkedin.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/social_twitter.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/social_twitter.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/social_youtube.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/social_youtube.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/textcontent-bg1.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/textcontent-bg1.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/textcontent-bg2.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/textcontent-bg2.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "img/why-bg.svg",
+      "output": {
+        "resource": {
+          "relative_path": "img/why-bg.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "fUOdAnEoACW2WnfiI0xUA4RDxhGImNoTvJfAEBM7PUg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "O7pareMieNKlirGUB9359I50eSgjpu+trpIR2Ghi/E4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 220,
+          "skipped_file_count": 220
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

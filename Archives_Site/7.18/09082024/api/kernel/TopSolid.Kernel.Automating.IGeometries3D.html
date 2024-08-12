@@ -1,0 +1,3081 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IGeometries3D
+   | TopSolid Automation website </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IGeometries3D
+   | TopSolid Automation website ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../img/TopSolid_footer.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TopSolid.Kernel.Automating.IGeometries3D">
+  
+  
+  <h1 id="TopSolid_Kernel_Automating_IGeometries3D" data-uid="TopSolid.Kernel.Automating.IGeometries3D" class="text-break">Interface IGeometries3D
+  </h1>
+  <div class="markdown level0 summary"><p>Gives access to 3D geometric entities.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TopSolid.Kernel.Automating.html">TopSolid.Kernel.Automating</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+public interface IGeometries3D</code></pre>
+  </div>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This interface is available since v7.6.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_CreateAxis_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreateAxis*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_CreateAxis_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Axis3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreateAxis(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.Axis3D)">CreateAxis(DocumentId, Axis3D)</h4>
+  <div class="markdown level1 summary"><p>Creates an axis entity in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+ElementId CreateAxis(DocumentId inDocumentId, Axis3D inGeometry)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Axis3D.html">Axis3D</a></td>
+        <td><span class="parametername">inGeometry</span></td>
+        <td><p>Axis geometry.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created axis entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_CreateAxis_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Axis3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_CreateAxisWithExtent_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreateAxisWithExtent*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_CreateAxisWithExtent_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Axis3D_System_Double_System_Double_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreateAxisWithExtent(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.Axis3D,System.Double,System.Double)">CreateAxisWithExtent(DocumentId, Axis3D, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Creates an axis entity with specified extent in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 100)]
+ElementId CreateAxisWithExtent(DocumentId inDocumentId, Axis3D inGeometry, double inXMin, double inXMax)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Axis3D.html">Axis3D</a></td>
+        <td><span class="parametername">inGeometry</span></td>
+        <td><p>Axis geometry.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inXMin</span></td>
+        <td><p>Minimum X axis coordinate of extent.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inXMax</span></td>
+        <td><p>Maximum X axis coordinate of extent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created axis entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_CreateAxisWithExtent_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Axis3D_System_Double_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.100.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_CreateFrame_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreateFrame*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_CreateFrame_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Frame3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreateFrame(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.Frame3D)">CreateFrame(DocumentId, Frame3D)</h4>
+  <div class="markdown level1 summary"><p>Creates a frame entity in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+ElementId CreateFrame(DocumentId inDocumentId, Frame3D inGeometry)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Frame3D.html">Frame3D</a></td>
+        <td><span class="parametername">inGeometry</span></td>
+        <td><p>Frame geometry.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created frame entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_CreateFrame_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Frame3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_CreateFrameByPointAndTwoDirections_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreateFrameByPointAndTwoDirections*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_CreateFrameByPointAndTwoDirections_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_SmartPoint3D_TopSolid_Kernel_Automating_SmartDirection3D_TopSolid_Kernel_Automating_SmartDirection3D_System_Boolean_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreateFrameByPointAndTwoDirections(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.SmartPoint3D,TopSolid.Kernel.Automating.SmartDirection3D,TopSolid.Kernel.Automating.SmartDirection3D,System.Boolean)">CreateFrameByPointAndTwoDirections(DocumentId, SmartPoint3D, SmartDirection3D, SmartDirection3D, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates a frame entity in a document by point and two directions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 18, 400, 600)]
+ElementId CreateFrameByPointAndTwoDirections(DocumentId inDocumentId, SmartPoint3D inOrigin, SmartDirection3D inFirstDirection, SmartDirection3D inSecondDirection, bool isSecondDirectionOY)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartPoint3D.html">SmartPoint3D</a></td>
+        <td><span class="parametername">inOrigin</span></td>
+        <td><p>Frame origin.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartDirection3D.html">SmartDirection3D</a></td>
+        <td><span class="parametername">inFirstDirection</span></td>
+        <td><p>First direction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartDirection3D.html">SmartDirection3D</a></td>
+        <td><span class="parametername">inSecondDirection</span></td>
+        <td><p>Second direction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isSecondDirectionOY</span></td>
+        <td><p>whether second direction is OY.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created frame entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_CreateFrameByPointAndTwoDirections_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_SmartPoint3D_TopSolid_Kernel_Automating_SmartDirection3D_TopSolid_Kernel_Automating_SmartDirection3D_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_CreateFrameWithOffset_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreateFrameWithOffset*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_CreateFrameWithOffset_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_SmartFrame3D_TopSolid_Kernel_Automating_SmartDirection3D_TopSolid_Kernel_Automating_SmartReal_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreateFrameWithOffset(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.SmartFrame3D,TopSolid.Kernel.Automating.SmartDirection3D,TopSolid.Kernel.Automating.SmartReal)">CreateFrameWithOffset(DocumentId, SmartFrame3D, SmartDirection3D, SmartReal)</h4>
+  <div class="markdown level1 summary"><p>Creates a frame entity in a document by offset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 18, 400, 600)]
+ElementId CreateFrameWithOffset(DocumentId inDocumentId, SmartFrame3D inFrame, SmartDirection3D inOffsetDirection, SmartReal inOffsetDistance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartFrame3D.html">SmartFrame3D</a></td>
+        <td><span class="parametername">inFrame</span></td>
+        <td><p>Original Frame.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartDirection3D.html">SmartDirection3D</a></td>
+        <td><span class="parametername">inOffsetDirection</span></td>
+        <td><p>Offset direction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartReal.html">SmartReal</a></td>
+        <td><span class="parametername">inOffsetDistance</span></td>
+        <td><p>Offset value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created frame entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_CreateFrameWithOffset_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_SmartFrame3D_TopSolid_Kernel_Automating_SmartDirection3D_TopSolid_Kernel_Automating_SmartReal__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_CreateOffsetPoint_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreateOffsetPoint*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_CreateOffsetPoint_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_SmartPoint3D_TopSolid_Kernel_Automating_SmartDirection3D_TopSolid_Kernel_Automating_SmartReal_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreateOffsetPoint(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.SmartPoint3D,TopSolid.Kernel.Automating.SmartDirection3D,TopSolid.Kernel.Automating.SmartReal)">CreateOffsetPoint(DocumentId, SmartPoint3D, SmartDirection3D, SmartReal)</h4>
+  <div class="markdown level1 summary"><p>Creates an offset point creation operation in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+ElementId CreateOffsetPoint(DocumentId inDocumentId, SmartPoint3D inOrigin, SmartDirection3D inDirection, SmartReal inDistance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartPoint3D.html">SmartPoint3D</a></td>
+        <td><span class="parametername">inOrigin</span></td>
+        <td><p>Origin point.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartDirection3D.html">SmartDirection3D</a></td>
+        <td><span class="parametername">inDirection</span></td>
+        <td><p>Offset direction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartReal.html">SmartReal</a></td>
+        <td><span class="parametername">inDistance</span></td>
+        <td><p>Offset distance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created operation child point entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_CreateOffsetPoint_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_SmartPoint3D_TopSolid_Kernel_Automating_SmartDirection3D_TopSolid_Kernel_Automating_SmartReal__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_CreatePlane_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreatePlane*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_CreatePlane_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Plane3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreatePlane(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.Plane3D)">CreatePlane(DocumentId, Plane3D)</h4>
+  <div class="markdown level1 summary"><p>Creates a plane entity in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+ElementId CreatePlane(DocumentId inDocumentId, Plane3D inGeometry)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Plane3D.html">Plane3D</a></td>
+        <td><span class="parametername">inGeometry</span></td>
+        <td><p>Plane geometry.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created plane entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_CreatePlane_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Plane3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_CreatePlaneWithExtent_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreatePlaneWithExtent*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_CreatePlaneWithExtent_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Plane3D_System_Double_System_Double_System_Double_System_Double_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreatePlaneWithExtent(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.Plane3D,System.Double,System.Double,System.Double,System.Double)">CreatePlaneWithExtent(DocumentId, Plane3D, Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Creates a plane entity with specified extent in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 100)]
+ElementId CreatePlaneWithExtent(DocumentId inDocumentId, Plane3D inGeometry, double inXMin, double inXMax, double inYMin, double inYMax)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Plane3D.html">Plane3D</a></td>
+        <td><span class="parametername">inGeometry</span></td>
+        <td><p>Plane geometry.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inXMin</span></td>
+        <td><p>Minimum X plane coordinate of extent.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inXMax</span></td>
+        <td><p>Maximum X plane coordinate of extent.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inYMin</span></td>
+        <td><p>Minimum Y plane coordinate of extent.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inYMax</span></td>
+        <td><p>Maximum Y plane coordinate of extent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created plane entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_CreatePlaneWithExtent_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Plane3D_System_Double_System_Double_System_Double_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.100.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_CreatePoint_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreatePoint*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_CreatePoint_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Point3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreatePoint(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.Point3D)">CreatePoint(DocumentId, Point3D)</h4>
+  <div class="markdown level1 summary"><p>Creates a point entity in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+ElementId CreatePoint(DocumentId inDocumentId, Point3D inGeometry)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Point3D.html">Point3D</a></td>
+        <td><span class="parametername">inGeometry</span></td>
+        <td><p>Point geometry.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created point entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_CreatePoint_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_Point3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_CreateSmartFrame_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreateSmartFrame*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_CreateSmartFrame_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_SmartFrame3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.CreateSmartFrame(TopSolid.Kernel.Automating.DocumentId,TopSolid.Kernel.Automating.SmartFrame3D)">CreateSmartFrame(DocumentId, SmartFrame3D)</h4>
+  <div class="markdown level1 summary"><p>Creates a frame entity with a provided smart frame in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 15, 400, 120)]
+ElementId CreateSmartFrame(DocumentId inDocumentId, SmartFrame3D inProvidedSmartFrame)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartFrame3D.html">SmartFrame3D</a></td>
+        <td><span class="parametername">inProvidedSmartFrame</span></td>
+        <td><p>The provided smart frame.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created frame entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_CreateSmartFrame_TopSolid_Kernel_Automating_DocumentId_TopSolid_Kernel_Automating_SmartFrame3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method allows to create a frame entity associated to an operation.</p>
+<p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.15.400.120.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteFrame_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAbsoluteFrame*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteFrame_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAbsoluteFrame(TopSolid.Kernel.Automating.DocumentId)">GetAbsoluteFrame(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the absolute frame entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+ElementId GetAbsoluteFrame(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the absolute frame entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteFrame_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteOriginPoint_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAbsoluteOriginPoint*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteOriginPoint_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAbsoluteOriginPoint(TopSolid.Kernel.Automating.DocumentId)">GetAbsoluteOriginPoint(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the absolute origin point entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+ElementId GetAbsoluteOriginPoint(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the absolute origin point entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteOriginPoint_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteXAxis_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAbsoluteXAxis*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteXAxis_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAbsoluteXAxis(TopSolid.Kernel.Automating.DocumentId)">GetAbsoluteXAxis(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the absolute X axis entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+ElementId GetAbsoluteXAxis(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the absolute X axis entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteXAxis_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteXYPlane_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAbsoluteXYPlane*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteXYPlane_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAbsoluteXYPlane(TopSolid.Kernel.Automating.DocumentId)">GetAbsoluteXYPlane(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the absolute XY plane entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ElementId GetAbsoluteXYPlane(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the absolute XY plane entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteXZPlane_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAbsoluteXZPlane*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteXZPlane_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAbsoluteXZPlane(TopSolid.Kernel.Automating.DocumentId)">GetAbsoluteXZPlane(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the absolute XZ plane entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ElementId GetAbsoluteXZPlane(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the absolute XZ plane entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteYAxis_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAbsoluteYAxis*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteYAxis_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAbsoluteYAxis(TopSolid.Kernel.Automating.DocumentId)">GetAbsoluteYAxis(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the absolute Y axis entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+ElementId GetAbsoluteYAxis(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the absolute Y axis entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteYAxis_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteYZPlane_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAbsoluteYZPlane*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteYZPlane_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAbsoluteYZPlane(TopSolid.Kernel.Automating.DocumentId)">GetAbsoluteYZPlane(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the absolute YZ plane entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ElementId GetAbsoluteYZPlane(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the absolute YZ plane entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteZAxis_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAbsoluteZAxis*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteZAxis_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAbsoluteZAxis(TopSolid.Kernel.Automating.DocumentId)">GetAbsoluteZAxis(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the absolute Z axis entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+ElementId GetAbsoluteZAxis(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the absolute Z axis entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetAbsoluteZAxis_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetAxes_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAxes*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetAxes_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAxes(TopSolid.Kernel.Automating.DocumentId)">GetAxes(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the axes entities that are in the axes folder of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+List&lt;ElementId&gt; GetAxes(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><p>Axes entities found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetAxes_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetAxesFolder_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAxesFolder*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetAxesFolder_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAxesFolder(TopSolid.Kernel.Automating.DocumentId)">GetAxesFolder(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the axes folder entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 0, 0)]
+ElementId GetAxesFolder(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the axes folder entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetAxesFolder_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetAxisGeometry_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAxisGeometry*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetAxisGeometry_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAxisGeometry(TopSolid.Kernel.Automating.ElementId)">GetAxisGeometry(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the geometry of an axis entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+Axis3D GetAxisGeometry(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the axis entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Axis3D.html">Axis3D</a></td>
+        <td><p>Axis geometry.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetAxisGeometry_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetAxisGeometryWithExtent_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAxisGeometryWithExtent*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetAxisGeometryWithExtent_TopSolid_Kernel_Automating_ElementId_System_Double__System_Double__" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAxisGeometryWithExtent(TopSolid.Kernel.Automating.ElementId,System.Double@,System.Double@)">GetAxisGeometryWithExtent(ElementId, out Double, out Double)</h4>
+  <div class="markdown level1 summary"><p>Gets the geometry and the extent of an axis entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+Axis3D GetAxisGeometryWithExtent(ElementId inElementId, out double outXMin, out double outXMax)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the axis entity to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outXMin</span></td>
+        <td><p>Minimum X axis coordinate of extent.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outXMax</span></td>
+        <td><p>Maximum X axis coordinate of extent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Axis3D.html">Axis3D</a></td>
+        <td><p>Axis geometry.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetAxisGeometryWithExtent_TopSolid_Kernel_Automating_ElementId_System_Double__System_Double___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetAxisPublishingDefinition_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAxisPublishingDefinition*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetAxisPublishingDefinition_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetAxisPublishingDefinition(TopSolid.Kernel.Automating.ElementId)">GetAxisPublishingDefinition(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the definition of an axis publishing entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+SmartAxis3D GetAxisPublishingDefinition(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the publishing entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartAxis3D.html">SmartAxis3D</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetAxisPublishingDefinition_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The geometry of the publishing entity may be obtained with the <a class="xref" href="TopSolid.Kernel.Automating.IGeometries3D.html#TopSolid_Kernel_Automating_IGeometries3D_GetAxisGeometry_TopSolid_Kernel_Automating_ElementId_">GetAxisGeometry(ElementId)</a> method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetFrameGeometry_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetFrameGeometry*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetFrameGeometry_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetFrameGeometry(TopSolid.Kernel.Automating.ElementId)">GetFrameGeometry(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the geometry of a frame entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+Frame3D GetFrameGeometry(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the frame entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Frame3D.html">Frame3D</a></td>
+        <td><p>Frame geometry.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetFrameGeometry_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetFramePublishingDefinition_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetFramePublishingDefinition*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetFramePublishingDefinition_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetFramePublishingDefinition(TopSolid.Kernel.Automating.ElementId)">GetFramePublishingDefinition(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the definition of a frame publishing entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+SmartFrame3D GetFramePublishingDefinition(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the publishing entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartFrame3D.html">SmartFrame3D</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetFramePublishingDefinition_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The geometry of the publishing entity may be obtained with the <a class="xref" href="TopSolid.Kernel.Automating.IGeometries3D.html#TopSolid_Kernel_Automating_IGeometries3D_GetFrameGeometry_TopSolid_Kernel_Automating_ElementId_">GetFrameGeometry(ElementId)</a> method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetFrames_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetFrames*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetFrames_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetFrames(TopSolid.Kernel.Automating.DocumentId)">GetFrames(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the frames entities that are in the frames folder of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+List&lt;ElementId&gt; GetFrames(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><p>Frames entities found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetFrames_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetFramesFolder_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetFramesFolder*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetFramesFolder_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetFramesFolder(TopSolid.Kernel.Automating.DocumentId)">GetFramesFolder(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the frames folder entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 0, 0)]
+ElementId GetFramesFolder(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the frames folder entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetFramesFolder_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetGeometryType_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetGeometryType*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetGeometryType_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetGeometryType(TopSolid.Kernel.Automating.ElementId)">GetGeometryType(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the type of a geometric entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+GeometryType GetGeometryType(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the element to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.GeometryType.html">GeometryType</a></td>
+        <td><p>Type of the geometric entity, or <a class="xref" href="TopSolid.Kernel.Automating.GeometryType.html#TopSolid_Kernel_Automating_GeometryType_None">None</a> if the element is not a 3D geometric entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetGeometryType_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetOccurrenceDefinitionTransform_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetOccurrenceDefinitionTransform*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetOccurrenceDefinitionTransform_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetOccurrenceDefinitionTransform(TopSolid.Kernel.Automating.ElementId)">GetOccurrenceDefinitionTransform(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the definition transform of an occurrence entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+Transform3D GetOccurrenceDefinitionTransform(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Transform3D.html">Transform3D</a></td>
+        <td><p>Identifier of the definition transform of the occurrence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetOccurrenceDefinitionTransform_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetOccurrenceSourceTransform_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetOccurrenceSourceTransform*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetOccurrenceSourceTransform_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetOccurrenceSourceTransform(TopSolid.Kernel.Automating.ElementId)">GetOccurrenceSourceTransform(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the source transform of an occurrence entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+Transform3D GetOccurrenceSourceTransform(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Transform3D.html">Transform3D</a></td>
+        <td><p>Identifier of the source transform of the occurrence.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetOccurrenceSourceTransform_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetOffsetPointCreation_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetOffsetPointCreation*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetOffsetPointCreation_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartPoint3D__TopSolid_Kernel_Automating_SmartDirection3D__TopSolid_Kernel_Automating_SmartReal__" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetOffsetPointCreation(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.SmartPoint3D@,TopSolid.Kernel.Automating.SmartDirection3D@,TopSolid.Kernel.Automating.SmartReal@)">GetOffsetPointCreation(ElementId, out SmartPoint3D, out SmartDirection3D, out SmartReal)</h4>
+  <div class="markdown level1 summary"><p>Gets an offset point creation operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+void GetOffsetPointCreation(ElementId inElementId, out SmartPoint3D outOrigin, out SmartDirection3D outDirection, out SmartReal outDistance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the offset point creation operation to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartPoint3D.html">SmartPoint3D</a></td>
+        <td><span class="parametername">outOrigin</span></td>
+        <td><p>Origin point.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartDirection3D.html">SmartDirection3D</a></td>
+        <td><span class="parametername">outDirection</span></td>
+        <td><p>Offset direction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartReal.html">SmartReal</a></td>
+        <td><span class="parametername">outDistance</span></td>
+        <td><p>Offset distance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetOffsetPointCreation_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartPoint3D__TopSolid_Kernel_Automating_SmartDirection3D__TopSolid_Kernel_Automating_SmartReal___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetPlaneGeometry_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetPlaneGeometry*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetPlaneGeometry_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetPlaneGeometry(TopSolid.Kernel.Automating.ElementId)">GetPlaneGeometry(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the geometry of a plane entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+Plane3D GetPlaneGeometry(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the plane entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Plane3D.html">Plane3D</a></td>
+        <td><p>Plane geometry.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetPlaneGeometry_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetPlaneGeometryWithExtent_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetPlaneGeometryWithExtent*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetPlaneGeometryWithExtent_TopSolid_Kernel_Automating_ElementId_System_Double__System_Double__System_Double__System_Double__" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetPlaneGeometryWithExtent(TopSolid.Kernel.Automating.ElementId,System.Double@,System.Double@,System.Double@,System.Double@)">GetPlaneGeometryWithExtent(ElementId, out Double, out Double, out Double, out Double)</h4>
+  <div class="markdown level1 summary"><p>Gets the geometry and the extent of a plane entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+Plane3D GetPlaneGeometryWithExtent(ElementId inElementId, out double outXMin, out double outXMax, out double outYMin, out double outYMax)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the plane entity to analyze.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outXMin</span></td>
+        <td><p>Minimum X plane coordinate of extent.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outXMax</span></td>
+        <td><p>Maximum X plane coordinate of extent.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outYMin</span></td>
+        <td><p>Minimum Y plane coordinate of extent.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">outYMax</span></td>
+        <td><p>Maximum Y plane coordinate of extent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Plane3D.html">Plane3D</a></td>
+        <td><p>Plane geometry.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetPlaneGeometryWithExtent_TopSolid_Kernel_Automating_ElementId_System_Double__System_Double__System_Double__System_Double___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetPlanePublishingDefinition_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetPlanePublishingDefinition*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetPlanePublishingDefinition_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetPlanePublishingDefinition(TopSolid.Kernel.Automating.ElementId)">GetPlanePublishingDefinition(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the definition of a plane publishing entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+SmartPlane3D GetPlanePublishingDefinition(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the publishing entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartPlane3D.html">SmartPlane3D</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetPlanePublishingDefinition_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The geometry of the publishing entity may be obtained with the <a class="xref" href="TopSolid.Kernel.Automating.IGeometries3D.html#TopSolid_Kernel_Automating_IGeometries3D_GetPlaneGeometry_TopSolid_Kernel_Automating_ElementId_">GetPlaneGeometry(ElementId)</a> method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetPlanes_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetPlanes*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetPlanes_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetPlanes(TopSolid.Kernel.Automating.DocumentId)">GetPlanes(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the planes entities that are in the planes folder of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+List&lt;ElementId&gt; GetPlanes(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><p>Planes entities found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetPlanes_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetPlanesFolder_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetPlanesFolder*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetPlanesFolder_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetPlanesFolder(TopSolid.Kernel.Automating.DocumentId)">GetPlanesFolder(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the planes folder entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 0, 0)]
+ElementId GetPlanesFolder(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the planes folder entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetPlanesFolder_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetPointGeometry_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetPointGeometry*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetPointGeometry_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetPointGeometry(TopSolid.Kernel.Automating.ElementId)">GetPointGeometry(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the geometry of a point entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+Point3D GetPointGeometry(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the point entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Point3D.html">Point3D</a></td>
+        <td><p>Point geometry.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetPointGeometry_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetPointPublishingDefinition_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetPointPublishingDefinition*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetPointPublishingDefinition_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetPointPublishingDefinition(TopSolid.Kernel.Automating.ElementId)">GetPointPublishingDefinition(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the definition of a point publishing entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+SmartPoint3D GetPointPublishingDefinition(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the publishing entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartPoint3D.html">SmartPoint3D</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetPointPublishingDefinition_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The geometry of the publishing entity may be obtained with the <a class="xref" href="TopSolid.Kernel.Automating.IGeometries3D.html#TopSolid_Kernel_Automating_IGeometries3D_GetPointGeometry_TopSolid_Kernel_Automating_ElementId_">GetPointGeometry(ElementId)</a> method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetPoints_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetPoints*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetPoints_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetPoints(TopSolid.Kernel.Automating.DocumentId)">GetPoints(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the points entities that are in the points folder of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+List&lt;ElementId&gt; GetPoints(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a>&gt;</td>
+        <td><p>Points entities found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetPoints_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetPointsFolder_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetPointsFolder*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetPointsFolder_TopSolid_Kernel_Automating_DocumentId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetPointsFolder(TopSolid.Kernel.Automating.DocumentId)">GetPointsFolder(DocumentId)</h4>
+  <div class="markdown level1 summary"><p>Gets the points folder entity of a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 10, 0, 0)]
+ElementId GetPointsFolder(DocumentId inDocumentId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the points folder entity found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetPointsFolder_TopSolid_Kernel_Automating_DocumentId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.10.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_GetSectionPublishingDefinition_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetSectionPublishingDefinition*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_GetSectionPublishingDefinition_TopSolid_Kernel_Automating_ElementId_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.GetSectionPublishingDefinition(TopSolid.Kernel.Automating.ElementId)">GetSectionPublishingDefinition(ElementId)</h4>
+  <div class="markdown level1 summary"><p>Gets the definition of a section publishing entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 302, 80)]
+SmartSection3D GetSectionPublishingDefinition(ElementId inElementId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the publishing entity to analyze.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartSection3D.html">SmartSection3D</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_GetSectionPublishingDefinition_TopSolid_Kernel_Automating_ElementId__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is available since v7.8.302.80.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_PublishAxis_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.PublishAxis*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_PublishAxis_TopSolid_Kernel_Automating_DocumentId_System_String_TopSolid_Kernel_Automating_SmartAxis3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.PublishAxis(TopSolid.Kernel.Automating.DocumentId,System.String,TopSolid.Kernel.Automating.SmartAxis3D)">PublishAxis(DocumentId, String, SmartAxis3D)</h4>
+  <div class="markdown level1 summary"><p>Creates an axis publishing entity in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+ElementId PublishAxis(DocumentId inDocumentId, string inDescription, SmartAxis3D inDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inDescription</span></td>
+        <td><p>Publishing description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartAxis3D.html">SmartAxis3D</a></td>
+        <td><span class="parametername">inDefinition</span></td>
+        <td><p>Publishing definition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created publishing entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_PublishAxis_TopSolid_Kernel_Automating_DocumentId_System_String_TopSolid_Kernel_Automating_SmartAxis3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_PublishFrame_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.PublishFrame*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_PublishFrame_TopSolid_Kernel_Automating_DocumentId_System_String_TopSolid_Kernel_Automating_SmartFrame3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.PublishFrame(TopSolid.Kernel.Automating.DocumentId,System.String,TopSolid.Kernel.Automating.SmartFrame3D)">PublishFrame(DocumentId, String, SmartFrame3D)</h4>
+  <div class="markdown level1 summary"><p>Creates a frame publishing entity in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+ElementId PublishFrame(DocumentId inDocumentId, string inDescription, SmartFrame3D inDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inDescription</span></td>
+        <td><p>Publishing description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartFrame3D.html">SmartFrame3D</a></td>
+        <td><span class="parametername">inDefinition</span></td>
+        <td><p>Publishing definition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created publishing entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_PublishFrame_TopSolid_Kernel_Automating_DocumentId_System_String_TopSolid_Kernel_Automating_SmartFrame3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_PublishPlane_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.PublishPlane*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_PublishPlane_TopSolid_Kernel_Automating_DocumentId_System_String_TopSolid_Kernel_Automating_SmartPlane3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.PublishPlane(TopSolid.Kernel.Automating.DocumentId,System.String,TopSolid.Kernel.Automating.SmartPlane3D)">PublishPlane(DocumentId, String, SmartPlane3D)</h4>
+  <div class="markdown level1 summary"><p>Creates a plane publishing entity in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+ElementId PublishPlane(DocumentId inDocumentId, string inDescription, SmartPlane3D inDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inDescription</span></td>
+        <td><p>Publishing description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartPlane3D.html">SmartPlane3D</a></td>
+        <td><span class="parametername">inDefinition</span></td>
+        <td><p>Publishing definition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created publishing entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_PublishPlane_TopSolid_Kernel_Automating_DocumentId_System_String_TopSolid_Kernel_Automating_SmartPlane3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_PublishPoint_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.PublishPoint*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_PublishPoint_TopSolid_Kernel_Automating_DocumentId_System_String_TopSolid_Kernel_Automating_SmartPoint3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.PublishPoint(TopSolid.Kernel.Automating.DocumentId,System.String,TopSolid.Kernel.Automating.SmartPoint3D)">PublishPoint(DocumentId, String, SmartPoint3D)</h4>
+  <div class="markdown level1 summary"><p>Creates a point publishing entity in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+ElementId PublishPoint(DocumentId inDocumentId, string inDescription, SmartPoint3D inDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inDescription</span></td>
+        <td><p>Publishing description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartPoint3D.html">SmartPoint3D</a></td>
+        <td><span class="parametername">inDefinition</span></td>
+        <td><p>Publishing definition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created publishing entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_PublishPoint_TopSolid_Kernel_Automating_DocumentId_System_String_TopSolid_Kernel_Automating_SmartPoint3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_PublishSection_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.PublishSection*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_PublishSection_TopSolid_Kernel_Automating_DocumentId_System_String_TopSolid_Kernel_Automating_SmartSection3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.PublishSection(TopSolid.Kernel.Automating.DocumentId,System.String,TopSolid.Kernel.Automating.SmartSection3D)">PublishSection(DocumentId, String, SmartSection3D)</h4>
+  <div class="markdown level1 summary"><p>Creates a section publishing entity in a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 302, 80)]
+ElementId PublishSection(DocumentId inDocumentId, string inDescription, SmartSection3D inDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.DocumentId.html">DocumentId</a></td>
+        <td><span class="parametername">inDocumentId</span></td>
+        <td><p>Identifier of the document to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">inDescription</span></td>
+        <td><p>Publishing description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartSection3D.html">SmartSection3D</a></td>
+        <td><span class="parametername">inDefinition</span></td>
+        <td><p>Publishing definition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><p>Identifier of the created publishing entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_PublishSection_TopSolid_Kernel_Automating_DocumentId_System_String_TopSolid_Kernel_Automating_SmartSection3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.302.80.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_SetAxisGeometry_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetAxisGeometry*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_SetAxisGeometry_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_Axis3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetAxisGeometry(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.Axis3D)">SetAxisGeometry(ElementId, Axis3D)</h4>
+  <div class="markdown level1 summary"><p>Sets the geometry of an axis entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+void SetAxisGeometry(ElementId inElementId, Axis3D inGeometry)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the axis entity to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Axis3D.html">Axis3D</a></td>
+        <td><span class="parametername">inGeometry</span></td>
+        <td><p>New axis geometry.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_SetAxisGeometry_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_Axis3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_SetAxisGeometryWithExtent_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetAxisGeometryWithExtent*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_SetAxisGeometryWithExtent_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_Axis3D_System_Double_System_Double_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetAxisGeometryWithExtent(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.Axis3D,System.Double,System.Double)">SetAxisGeometryWithExtent(ElementId, Axis3D, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the geometry and the extent of an axis entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 100)]
+void SetAxisGeometryWithExtent(ElementId inElementId, Axis3D inGeometry, double inXMin, double inXMax)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the axis entity to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Axis3D.html">Axis3D</a></td>
+        <td><span class="parametername">inGeometry</span></td>
+        <td><p>New axis geometry.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inXMin</span></td>
+        <td><p>Minimum X axis coordinate of extent.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inXMax</span></td>
+        <td><p>Maximum X axis coordinate of extent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_SetAxisGeometryWithExtent_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_Axis3D_System_Double_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.100.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_SetAxisPublishingDefinition_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetAxisPublishingDefinition*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_SetAxisPublishingDefinition_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartAxis3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetAxisPublishingDefinition(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.SmartAxis3D)">SetAxisPublishingDefinition(ElementId, SmartAxis3D)</h4>
+  <div class="markdown level1 summary"><p>Sets the definition of an axis publishing entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+void SetAxisPublishingDefinition(ElementId inElementId, SmartAxis3D inDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the publishing entity to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartAxis3D.html">SmartAxis3D</a></td>
+        <td><span class="parametername">inDefinition</span></td>
+        <td><p>Publishing new definition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_SetAxisPublishingDefinition_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartAxis3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_SetFrameGeometry_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetFrameGeometry*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_SetFrameGeometry_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_Frame3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetFrameGeometry(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.Frame3D)">SetFrameGeometry(ElementId, Frame3D)</h4>
+  <div class="markdown level1 summary"><p>Sets the geometry of a frame entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+void SetFrameGeometry(ElementId inElementId, Frame3D inGeometry)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the frame entity to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Frame3D.html">Frame3D</a></td>
+        <td><span class="parametername">inGeometry</span></td>
+        <td><p>New frame geometry.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_SetFrameGeometry_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_Frame3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_SetFramePublishingDefinition_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetFramePublishingDefinition*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_SetFramePublishingDefinition_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartFrame3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetFramePublishingDefinition(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.SmartFrame3D)">SetFramePublishingDefinition(ElementId, SmartFrame3D)</h4>
+  <div class="markdown level1 summary"><p>Sets the definition of a frame publishing entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+void SetFramePublishingDefinition(ElementId inElementId, SmartFrame3D inDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the publishing entity to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartFrame3D.html">SmartFrame3D</a></td>
+        <td><span class="parametername">inDefinition</span></td>
+        <td><p>Publishing new definition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_SetFramePublishingDefinition_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartFrame3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_SetOffsetPointCreation_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetOffsetPointCreation*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_SetOffsetPointCreation_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartPoint3D_TopSolid_Kernel_Automating_SmartDirection3D_TopSolid_Kernel_Automating_SmartReal_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetOffsetPointCreation(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.SmartPoint3D,TopSolid.Kernel.Automating.SmartDirection3D,TopSolid.Kernel.Automating.SmartReal)">SetOffsetPointCreation(ElementId, SmartPoint3D, SmartDirection3D, SmartReal)</h4>
+  <div class="markdown level1 summary"><p>Sets an offset point creation operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+void SetOffsetPointCreation(ElementId inElementId, SmartPoint3D inOrigin, SmartDirection3D inDirection, SmartReal inDistance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the offset point creation operation to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartPoint3D.html">SmartPoint3D</a></td>
+        <td><span class="parametername">inOrigin</span></td>
+        <td><p>Origin point.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartDirection3D.html">SmartDirection3D</a></td>
+        <td><span class="parametername">inDirection</span></td>
+        <td><p>Offset direction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartReal.html">SmartReal</a></td>
+        <td><span class="parametername">inDistance</span></td>
+        <td><p>Offset distance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_SetOffsetPointCreation_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartPoint3D_TopSolid_Kernel_Automating_SmartDirection3D_TopSolid_Kernel_Automating_SmartReal__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_SetPlaneGeometry_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetPlaneGeometry*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_SetPlaneGeometry_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_Plane3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetPlaneGeometry(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.Plane3D)">SetPlaneGeometry(ElementId, Plane3D)</h4>
+  <div class="markdown level1 summary"><p>Sets the geometry of a plane entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+void SetPlaneGeometry(ElementId inElementId, Plane3D inGeometry)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the plane entity to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Plane3D.html">Plane3D</a></td>
+        <td><span class="parametername">inGeometry</span></td>
+        <td><p>New plane geometry.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_SetPlaneGeometry_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_Plane3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_SetPlaneGeometryWithExtent_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetPlaneGeometryWithExtent*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_SetPlaneGeometryWithExtent_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_Plane3D_System_Double_System_Double_System_Double_System_Double_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetPlaneGeometryWithExtent(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.Plane3D,System.Double,System.Double,System.Double,System.Double)">SetPlaneGeometryWithExtent(ElementId, Plane3D, Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Sets the geometry and the extent of a plane entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 7, 201, 100)]
+void SetPlaneGeometryWithExtent(ElementId inElementId, Plane3D inGeometry, double inXMin, double inXMax, double inYMin, double inYMax)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the plane entity to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Plane3D.html">Plane3D</a></td>
+        <td><span class="parametername">inGeometry</span></td>
+        <td><p>New plane geometry.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inXMin</span></td>
+        <td><p>Minimum X plane coordinate of extent.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inXMax</span></td>
+        <td><p>Maximum X plane coordinate of extent.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inYMin</span></td>
+        <td><p>Minimum Y plane coordinate of extent.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">inYMax</span></td>
+        <td><p>Maximum Y plane coordinate of extent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_SetPlaneGeometryWithExtent_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_Plane3D_System_Double_System_Double_System_Double_System_Double__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.7.201.100.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_SetPlanePublishingDefinition_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetPlanePublishingDefinition*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_SetPlanePublishingDefinition_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartPlane3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetPlanePublishingDefinition(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.SmartPlane3D)">SetPlanePublishingDefinition(ElementId, SmartPlane3D)</h4>
+  <div class="markdown level1 summary"><p>Sets the definition of a plane publishing entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+void SetPlanePublishingDefinition(ElementId inElementId, SmartPlane3D inDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the publishing entity to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartPlane3D.html">SmartPlane3D</a></td>
+        <td><span class="parametername">inDefinition</span></td>
+        <td><p>Publishing new definition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_SetPlanePublishingDefinition_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartPlane3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_SetPointGeometry_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetPointGeometry*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_SetPointGeometry_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_Point3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetPointGeometry(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.Point3D)">SetPointGeometry(ElementId, Point3D)</h4>
+  <div class="markdown level1 summary"><p>Sets the geometry of a point entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 6, 0, 0)]
+void SetPointGeometry(ElementId inElementId, Point3D inGeometry)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the point entity to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.Point3D.html">Point3D</a></td>
+        <td><span class="parametername">inGeometry</span></td>
+        <td><p>New point geometry.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_SetPointGeometry_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_Point3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.6.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_SetPointPublishingDefinition_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetPointPublishingDefinition*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_SetPointPublishingDefinition_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartPoint3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetPointPublishingDefinition(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.SmartPoint3D)">SetPointPublishingDefinition(ElementId, SmartPoint3D)</h4>
+  <div class="markdown level1 summary"><p>Sets the definition of a point publishing entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 0, 0)]
+void SetPointPublishingDefinition(ElementId inElementId, SmartPoint3D inDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the publishing entity to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartPoint3D.html">SmartPoint3D</a></td>
+        <td><span class="parametername">inDefinition</span></td>
+        <td><p>Publishing new definition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_SetPointPublishingDefinition_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartPoint3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_SetPointPublishingDefinitionList_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetPointPublishingDefinitionList*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_SetPointPublishingDefinitionList_TopSolid_Kernel_Automating_ElementId_List_TopSolid_Kernel_Automating_SmartPoint3D__" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetPointPublishingDefinitionList(TopSolid.Kernel.Automating.ElementId,List{TopSolid.Kernel.Automating.SmartPoint3D})">SetPointPublishingDefinitionList(ElementId, List&lt;SmartPoint3D&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the definition of a point publishing list entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 16, 400, 0)]
+void SetPointPublishingDefinitionList(ElementId inElementId, List&lt;SmartPoint3D&gt; inDefinitions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the publishing list entity to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TopSolid.Kernel.Automating.SmartPoint3D.html">SmartPoint3D</a>&gt;</td>
+        <td><span class="parametername">inDefinitions</span></td>
+        <td><p>Publishing new definitions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_SetPointPublishingDefinitionList_TopSolid_Kernel_Automating_ElementId_List_TopSolid_Kernel_Automating_SmartPoint3D___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.16.400.</p>
+</div>
+  <a id="TopSolid_Kernel_Automating_IGeometries3D_SetSectionPublishingDefinition_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetSectionPublishingDefinition*"></a>
+  <h4 id="TopSolid_Kernel_Automating_IGeometries3D_SetSectionPublishingDefinition_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartSection3D_" data-uid="TopSolid.Kernel.Automating.IGeometries3D.SetSectionPublishingDefinition(TopSolid.Kernel.Automating.ElementId,TopSolid.Kernel.Automating.SmartSection3D)">SetSectionPublishingDefinition(ElementId, SmartSection3D)</h4>
+  <div class="markdown level1 summary"><p>Sets the definition of a section publishing entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AvailableSinceVersion(7, 8, 302, 80)]
+void SetSectionPublishingDefinition(ElementId inElementId, SmartSection3D inDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.ElementId.html">ElementId</a></td>
+        <td><span class="parametername">inElementId</span></td>
+        <td><p>Identifier of the publishing entity to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TopSolid.Kernel.Automating.SmartSection3D.html">SmartSection3D</a></td>
+        <td><span class="parametername">inDefinition</span></td>
+        <td><p>Publishing new definition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="TopSolid_Kernel_Automating_IGeometries3D_SetSectionPublishingDefinition_TopSolid_Kernel_Automating_ElementId_TopSolid_Kernel_Automating_SmartSection3D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="TopSolid.Kernel.Automating.IApplication.html#TopSolid_Kernel_Automating_IApplication_StartModification_System_String_System_Boolean_">StartModification(String, Boolean)</a> and <a class="xref" href="TopSolid.Kernel.Automating.IDocuments.html#TopSolid_Kernel_Automating_IDocuments_EnsureIsDirty_TopSolid_Kernel_Automating_DocumentId__">EnsureIsDirty(ref DocumentId)</a> must be called before calling this method.</p>
+<p>This method is available since v7.8.302.80.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div id="footer-alt">
+              <div class="container">
+                  <div id="footer-alt-bottom">
+                      <ul>
+                          <li><a href="#">Mentions légales</a></li>
+                          <li><a href="#">Plan du site</a></li>
+                          <li><a href="#">C.G.U</a></li>
+                          <li><a href="#">Données personnelles</a></li>
+                      </ul>
+                      <p>Copyright © 2024 TopSolid Tous droits réservés</p>
+                  </div>
+              </div>
+          </div>
+        </footer></div>
+      
+    
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

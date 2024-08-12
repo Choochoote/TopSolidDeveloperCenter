@@ -602,6 +602,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html",
+          "hash": "UsYIK3UALId/quwP+2KKBTDMPHrbgXxMKD9PI/glV9U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.html",
+          "hash": "oydchE2JUPcAsGUs/0uYoS4rd/WK6bk9q40B7dWimOY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.html",
+          "hash": "Xd6q5eurraJ5R2QMdO2XOJDqowgsLbg9jo68/0nJ+zU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/electrode/TopSolid.Cad.Electrode.Automating.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/electrode/TopSolid.Cad.Electrode.Automating.html",
+          "hash": "RaG1FW/JcAl+trx0Stu87LRaDvzs8evW0T0RaTbCaew="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/electrode/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/electrode/toc.html",
+          "hash": "eJZQCAGWYQsRh2i2tcWI9rWwdM6GCCj5gLrrCgcJXtg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/kernel/TopSolid.Kernel.Automating.AvailableSinceVersionAttribute.yml",
       "output": {
         ".html": {
@@ -642,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/kernel/TopSolid.Kernel.Automating.BooleanProperty.html",
-          "hash": "85pZ5LjZ5jblSY1xH5+2xrx38gu2t2wuZXfnTl8PA5s="
+          "hash": "xe30WQ7E0qggHBdUV5huaYi0uhMzkDQyRM2xOd0gBvI="
         }
       },
       "is_incremental": false,
@@ -654,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/kernel/TopSolid.Kernel.Automating.CodeProperty.html",
-          "hash": "4wHINfSG/BX/75lRhY/9q6LtiwI5AtUwc3JkW64tnJY="
+          "hash": "LUE3eKYEKtro+Siv42wFUdVcs2vfFv/KbztvT/3f/0s="
         }
       },
       "is_incremental": false,
@@ -678,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/kernel/TopSolid.Kernel.Automating.ColorProperty.html",
-          "hash": "3nrN0nuSqamyN+D2PaxK95zVQsu6TW+5cXA2Av3NjSM="
+          "hash": "eGDEVzuStfej06ILGgQg1XQpb2++x6Pu2rqm4jJQvT4="
         }
       },
       "is_incremental": false,
@@ -690,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/kernel/TopSolid.Kernel.Automating.ColorWithDescriptionProperty.html",
-          "hash": "6TA0mJ4YADnN329ycAnICJLLriW7LbUaLNkEtFtQclI="
+          "hash": "INEIFmLwS+iz6c9raWojvLjX9J7d+ATb3kbTSVQjjEg="
         }
       },
       "is_incremental": false,
@@ -738,7 +798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/kernel/TopSolid.Kernel.Automating.DateTimeProperty.html",
-          "hash": "cDAT1gfnd60LKUomhw5ERGMVsgxz6uYG+A7BDP7Er+s="
+          "hash": "xk4WY8TbZe9sjRUXwDj1PpuLzuPWFQwr5fJo0hDk6rk="
         }
       },
       "is_incremental": false,
@@ -786,7 +846,7 @@
       "output": {
         ".html": {
           "relative_path": "api/kernel/TopSolid.Kernel.Automating.DocumentProperty.html",
-          "hash": "PQaLOvkZ+iES7oAQnTwhYArMJRWr54ADqm7aeCFjnNA="
+          "hash": "l5ue6CXajVmq72rvOGTSsRcb4/RIMfnTN8v6kDRYYk0="
         }
       },
       "is_incremental": false,
@@ -834,7 +894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/kernel/TopSolid.Kernel.Automating.EnumerationProperty.html",
-          "hash": "xnXk/sqli5ZX9VF/67MVARhA0IIV6EUQuNY625g7Hu4="
+          "hash": "nfuOSbO5jyumVwDr/zI1axsz6r1HMvfxwTLfP8hjY2c="
         }
       },
       "is_incremental": false,
@@ -1062,7 +1122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/kernel/TopSolid.Kernel.Automating.IPdm.html",
-          "hash": "qW9nIYf8VGFVXHlJGnJjsv9imiUhAghvU/oiFU98huE="
+          "hash": "Mqi3UDgSY2MpC1831PDBNIPXif7kazjxkjUWA0THKMo="
         }
       },
       "is_incremental": false,
@@ -1194,7 +1254,7 @@
       "output": {
         ".html": {
           "relative_path": "api/kernel/TopSolid.Kernel.Automating.IntegerProperty.html",
-          "hash": "eU1hmYa6L3ol6KRhHug0HRMUlIc59p1Sna3293bQHIs="
+          "hash": "S5JXOIa/wan0kdPFhHG5YFTUDg8vidI2sSkcwUasKrM="
         }
       },
       "is_incremental": false,
@@ -1566,7 +1626,7 @@
       "output": {
         ".html": {
           "relative_path": "api/kernel/TopSolid.Kernel.Automating.RealProperty.html",
-          "hash": "T03vZyoqJTEbb3S6pU776yELLGUdQbcka0E5gmPz33E="
+          "hash": "G4EM7BvZjJnELHZuksgATPibvSc0Na4i1dXqzvWgCGs="
         }
       },
       "is_incremental": false,
@@ -2190,7 +2250,7 @@
       "output": {
         ".html": {
           "relative_path": "api/kernel/TopSolid.Kernel.Automating.TextProperty.html",
-          "hash": "G3ieV/dAhXm2N0UpIKA4yPpKIcXyFuQUkS2jVtbhM78="
+          "hash": "1cUKPlG+qpIslI40zHwAouuCDntRhc2kMEicOHR6M+M="
         }
       },
       "is_incremental": false,
@@ -2334,7 +2394,7 @@
       "output": {
         ".html": {
           "relative_path": "api/kernel/TopSolid.Kernel.Automating.UserEnumerationProperty.html",
-          "hash": "vt/MjxAz58lUz16jGiYBd1moIpXDtGDlafu4vvImKoI="
+          "hash": "BmztORsKSsTo71AhnxZpWCfYgsYYu9UhLC4MCa/+E1M="
         }
       },
       "is_incremental": false,
@@ -2466,7 +2526,7 @@
       "output": {
         ".html": {
           "relative_path": "api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdm.html",
-          "hash": "OAWSE3GQjRopHO8W5wyLX3QLFttWwXyUBHFL+Ty+Odc="
+          "hash": "RZR/ct68cHH7jZxvpYrlHGlNKGXTPlL/9hw6qVz9agk="
         }
       },
       "is_incremental": false,
@@ -3470,7 +3530,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "fUOdAnEoACW2WnfiI0xUA4RDxhGImNoTvJfAEBM7PUg="
+          "hash": "jnX8QfhrcFNHR1ai3Vg/j/zsAzwdr4/RgYbVJJnO0Qs="
         }
       },
       "is_incremental": false,
@@ -3482,7 +3542,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "O7pareMieNKlirGUB9359I50eSgjpu+trpIR2Ghi/E4="
+          "hash": "XDx4t3C87gLFr4NCcE9FgvUjxYnb3BHmigp1l7EWYIU="
         }
       },
       "is_incremental": false,
@@ -3507,8 +3567,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 220,
-          "skipped_file_count": 220
+          "total_file_count": 224,
+          "skipped_file_count": 224
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

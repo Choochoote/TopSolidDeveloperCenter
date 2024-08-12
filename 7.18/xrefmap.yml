@@ -6500,6 +6500,355 @@ references:
   isSpec: "True"
   fullName: TopSolid.Cad.Design.Automating.TopSolidDesignHostInstance.Unfoldings
   nameWithType: TopSolidDesignHostInstance.Unfoldings
+- uid: TopSolid.Cad.Electrode.Automating
+  name: TopSolid.Cad.Electrode.Automating
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.html
+  commentId: N:TopSolid.Cad.Electrode.Automating
+  fullName: TopSolid.Cad.Electrode.Automating
+  nameWithType: TopSolid.Cad.Electrode.Automating
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes
+  name: IElectrodes
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html
+  commentId: T:TopSolid.Cad.Electrode.Automating.IElectrodes
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes
+  nameWithType: IElectrodes
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeCAngle(ElementId,System.Int32)
+  name: GetElectrodeCAngle(ElementId, Int32)
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeCAngle_ElementId_System_Int32_
+  commentId: M:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeCAngle(ElementId,System.Int32)
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeCAngle(ElementId, System.Int32)
+  nameWithType: IElectrodes.GetElectrodeCAngle(ElementId, Int32)
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeCAngle*
+  name: GetElectrodeCAngle
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeCAngle_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeCAngle
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeCAngle
+  nameWithType: IElectrodes.GetElectrodeCAngle
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeDivingDistance(ElementId,System.Int32)
+  name: GetElectrodeDivingDistance(ElementId, Int32)
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeDivingDistance_ElementId_System_Int32_
+  commentId: M:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeDivingDistance(ElementId,System.Int32)
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeDivingDistance(ElementId, System.Int32)
+  nameWithType: IElectrodes.GetElectrodeDivingDistance(ElementId, Int32)
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeDivingDistance*
+  name: GetElectrodeDivingDistance
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeDivingDistance_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeDivingDistance
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeDivingDistance
+  nameWithType: IElectrodes.GetElectrodeDivingDistance
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeGaps(ElementId)
+  name: GetElectrodeGaps(ElementId)
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeGaps_ElementId_
+  commentId: M:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeGaps(ElementId)
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeGaps(ElementId)
+  nameWithType: IElectrodes.GetElectrodeGaps(ElementId)
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeGaps*
+  name: GetElectrodeGaps
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeGaps_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeGaps
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeGaps
+  nameWithType: IElectrodes.GetElectrodeGaps
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeInitialXPosition(ElementId,System.Int32)
+  name: GetElectrodeInitialXPosition(ElementId, Int32)
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeInitialXPosition_ElementId_System_Int32_
+  commentId: M:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeInitialXPosition(ElementId,System.Int32)
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeInitialXPosition(ElementId, System.Int32)
+  nameWithType: IElectrodes.GetElectrodeInitialXPosition(ElementId, Int32)
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeInitialXPosition*
+  name: GetElectrodeInitialXPosition
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeInitialXPosition_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeInitialXPosition
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeInitialXPosition
+  nameWithType: IElectrodes.GetElectrodeInitialXPosition
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeInitialYPosition(ElementId,System.Int32)
+  name: GetElectrodeInitialYPosition(ElementId, Int32)
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeInitialYPosition_ElementId_System_Int32_
+  commentId: M:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeInitialYPosition(ElementId,System.Int32)
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeInitialYPosition(ElementId, System.Int32)
+  nameWithType: IElectrodes.GetElectrodeInitialYPosition(ElementId, Int32)
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeInitialYPosition*
+  name: GetElectrodeInitialYPosition
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeInitialYPosition_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeInitialYPosition
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeInitialYPosition
+  nameWithType: IElectrodes.GetElectrodeInitialYPosition
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeInitialZPosition(ElementId,System.Int32)
+  name: GetElectrodeInitialZPosition(ElementId, Int32)
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeInitialZPosition_ElementId_System_Int32_
+  commentId: M:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeInitialZPosition(ElementId,System.Int32)
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeInitialZPosition(ElementId, System.Int32)
+  nameWithType: IElectrodes.GetElectrodeInitialZPosition(ElementId, Int32)
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeInitialZPosition*
+  name: GetElectrodeInitialZPosition
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeInitialZPosition_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeInitialZPosition
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeInitialZPosition
+  nameWithType: IElectrodes.GetElectrodeInitialZPosition
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeMandrels(ElementId)
+  name: GetElectrodeMandrels(ElementId)
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeMandrels_ElementId_
+  commentId: M:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeMandrels(ElementId)
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeMandrels(ElementId)
+  nameWithType: IElectrodes.GetElectrodeMandrels(ElementId)
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeMandrels*
+  name: GetElectrodeMandrels
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeMandrels_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeMandrels
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeMandrels
+  nameWithType: IElectrodes.GetElectrodeMandrels
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodePositionCount(ElementId)
+  name: GetElectrodePositionCount(ElementId)
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodePositionCount_ElementId_
+  commentId: M:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodePositionCount(ElementId)
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodePositionCount(ElementId)
+  nameWithType: IElectrodes.GetElectrodePositionCount(ElementId)
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodePositionCount*
+  name: GetElectrodePositionCount
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodePositionCount_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodePositionCount
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodePositionCount
+  nameWithType: IElectrodes.GetElectrodePositionCount
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodePositionIndex(ElementId)
+  name: GetElectrodePositionIndex(ElementId)
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodePositionIndex_ElementId_
+  commentId: M:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodePositionIndex(ElementId)
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodePositionIndex(ElementId)
+  nameWithType: IElectrodes.GetElectrodePositionIndex(ElementId)
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodePositionIndex*
+  name: GetElectrodePositionIndex
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodePositionIndex_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodePositionIndex
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodePositionIndex
+  nameWithType: IElectrodes.GetElectrodePositionIndex
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodes(DocumentId,System.Boolean)
+  name: GetElectrodes(DocumentId, Boolean)
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodes_DocumentId_System_Boolean_
+  commentId: M:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodes(DocumentId,System.Boolean)
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodes(DocumentId, System.Boolean)
+  nameWithType: IElectrodes.GetElectrodes(DocumentId, Boolean)
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodes*
+  name: GetElectrodes
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodes_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodes
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodes
+  nameWithType: IElectrodes.GetElectrodes
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeXPosition(ElementId,System.Int32)
+  name: GetElectrodeXPosition(ElementId, Int32)
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeXPosition_ElementId_System_Int32_
+  commentId: M:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeXPosition(ElementId,System.Int32)
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeXPosition(ElementId, System.Int32)
+  nameWithType: IElectrodes.GetElectrodeXPosition(ElementId, Int32)
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeXPosition*
+  name: GetElectrodeXPosition
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeXPosition_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeXPosition
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeXPosition
+  nameWithType: IElectrodes.GetElectrodeXPosition
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeYPosition(ElementId,System.Int32)
+  name: GetElectrodeYPosition(ElementId, Int32)
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeYPosition_ElementId_System_Int32_
+  commentId: M:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeYPosition(ElementId,System.Int32)
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeYPosition(ElementId, System.Int32)
+  nameWithType: IElectrodes.GetElectrodeYPosition(ElementId, Int32)
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeYPosition*
+  name: GetElectrodeYPosition
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeYPosition_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeYPosition
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeYPosition
+  nameWithType: IElectrodes.GetElectrodeYPosition
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeZPosition(ElementId,System.Int32)
+  name: GetElectrodeZPosition(ElementId, Int32)
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeZPosition_ElementId_System_Int32_
+  commentId: M:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeZPosition(ElementId,System.Int32)
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeZPosition(ElementId, System.Int32)
+  nameWithType: IElectrodes.GetElectrodeZPosition(ElementId, Int32)
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeZPosition*
+  name: GetElectrodeZPosition
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_GetElectrodeZPosition_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeZPosition
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.GetElectrodeZPosition
+  nameWithType: IElectrodes.GetElectrodeZPosition
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.IsElectrodes(DocumentId)
+  name: IsElectrodes(DocumentId)
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_IsElectrodes_DocumentId_
+  commentId: M:TopSolid.Cad.Electrode.Automating.IElectrodes.IsElectrodes(DocumentId)
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.IsElectrodes(DocumentId)
+  nameWithType: IElectrodes.IsElectrodes(DocumentId)
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.IsElectrodes*
+  name: IsElectrodes
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_IsElectrodes_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.IElectrodes.IsElectrodes
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.IsElectrodes
+  nameWithType: IElectrodes.IsElectrodes
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.IsElectrodeTheoreticalPosition(ElementId)
+  name: IsElectrodeTheoreticalPosition(ElementId)
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_IsElectrodeTheoreticalPosition_ElementId_
+  commentId: M:TopSolid.Cad.Electrode.Automating.IElectrodes.IsElectrodeTheoreticalPosition(ElementId)
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.IsElectrodeTheoreticalPosition(ElementId)
+  nameWithType: IElectrodes.IsElectrodeTheoreticalPosition(ElementId)
+- uid: TopSolid.Cad.Electrode.Automating.IElectrodes.IsElectrodeTheoreticalPosition*
+  name: IsElectrodeTheoreticalPosition
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.IElectrodes.html#TopSolid_Cad_Electrode_Automating_IElectrodes_IsElectrodeTheoreticalPosition_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.IElectrodes.IsElectrodeTheoreticalPosition
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.IElectrodes.IsElectrodeTheoreticalPosition
+  nameWithType: IElectrodes.IsElectrodeTheoreticalPosition
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost
+  name: TopSolidElectrodeHost
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.html
+  commentId: T:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost
+  nameWithType: TopSolidElectrodeHost
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.Connect
+  name: Connect()
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHost_Connect
+  commentId: M:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.Connect
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.Connect()
+  nameWithType: TopSolidElectrodeHost.Connect()
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.Connect*
+  name: Connect
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHost_Connect_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.Connect
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.Connect
+  nameWithType: TopSolidElectrodeHost.Connect
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.Disconnect
+  name: Disconnect()
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHost_Disconnect
+  commentId: M:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.Disconnect
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.Disconnect()
+  nameWithType: TopSolidElectrodeHost.Disconnect()
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.Disconnect*
+  name: Disconnect
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHost_Disconnect_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.Disconnect
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.Disconnect
+  nameWithType: TopSolidElectrodeHost.Disconnect
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.Electrodes
+  name: Electrodes
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHost_Electrodes
+  commentId: P:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.Electrodes
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.Electrodes
+  nameWithType: TopSolidElectrodeHost.Electrodes
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.Electrodes*
+  name: Electrodes
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHost_Electrodes_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.Electrodes
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.Electrodes
+  nameWithType: TopSolidElectrodeHost.Electrodes
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.HostInstance
+  name: HostInstance
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHost_HostInstance
+  commentId: P:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.HostInstance
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.HostInstance
+  nameWithType: TopSolidElectrodeHost.HostInstance
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.HostInstance*
+  name: HostInstance
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHost_HostInstance_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.HostInstance
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.HostInstance
+  nameWithType: TopSolidElectrodeHost.HostInstance
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.IsConnected
+  name: IsConnected
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHost_IsConnected
+  commentId: P:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.IsConnected
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.IsConnected
+  nameWithType: TopSolidElectrodeHost.IsConnected
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.IsConnected*
+  name: IsConnected
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHost_IsConnected_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.IsConnected
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHost.IsConnected
+  nameWithType: TopSolidElectrodeHost.IsConnected
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance
+  name: TopSolidElectrodeHostInstance
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.html
+  commentId: T:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance
+  nameWithType: TopSolidElectrodeHostInstance
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.#ctor(TopSolidHostInstance)
+  name: TopSolidElectrodeHostInstance(TopSolidHostInstance)
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHostInstance__ctor_TopSolidHostInstance_
+  commentId: M:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.#ctor(TopSolidHostInstance)
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.TopSolidElectrodeHostInstance(TopSolidHostInstance)
+  nameWithType: TopSolidElectrodeHostInstance.TopSolidElectrodeHostInstance(TopSolidHostInstance)
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.#ctor*
+  name: TopSolidElectrodeHostInstance
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHostInstance__ctor_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.#ctor
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.TopSolidElectrodeHostInstance
+  nameWithType: TopSolidElectrodeHostInstance.TopSolidElectrodeHostInstance
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.Connect
+  name: Connect()
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHostInstance_Connect
+  commentId: M:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.Connect
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.Connect()
+  nameWithType: TopSolidElectrodeHostInstance.Connect()
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.Connect*
+  name: Connect
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHostInstance_Connect_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.Connect
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.Connect
+  nameWithType: TopSolidElectrodeHostInstance.Connect
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.Disconnect
+  name: Disconnect()
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHostInstance_Disconnect
+  commentId: M:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.Disconnect
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.Disconnect()
+  nameWithType: TopSolidElectrodeHostInstance.Disconnect()
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.Disconnect*
+  name: Disconnect
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHostInstance_Disconnect_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.Disconnect
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.Disconnect
+  nameWithType: TopSolidElectrodeHostInstance.Disconnect
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.Electrodes
+  name: Electrodes
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHostInstance_Electrodes
+  commentId: P:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.Electrodes
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.Electrodes
+  nameWithType: TopSolidElectrodeHostInstance.Electrodes
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.Electrodes*
+  name: Electrodes
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHostInstance_Electrodes_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.Electrodes
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.Electrodes
+  nameWithType: TopSolidElectrodeHostInstance.Electrodes
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.IsConnected
+  name: IsConnected
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHostInstance_IsConnected
+  commentId: P:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.IsConnected
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.IsConnected
+  nameWithType: TopSolidElectrodeHostInstance.IsConnected
+- uid: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.IsConnected*
+  name: IsConnected
+  href: api/electrode/TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.html#TopSolid_Cad_Electrode_Automating_TopSolidElectrodeHostInstance_IsConnected_
+  commentId: Overload:TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.IsConnected
+  isSpec: "True"
+  fullName: TopSolid.Cad.Electrode.Automating.TopSolidElectrodeHostInstance.IsConnected
+  nameWithType: TopSolidElectrodeHostInstance.IsConnected
 - uid: TopSolid.Kernel.Automating
   name: TopSolid.Kernel.Automating
   href: api/kernel/TopSolid.Kernel.Automating.html
@@ -16764,6 +17113,19 @@ references:
   isSpec: "True"
   fullName: TopSolid.Kernel.Automating.IPdm.IsLibraryProject
   nameWithType: IPdm.IsLibraryProject
+- uid: TopSolid.Kernel.Automating.IPdm.IsLocal
+  name: IsLocal
+  href: api/kernel/TopSolid.Kernel.Automating.IPdm.html#TopSolid_Kernel_Automating_IPdm_IsLocal
+  commentId: P:TopSolid.Kernel.Automating.IPdm.IsLocal
+  fullName: TopSolid.Kernel.Automating.IPdm.IsLocal
+  nameWithType: IPdm.IsLocal
+- uid: TopSolid.Kernel.Automating.IPdm.IsLocal*
+  name: IsLocal
+  href: api/kernel/TopSolid.Kernel.Automating.IPdm.html#TopSolid_Kernel_Automating_IPdm_IsLocal_
+  commentId: Overload:TopSolid.Kernel.Automating.IPdm.IsLocal
+  isSpec: "True"
+  fullName: TopSolid.Kernel.Automating.IPdm.IsLocal
+  nameWithType: IPdm.IsLocal
 - uid: TopSolid.Kernel.Automating.IPdm.LibraryProjectsRootFolder
   name: LibraryProjectsRootFolder
   href: api/kernel/TopSolid.Kernel.Automating.IPdm.html#TopSolid_Kernel_Automating_IPdm_LibraryProjectsRootFolder
@@ -16832,6 +17194,19 @@ references:
   isSpec: "True"
   fullName: TopSolid.Kernel.Automating.IPdm.Name
   nameWithType: IPdm.Name
+- uid: TopSolid.Kernel.Automating.IPdm.NameRaw
+  name: NameRaw
+  href: api/kernel/TopSolid.Kernel.Automating.IPdm.html#TopSolid_Kernel_Automating_IPdm_NameRaw
+  commentId: P:TopSolid.Kernel.Automating.IPdm.NameRaw
+  fullName: TopSolid.Kernel.Automating.IPdm.NameRaw
+  nameWithType: IPdm.NameRaw
+- uid: TopSolid.Kernel.Automating.IPdm.NameRaw*
+  name: NameRaw
+  href: api/kernel/TopSolid.Kernel.Automating.IPdm.html#TopSolid_Kernel_Automating_IPdm_NameRaw_
+  commentId: Overload:TopSolid.Kernel.Automating.IPdm.NameRaw
+  isSpec: "True"
+  fullName: TopSolid.Kernel.Automating.IPdm.NameRaw
+  nameWithType: IPdm.NameRaw
 - uid: TopSolid.Kernel.Automating.IPdm.NeedsGettingLatestRevision(TopSolid.Kernel.Automating.PdmObjectId)
   name: NeedsGettingLatestRevision(PdmObjectId)
   href: api/kernel/TopSolid.Kernel.Automating.IPdm.html#TopSolid_Kernel_Automating_IPdm_NeedsGettingLatestRevision_TopSolid_Kernel_Automating_PdmObjectId_
@@ -17419,6 +17794,19 @@ references:
   isSpec: "True"
   fullName: TopSolid.Kernel.Automating.IPdm.ShowInProjectTree
   nameWithType: IPdm.ShowInProjectTree
+- uid: TopSolid.Kernel.Automating.IPdm.Signature
+  name: Signature
+  href: api/kernel/TopSolid.Kernel.Automating.IPdm.html#TopSolid_Kernel_Automating_IPdm_Signature
+  commentId: P:TopSolid.Kernel.Automating.IPdm.Signature
+  fullName: TopSolid.Kernel.Automating.IPdm.Signature
+  nameWithType: IPdm.Signature
+- uid: TopSolid.Kernel.Automating.IPdm.Signature*
+  name: Signature
+  href: api/kernel/TopSolid.Kernel.Automating.IPdm.html#TopSolid_Kernel_Automating_IPdm_Signature_
+  commentId: Overload:TopSolid.Kernel.Automating.IPdm.Signature
+  isSpec: "True"
+  fullName: TopSolid.Kernel.Automating.IPdm.Signature
+  nameWithType: IPdm.Signature
 - uid: TopSolid.Kernel.Automating.IPdm.UndoCheckOut(TopSolid.Kernel.Automating.PdmObjectId)
   name: UndoCheckOut(PdmObjectId)
   href: api/kernel/TopSolid.Kernel.Automating.IPdm.html#TopSolid_Kernel_Automating_IPdm_UndoCheckOut_TopSolid_Kernel_Automating_PdmObjectId_
@@ -30640,6 +31028,19 @@ references:
   isSpec: "True"
   fullName: TopSolid.Pdm.Explorer.Automating.IPdm.IsLibraryProject
   nameWithType: IPdm.IsLibraryProject
+- uid: TopSolid.Pdm.Explorer.Automating.IPdm.IsLocal
+  name: IsLocal
+  href: api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdm.html#TopSolid_Pdm_Explorer_Automating_IPdm_IsLocal
+  commentId: P:TopSolid.Pdm.Explorer.Automating.IPdm.IsLocal
+  fullName: TopSolid.Pdm.Explorer.Automating.IPdm.IsLocal
+  nameWithType: IPdm.IsLocal
+- uid: TopSolid.Pdm.Explorer.Automating.IPdm.IsLocal*
+  name: IsLocal
+  href: api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdm.html#TopSolid_Pdm_Explorer_Automating_IPdm_IsLocal_
+  commentId: Overload:TopSolid.Pdm.Explorer.Automating.IPdm.IsLocal
+  isSpec: "True"
+  fullName: TopSolid.Pdm.Explorer.Automating.IPdm.IsLocal
+  nameWithType: IPdm.IsLocal
 - uid: TopSolid.Pdm.Explorer.Automating.IPdm.LibraryProjectsRootFolder
   name: LibraryProjectsRootFolder
   href: api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdm.html#TopSolid_Pdm_Explorer_Automating_IPdm_LibraryProjectsRootFolder
@@ -30695,6 +31096,32 @@ references:
   isSpec: "True"
   fullName: TopSolid.Pdm.Explorer.Automating.IPdm.MoveSeveral
   nameWithType: IPdm.MoveSeveral
+- uid: TopSolid.Pdm.Explorer.Automating.IPdm.Name
+  name: Name
+  href: api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdm.html#TopSolid_Pdm_Explorer_Automating_IPdm_Name
+  commentId: P:TopSolid.Pdm.Explorer.Automating.IPdm.Name
+  fullName: TopSolid.Pdm.Explorer.Automating.IPdm.Name
+  nameWithType: IPdm.Name
+- uid: TopSolid.Pdm.Explorer.Automating.IPdm.Name*
+  name: Name
+  href: api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdm.html#TopSolid_Pdm_Explorer_Automating_IPdm_Name_
+  commentId: Overload:TopSolid.Pdm.Explorer.Automating.IPdm.Name
+  isSpec: "True"
+  fullName: TopSolid.Pdm.Explorer.Automating.IPdm.Name
+  nameWithType: IPdm.Name
+- uid: TopSolid.Pdm.Explorer.Automating.IPdm.NameRaw
+  name: NameRaw
+  href: api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdm.html#TopSolid_Pdm_Explorer_Automating_IPdm_NameRaw
+  commentId: P:TopSolid.Pdm.Explorer.Automating.IPdm.NameRaw
+  fullName: TopSolid.Pdm.Explorer.Automating.IPdm.NameRaw
+  nameWithType: IPdm.NameRaw
+- uid: TopSolid.Pdm.Explorer.Automating.IPdm.NameRaw*
+  name: NameRaw
+  href: api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdm.html#TopSolid_Pdm_Explorer_Automating_IPdm_NameRaw_
+  commentId: Overload:TopSolid.Pdm.Explorer.Automating.IPdm.NameRaw
+  isSpec: "True"
+  fullName: TopSolid.Pdm.Explorer.Automating.IPdm.NameRaw
+  nameWithType: IPdm.NameRaw
 - uid: TopSolid.Pdm.Explorer.Automating.IPdm.NeedsGettingLatestRevision(TopSolid.Pdm.Explorer.Automating.PdmObjectId)
   name: NeedsGettingLatestRevision(PdmObjectId)
   href: api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdm.html#TopSolid_Pdm_Explorer_Automating_IPdm_NeedsGettingLatestRevision_TopSolid_Pdm_Explorer_Automating_PdmObjectId_
@@ -31026,6 +31453,19 @@ references:
   isSpec: "True"
   fullName: TopSolid.Pdm.Explorer.Automating.IPdm.SetProjectFolderName
   nameWithType: IPdm.SetProjectFolderName
+- uid: TopSolid.Pdm.Explorer.Automating.IPdm.Signature
+  name: Signature
+  href: api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdm.html#TopSolid_Pdm_Explorer_Automating_IPdm_Signature
+  commentId: P:TopSolid.Pdm.Explorer.Automating.IPdm.Signature
+  fullName: TopSolid.Pdm.Explorer.Automating.IPdm.Signature
+  nameWithType: IPdm.Signature
+- uid: TopSolid.Pdm.Explorer.Automating.IPdm.Signature*
+  name: Signature
+  href: api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdm.html#TopSolid_Pdm_Explorer_Automating_IPdm_Signature_
+  commentId: Overload:TopSolid.Pdm.Explorer.Automating.IPdm.Signature
+  isSpec: "True"
+  fullName: TopSolid.Pdm.Explorer.Automating.IPdm.Signature
+  nameWithType: IPdm.Signature
 - uid: TopSolid.Pdm.Explorer.Automating.IPdm.UndoCheckOut(TopSolid.Pdm.Explorer.Automating.PdmObjectId)
   name: UndoCheckOut(PdmObjectId)
   href: api/pdmexplorer/TopSolid.Pdm.Explorer.Automating.IPdm.html#TopSolid_Pdm_Explorer_Automating_IPdm_UndoCheckOut_TopSolid_Pdm_Explorer_Automating_PdmObjectId_
