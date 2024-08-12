@@ -1,0 +1,19 @@
+{{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
+
+<footer>
+  <div class="grad-bottom"></div>
+  <div id="footer-alt">
+        <div class="container">
+            <div id="footer-alt-bottom">
+                <ul>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">Plan du site</a></li>
+                    <li><a href="#">C.G.U</a></li>
+                    <li><a href="#">Données personnelles</a></li>
+                </ul>
+                <p>Copyright © 2024 TopSolid Tous droits réservés</p>
+            </div>
+        </div>
+    </div>
+  </div>
+</footer>
